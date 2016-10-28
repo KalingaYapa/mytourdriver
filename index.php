@@ -1,6 +1,6 @@
 <?php
 
-   printf("index page");
+   printf("index page eka mama wenas kalaaa");
 
 ?>
 
