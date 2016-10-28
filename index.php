@@ -1,0 +1,6 @@
+<?php
+
+   printf("index page");
+
+?>
+
