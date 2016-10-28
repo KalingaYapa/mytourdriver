@@ -199,7 +199,7 @@
 
                                                 <li>
                                                     <!--                                            <a href='http://www.casons.lk//article_controller/home'>Home</a>-->
-                                                    <a href='http://www.casons.lk/'><b>Home</b></a>
+                                                    <a href='#'><b>Home</b></a>
 
                                                 </li>
 
@@ -209,13 +209,13 @@
                                                         href="#"> <b>About</b>  </a>
 
                                                     <ul>
-                                                        <li> <a href='http://www.casons.lk/about-us/about-casons'>About Casons</a> </li>
-                                                        <li> <a href='http://www.casons.lk/about-us/terms'>Terms</a> </li>
-                                                        <li> <a href='http://www.casons.lk/about-us/privacy-policy'>Privacy Policy</a> </li>
-                                                        <li> <a href='http://www.casons.lk/about-us/recommendations'>Recommendations</a> </li>
-                                                        <li> <a href='http://www.casons.lk/about-us/our-trademarks'>Our Trademarks</a> </li>
-                                                        <li> <a href='http://www.casons.lk/news'>News</a> </li>
-                                                        <li> <a href='http://www.casons.lk/about-us/careers'>Careers</a> </li>
+                                                        <li> <a href='#'>About Casons</a> </li>
+                                                        <li> <a href='#'>Terms</a> </li>
+                                                        <li> <a href='#'>Privacy Policy</a> </li>
+                                                        <li> <a href='#'>Recommendations</a> </li>
+                                                        <li> <a href='#'>Our Trademarks</a> </li>
+                                                        <li> <a href='#'>News</a> </li>
+                                                        <li> <a href='#'>Careers</a> </li>
                                                     </ul>
                                                 </li>
 
@@ -259,7 +259,7 @@
 
                                                 <li class="">
                                                     <a
-                                                        href="http://www.casons.lk/corporate-rental"> <b>Corporate Rental</b>  </a>
+                                                        href="#"> <b>Corporate Rental</b>  </a>
 
                                                 </li>
 
@@ -1766,111 +1766,7 @@
                                 <div class="form-group col-sm-12">
                                     <label class="control-label"><strong>PickUp Location</strong> </label>
                                     <select class="form-control pickup_loc "  name="pick_location" id="pick_location_taxi" autocomplete="off" onchange="GetRouteTaxi()" >
-                                        <!--<option value="">- PICKUP LOCATION -</option>-->
-                                        <option value="1"  >Bandaranayake International Airport</option>
-                                        <option value="2"  >Colombo</option>
-                                        <option value="3"  >Casons Head office</option>
-                                        <option value="4"  >Adams Peak</option>
-                                        <option value="5"  >Ahungalla</option>
-                                        <option value="6"  >Aluthgama</option>
-                                        <option value="7"  >Ambalangoda</option>
-                                        <option value="8"  >Ambepussa</option>
-                                        <option value="9"  >Anuradapura</option>
-                                        <option value="10"  >Arugambay</option>
-                                        <option value="11"  >Awissawella</option>
-                                        <option value="12"  >Balangoda</option>
-                                        <option value="13"  >Balapitiya</option>
-                                        <option value="14"  >Bellihuloya</option>
-                                        <option value="15"  >Bentota</option>
-                                        <option value="16"  >Beruwala</option>
-                                        <option value="17"  >Bundala</option>
-                                        <option value="18"  >Chillaw</option>
-                                        <option value="19"  >Dambulla</option>
-                                        <option value="20"  >Denniyaya</option>
-                                        <option value="21"  >Dikwella</option>
-                                        <option value="22"  >Digana</option>
-                                        <option value="23"  >Elephant Pass</option>
-                                        <option value="24"  >Ella</option>
-                                        <option value="25"  >Embilipitiya</option>
-                                        <option value="26"  >Galle</option>
-                                        <option value="27"  >Gampaha</option>
-                                        <option value="28"  >Gampola</option>
-                                        <option value="29"  >Giritale</option>
-                                        <option value="30"  >Habarana</option>
-                                        <option value="31"  >Hambantota</option>
-                                        <option value="32"  >Haputale</option>
-                                        <option value="33"  >Hatton</option>
-                                        <option value="34"  >Hikkaduwa</option>
-                                        <option value="35"  >Induruwa</option>
-                                        <option value="36"  >Yala</option>
-                                        <option value="37"  >Jaffna</option>
-                                        <option value="39"  >Higurakgoda</option>
-                                        <option value="40"  >galewela</option>
-                                        <option value="43"  >Mihintale</option>
-                                        <option value="44"  >Mahiyanganaya</option>
-                                        <option value="45"  >Badulla</option>
-                                        <option value="46"  >Bandarawela</option>
-                                        <option value="47"  >Kahawatta</option>
-                                        <option value="48"  >Kalmunai</option>
-                                        <option value="49"  >Kalpitiya</option>
-                                        <option value="50"  >Kalutara</option>
-                                        <option value="51"  >Kandalama</option>
-                                        <option value="52"  >Kandy</option>
-                                        <option value="53"  >Kataragama</option>
-                                        <option value="54"  >Kegalle</option>
-                                        <option value="55"  >Kitulgala</option>
-                                        <option value="56"  >Puttalam</option>
-                                        <option value="57"  >Point Pedro</option>
-                                        <option value="58"  >Ampara</option>
-                                        <option value="59"  >Kadugannawa</option>
-                                        <option value="60"  >Batticaloa</option>
-                                        <option value="61"  >Knuckles</option>
-                                        <option value="62"  >Koggala</option>
-                                        <option value="63"  >Kosgoda</option>
-                                        <option value="64"  >Kotmale</option>
-                                        <option value="65"  >Kurunegala</option>
-                                        <option value="66"  >Lahugala</option>
-                                        <option value="67"  >Leisure World</option>
-                                        <option value="68"  >Medawachchiya</option>
-                                        <option value="69"  >Mahaoya</option>
-                                        <option value="70"  >Mannar</option>
-                                        <option value="71"  >Marawila</option>
-                                        <option value="72"  >Matale</option>
-                                        <option value="73"  >Matara</option>
-                                        <option value="74"  >Mathugama</option>
-                                        <option value="75"  >Minneriya</option>
-                                        <option value="76"  >Mirissa</option>
-                                        <option value="77"  >Monaragala</option>
-                                        <option value="78"  >Moratuwa</option>
-                                        <option value="79"  >Mount Lavinia</option>
-                                        <option value="80"  >Nawalapitiya</option>
-                                        <option value="81"  >Negombo</option>
-                                        <option value="82"  >Nittambuwa</option>
-                                        <option value="83"  >Nuwara Eliya</option>
-                                        <option value="84"  >Omantai</option>
-                                        <option value="85"  >Passara</option>
-                                        <option value="86"  >Polonnaruwa</option>
-                                        <option value="87"  >Pothuwil</option>
-                                        <option value="88"  >Pulmudai</option>
-                                        <option value="89"  >Ramboda</option>
-                                        <option value="90"  >Ranna</option>
-                                        <option value="91"  >Rathnapura</option>
-                                        <option value="92"  >Sigiriya</option>
-                                        <option value="93"  >Sooriyawewa</option>
-                                        <option value="94"  >Talawakale</option>
-                                        <option value="95"  >Tangalle</option>
-                                        <option value="96"  >Tissamaharama</option>
-                                        <option value="97"  >Trincomalee</option>
-                                        <option value="98"  >Udawalawe</option>
-                                        <option value="99"  >Unawatuna</option>
-                                        <option value="100"  >Vavuniya</option>
-                                        <option value="101"  >Wadduwa</option>
-                                        <option value="102"  >wasgamuwa</option>
-                                        <option value="103"  >Weligama</option>
-                                        <option value="104"  >Wellawaya</option>
-                                        <option value="105"  >Wilpattu</option>
-                                        <option value="106"  >Talpe</option>
-                                        <option value="107"  >Ingiriya</option>
+
                                     </select>
                                 </div>
 
@@ -1879,8 +1775,7 @@
                                     <select class="form-control return_loc" id="ret_location_taxi" name="ret_location"  autocomplete="off" onchange="GetRouteTaxi()">
                                         <!--<option value="">- RETURN LOCATION -</option>-->
                                         <option value="1"  >Bandaranayake International Airport</option>
-                                        <option value="2"                                     selected
-                                                >Colombo</option>
+                                        <option value="2"selected> Colombo</option>
                                         <option value="3"  >Casons Head office</option>
                                         <option value="4"  >Adams Peak</option>
                                         <option value="5"  >Ahungalla</option>
@@ -2038,500 +1933,7 @@
                     </div>
                 </div>
             </div>  
-            <!--/ search area ////////////////////////////////////////////-->
-
-            <!--search area /////////////////////////////////////////// -->
-
-            <!--            <div class="search-wrap">
-            
-            
-            
-                            <div role="tabpanel">
-            
-                                 Nav tabs
-            
-                                <ul class="nav nav-tabs" role="tablist">
-            
-                                    <li role="presentation" class="active">
-            
-                                        <a class="selfDrive" href="#Self" aria-controls="Self Drive" role="tab" data-toggle="tab">
-            
-                                            <img data-toggle="tooltip" data-placement="bottom" title="Self Drive"  class="visible-xs" src="http://www.casons.lk//application_resources/images/self.png">
-            
-                                            <span class="hidden-xs">Self<br> Drive </span>
-            
-                                        </a>
-            
-                                    </li>
-            
-                                    <li role="presentation">
-            
-                                        <a class="withDriver" href="#withDriver" aria-controls="with Driver" role="tab" data-toggle="tab">
-            
-                                            <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="http://www.casons.lk//application_resources/images/driver-icon.png">
-            
-                                            <span class="hidden-xs"> With <br>Driver</span>
-            
-                                        </a>
-            
-                                    </li>
-            
-                                    <li role="presentation">
-            
-                                        <a class="airport" href="#airport" aria-controls="Airport Transfer" role="tab" data-toggle="tab">
-            
-                                            <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="http://www.casons.lk//application_resources/images/airport.png">
-            
-                                            <span class="hidden-xs">AIRPORT <br> TRANSFER</span>
-            
-                                        </a>
-            
-                                    </li>
-            
-                                    <li role="presentation">
-            
-                                        <a class="weddings" href="#weddings" aria-controls="Weddings" role="tab" data-toggle="tab">
-            
-                                            <img data-toggle="tooltip" data-placement="bottom" title="Weddings" class="visible-xs" src="http://www.casons.lk//application_resources/images/wedding.png">
-            
-                                            <span class="hidden-xs">Weddings</span>
-            
-                                        </a>
-            
-                                    </li>
-            
-                                    <li role="presentation">
-            
-                                        <a class="taxi" href="#taxi" aria-controls="Taxi" role="tab" data-toggle="tab">
-            
-                                            <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="http://www.casons.lk//application_resources/images/taxi-icon.png">
-            
-                                            <span class="hidden-xs">Drop & Pickup <br>(Taxi)</span>
-            
-                                        </a>
-            
-                                    </li>
-            
-                                </ul>
-            
-                                 Tab panes
-            
-                                <div class="tab-content">
-            
-                                    <div role="tabpanel" class="tab-pane fade in active" id="Self">
-            
-                                        <form>
-            
-                                        <div class="form-group">
-            
-                                            <label for="pickuplocation">PICK UP LOCATION</label>
-            
-                                            <select class="form-control">
-            
-                                                <option>Colombo-Bandaranayake International Airport</option>
-            
-                                                <option>2</option>
-            
-                                              </select>
-            
-                                          </div>
-            
-                                        <div class="checkbox">
-            
-                                            <label>
-            
-                                              <input type="checkbox" value=""> Return at different location
-            
-                                            </label>
-            
-                                          </div>
-            
-                                        <div class="row">
-            
-                                            <div class="col-sm-6">
-            
-                                                <div class="form-group">
-            
-                                            <label for="pickupdate">PICK-UP DATE & TIME</label>
-            
-                                            <div class="form-group">
-            
-                                                <div class='input-group date' id='datetimepicker1'>
-            
-                                                    <input type='text' class="form-control" />
-            
-                                                    <span class="input-group-addon">
-            
-                                                        <span class="glyphicon glyphicon-calendar"></span>
-            
-                                                    </span>
-            
-                                                </div>
-            
-                                            </div>
-            
-                                          </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-6">
-            
-                                                <div class="form-group">
-            
-                                            <label for="pickupdate">DROP-OFF DATE</label>
-            
-                                            <div class="form-group">
-            
-                                                <div class='input-group date' id='datetimepicker1'>
-            
-                                                    <input type='text' class="form-control" />
-            
-                                                    <span class="input-group-addon">
-            
-                                                        <span class="glyphicon glyphicon-calendar"></span>
-            
-                                                    </span>
-            
-                                                </div>
-            
-                                            </div>
-            
-                                          </div>
-            
-                                            </div>
-            
-                                        </div>
-            
-                                        <div class="row">
-            
-                                            <div class="col-sm-2">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Days</label>
-            
-                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Days">
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-7">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Vehicle Type</label>
-            
-                                                    <select class="form-control">
-            
-                                                <option>Car</option>
-            
-                                                <option>SUV</option>
-            
-                                              </select>
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-3">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Currency</label>
-            
-                                                    <select class="form-control">
-            
-                                                <option>LKR</option>
-            
-                                                <option>USD</option>
-            
-                                              </select>
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                        </div>
-            
-                                        <button type="submit" class="search-btn btn btn-danger pull-right" onclick="alert('Search function will be soon.')">Search</button>
-            
-                                        <div class="clearfix"></div>
-            
-                                        </form>
-            
-                                    </div>
-            
-                                    with driver /////////////////////////////////////////////////////////////
-            
-                                  <div role="tabpanel" class="tab-pane fade" id="withDriver">
-            
-                                      <form>
-            
-                                        <div class="form-group">
-            
-                                            <label for="pickuplocation">PICK UP LOCATION</label>
-            
-                                            <select class="form-control">
-            
-                                                <option>Colombo-Bandaranayake International Airport</option>
-            
-                                                <option>2</option>
-            
-                                              </select>
-            
-                                          </div>
-            
-                                        <div class="checkbox">
-            
-                                            <label>
-            
-                                              <input type="checkbox" value=""> Return at different location
-            
-                                            </label>
-            
-                                          </div>
-            
-                                        <div class="row">
-            
-                                            <div class="col-sm-6">
-            
-                                                <div class="form-group">
-            
-                                            <label for="pickupdate">PICK-UP DATE & TIME</label>
-            
-                                            <div class="form-group">
-            
-                                                <div class='input-group date' id='datetimepicker1'>
-            
-                                                    <input type='text' class="form-control" />
-            
-                                                    <span class="input-group-addon">
-            
-                                                        <span class="glyphicon glyphicon-calendar"></span>
-            
-                                                    </span>
-            
-                                                </div>
-            
-                                            </div>
-            
-                                          </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-6">
-            
-                                                <div class="form-group">
-            
-                                            <label for="pickupdate">DROP-OFF DATE</label>
-            
-                                            <div class="form-group">
-            
-                                                <div class='input-group date' id='datetimepicker1'>
-            
-                                                    <input type='text' class="form-control" />
-            
-                                                    <span class="input-group-addon">
-            
-                                                        <span class="glyphicon glyphicon-calendar"></span>
-            
-                                                    </span>
-            
-                                                </div>
-            
-                                            </div>
-            
-                                          </div>
-            
-                                            </div>
-            
-                                        </div>
-            
-                                        <div class="row">
-            
-                                            <div class="col-sm-2">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Days</label>
-            
-                                                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Days">
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-7">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Vehicle Type</label>
-            
-                                                    <select class="form-control">
-            
-                                                <option>Car</option>
-            
-                                                <option>SUV</option>
-            
-                                              </select>
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-3">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Currency</label>
-            
-                                                    <select class="form-control">
-            
-                                                <option>LKR</option>
-            
-                                                <option>USD</option>
-            
-                                              </select>
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                        </div>
-            
-                                        <button type="submit" class="search-btn btn btn-danger pull-right">Search</button>
-            
-                                        <div class="clearfix"></div>
-            
-                                        </form>
-            
-                                  </div>
-            
-                                    <div role="tabpanel" class="tab-pane fade" id="airport">...</div>
-            
-                                  <div role="tabpanel" class="tab-pane fade" id="weddings">...</div>
-            
-                                  Taxi/////////////////////////////////////////////////
-            
-                                  <div role="tabpanel" class="tab-pane fade" id="taxi">
-            
-                                      <form>
-            
-                                        <div class="form-group">
-            
-                                            <label for="pickuplocation">PICK UP LOCATION</label>
-            
-                                            <select class="form-control">
-            
-                                                <option>Colombo-Bandaranayake International Airport</option>
-            
-                                                <option>2</option>
-            
-                                              </select>
-            
-                                          </div>
-            
-                                        <div class="form-group">
-            
-                                            <label for="dropofflocation">DROP OFF LOCATION</label>
-            
-                                            <select class="form-control">
-            
-                                                <option>Colombo-Bandaranayake International Airport</option>
-            
-                                                <option>2</option>
-            
-                                              </select>
-            
-                                          </div>
-            
-                                          <div class="form-group">
-            
-                                            <label for="dropofflocation">HOTELS OR PLACES</label>
-            
-                                            <select class="form-control">
-            
-                                                <option>Any Location</option>
-            
-                                                <option>2</option>
-            
-                                              </select>
-            
-                                          </div>
-            
-                                        <div class="row">
-            
-                                            <div class="col-sm-6">
-            
-                                                <div class="form-group">
-            
-                                            <label for="pickupdate">PICK-UP DATE & TIME</label>
-            
-                                            <div class="form-group">
-            
-                                                <div class='input-group date' id='datetimepicker1'>
-            
-                                                    <input type='text' class="form-control" />
-            
-                                                    <span class="input-group-addon">
-            
-                                                        <span class="glyphicon glyphicon-calendar"></span>
-            
-                                                    </span>
-            
-                                                </div>
-            
-                                            </div>
-            
-                                          </div>
-            
-                                            </div>
-            
-                                            <div class="col-sm-6">
-            
-                                                <div class="form-group">
-            
-                                                    <label for="exampleInputEmail1">Currency</label>
-            
-                                                    <select class="form-control">
-            
-                                                <option>LKR</option>
-            
-                                                <option>USD</option>
-            
-                                              </select>
-            
-                                                  </div>
-            
-                                            </div>
-            
-                                        </div>
-            
-            
-            
-                                        <button type="submit" class="search-btn btn btn-danger pull-right">Search</button>
-            
-                                        <div class="clearfix"></div>
-            
-                                        </form>
-            
-                                  </div>
-            
-                                </div>
-            
-            
-            
-                              </div>
-            
-            
-            
-                        </div>-->
-
-            <!--/ search area ////////////////////////////////////////////-->
-
-            <!--slider ////////////////////////////////////////////////////-->
-
+            ///////////////////////////////////////////////////////////////////////////////
             <div id="home-slider" class="owl-carousel owl-theme">
 
                 <div class="item  ">
@@ -4364,43 +3766,13 @@
                     <div id="testi-slider" class="owl-carousel owl-theme">
 
                         <div class="item">
-
-
-
-
-
-                            <div class="testimonial">A big thank you to Casons-Rent-A-Car for the beyond satisfactory help with
-                                my trip planning and airport drop and pick up! The moment I landed in BIA I was greeted with
-                                smiles – Sri Lanka the nation that forever smiles. I visited Sri Lanka with my fiancé and we
-                                were transported to the lively beach town of Unuwatuna, a slow but comfortable drive. The
-                                Unuwatuna bay beach was breathtaking at sunset and makes you feel like you’re in Hawaii but it’s
-                                a dozen times cheaper! Plenty of cafés, curios, hotels, lodgings and restaurants galore the
-                                streets suitable for everyone and anyone. We decided to settle at the Lavendish Beach Resort, on
-                                our first day we enjoyed a small but happening party by a cafe on the beach! Sri Lanka loves to
-                                party!! We loved every part of our trip and it’s all thanks to Casons for organising everything
-                                and total ease of mind!
+                            <div class="testimonial">
                             </div>
 
                             <p>– Jane & Glenn Preaseley,
                                 <small> South Hampton UK</small>
                             </p>
-
-
-
-
-
-
-
                         </div>
-
-                        <!--                        <div class="item">
-        
-                                                    <div class="testimonial">This was my first time renting from car|rental. And over all it was a wonderful experience I have no complaints. The service rep help me find the best rental to suit my needs. I also love the fact that you guys provide luxury rentals at a great price. I will definitely rent with this company again.</div>
-        
-                                                    <p>– Michael Smith, <small> UK</small></p>
-        
-                                                </div>-->
-
                     </div>
 
                 </div>
@@ -4408,10 +3780,6 @@
             </div>
 
         </div>
-
-
-
-
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
         <script type="text/javascript">
 
@@ -4543,91 +3911,7 @@
                                                 }
 
         </script>
-
-
-
-
-
         <script>
-
-            // start 2016-04-29
-            //    $("#oneway").on('click', function (){
-            //
-            //        $.ajax({
-            //            type: 'POST',
-            //            url: site_url+'article_controller/get_all_location',
-            //            // data: 'bookingid=' + bookingid,
-            //            //  data: {'modelid':modelid},
-            //            success: function (msg) {
-            //                $("#pick_location_taxi").html(msg);
-            //                $("#ret_location_taxi").html(msg);
-            //                $("#ret_location_taxi").val(2);
-            //            },
-            //            error: function (msg) {
-            //                alert("Error!");
-            //            }
-            //        });
-            //
-            //        //$('#ret_location_taxi').prop("disabled", false);
-            //        GetRouteTaxi();
-            //
-            //    });
-            //
-            //    $("#twoway").on('click', function (){
-            //
-            //        $.ajax({
-            //            type: 'POST',
-            //            url: site_url+'article_controller/get_location_col_ap',
-            //            // data: 'bookingid=' + bookingid,
-            //            //  data: {'modelid':modelid},
-            //            success: function (msg) {
-            //                $("#pick_location_taxi").html(msg);
-            //                $("#ret_location_taxi").html(msg);
-            //            },
-            //            error: function (msg) {
-            //                alert("Error!");
-            //            }
-            //        });
-            //
-            //        var pic_loc = $('#pick_location_taxi').val();
-            //        $('#ret_location_taxi').val(pic_loc);
-            //        //$('#ret_location_taxi').prop("disabled", true);
-            //
-            //        var drop_location_id = $('#ret_location_taxi').val();
-            //        $.post(site_url + 'article_controller/getPlace', {'drop_location_id':drop_location_id}, function (msg){
-            //            $('#taxi #drop_hotel').html(msg);
-            //        });
-            //
-            //        GetRouteTaxi();
-            //
-            //    });
-            //
-            //    $("#pick_location_taxi").on('change', function (){
-            //
-            //        var pic_loc = $('#pick_location_taxi').val();
-            //
-            //        if ($('#twoway').is(':checked') ){
-            //
-            //            $('#ret_location_taxi').val(pic_loc);
-            //           // $('#ret_location_taxi').prop("disabled", true);
-            //            GetRouteTaxi();
-            //        } else {
-            //            GetRouteTaxi();
-            //        }
-            //
-            //    });
-            //
-            //    $("#ret_location_taxi").on('change', function (){
-            //
-            //        GetRouteTaxi();
-            //
-            //    });
-
-            // end 2016-04-29
-
-
-
-
             function viewModelDetails(modelid) {
 
                 $.ajax({
@@ -4681,9 +3965,6 @@
                         <div class="row">
 
                             <div id="vehicle_model_detail">
-
-
-
                             </div>
 
                         </div>
@@ -4692,10 +3973,6 @@
             </div>
         </div>
         <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
-
-
-
-
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
         <div class="contact-row-wrapper">
@@ -4703,8 +3980,6 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
-
-
                     </div>
 
                     <div class="col-md-4 social-icons">
@@ -4716,13 +3991,6 @@
                             <li><a href="http://www.youtube.com/Casonsrentacar" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
                         </ul>
                     </div>
-
-
-                    <!--                     -->                   <!--  <div class="col-md-8">
-                    
-                                             <h2>You have any questions or need additional information? &nbsp; <a class="btn btn-border"                                   href="http://www.casons.lk//article_controller/contact">Contact Us</a></h2>
-                    
-                                         </div> -->
 
                 </div>
             </div>
@@ -4740,25 +4008,25 @@
                                 <ul class="list-unstyled footerlinks">
 
 
-                                    <li><a href='http://www.casons.lk/services/4-4-rentals'>4x4 Rentals </a></li>
+                                    <li><a href='#'>4x4 Rentals </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/wedding-vip'>Weddings & Events </a></li>
+                                    <li><a href='#'>Weddings & Events </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/fleet-management'>Fleet Management </a></li>
+                                    <li><a href='#'>Fleet Management </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/road-side-assistance'>Road Side Assistance  </a></li>
+                                    <li><a href='#'>Road Side Assistance  </a></li>
 
-                                    <li><a href='http://www.casons.lk/'>MoterBike Rental </a></li>
+                                    <li><a href='#'>MoterBike Rental </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/self-drive-rental'>Self Drive Rental </a></li>
+                                    <li><a href='#'>Self Drive Rental </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/chauffeur-driven-tours'>Chauffeur Driven & Tours </a></li>
+                                    <li><a href='#'>Chauffeur Driven & Tours </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/airport-transfers'>Airport Tansfers </a></li>
+                                    <li><a href='#'>Airport Tansfers </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/limousine-services'>Limousine Services </a></li>
+                                    <li><a href='#'>Limousine Services </a></li>
 
-                                    <li><a href='http://www.casons.lk/services/raca-garage-services'>RACA Garage Services </a></li>
+                                    <li><a href='#'>RACA Garage Services </a></li>
 
                                 </ul>
                             </div>
@@ -4768,8 +4036,6 @@
                             <div class="col-sm-3">
                                 <h2 class="red-txt"><b>Fleet</b></h2>
                                 <ul class="list-unstyled footerlinks">
-
-
                                     <li><a href='http://www.casons.lk/vehicles/cars'>Cars </a></li>
 
                                     <li><a href='http://www.casons.lk/vehicles/vans'>Vans </a></li>
@@ -4784,45 +4050,7 @@
 
                                 </ul>
                             </div>
-
-
-
-
-
-                            <!--  <div class="col-sm-4">
-                                  <h2 class="red-txt">Services</h2>
-                                  <ul class="list-unstyled footerlinks">
-                                      <li><a href='http://www.casons.lk//rent-a-car/casons_4by4service'>4x4 Rentals</a></li>
-                                                      <li><a href='http://www.casons.lk//rent-a-car/casons_holidayservice'>Holidays Sri Lanka</a></li>
-                                                      <li><a href='http://www.casons.lk//rent-a-car/casons_weddinghireservice'>Weddings & VIP</a></li>
-                                                      <li><a href='http://www.casons.lk//rent-a-car/casons_fleetservice'>Fleet Management</a></li>
-                                                      <li><a href='http://www.casons.lk//rent-a-car/casons_roadhelpservice'>Sri Lanka Road Help</a></li>
-                                                      <li><a href='http://www.bikerentsrilanka.com/' target="_blank">Motor Bike Rental</a></li>
- 
-                                                      <li><a href='http://www.airport.lk/flight-info/flight-schedule.php' target="_blank">Flight Schedule</a></li>
-                                  </ul>
-                              </div>
-                              <div class="col-sm-3">
-                                   <h2 class="red-txt">Vehicles</h2>
-                                  <ul class="list-unstyled footerlinks">
-                                      <li><a href='http://www.casons.lk//rent-a-car/cars'>Cars</a></li>
-                                                        <li><a href='http://www.casons.lk//rent-a-car/vans'>Vans</a></li>
-                                                        <li><a href='http://www.casons.lk//rent-a-car/jeeps'>Jeeps</a></li>
-                                                        <li><a href='http://www.casons.lk//rent-a-car/buses'>Buses</a></li>
-                                                        <li><a href='http://www.casons.lk//rent-a-car/double_Cabs'>Double Cabs</a></li>
-                                                        <li><a href='http://www.casons.lk//rent-a-car/motor_bikes'>Motor Bikes</a></li>
-                                  </ul>
-                              </div> -->
                             <div class="col-sm-5">
-
-
-
-
-
-
-
-
-
                                 <h2 class="red-txt">Contact Us</h2>
 
                                 <p><strong>Casons Rent-A-Car (Pvt) Ltd</strong><br>
@@ -4838,20 +4066,9 @@
                                     <a class="rtel" href="Tel:+94 11 4 377 366" >+94 11 4 377 366, +94 777 312 500</a></p>
 
                                 <p>
-
-
-
-
                                 <p><strong>Fax:</strong><br> +94 11 4 406 544 </p>
 
                                 <p><strong>Email:</strong><br><a href="mailto:info@casonsrentacar.com" target="_top">info@casonsrentacar.com</a></p>
-
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
@@ -4977,280 +4194,10 @@
                                         <div class="form-group col-sm-6">
                                             <label for="exampleInputCountry">Country</label>
                                             <input type="text" class="form-control"  name="country" id="country" >
-                                                   <!--<select class="form-control" name="country" id="country">
-                                                   <option value="">Select Country</option>
-                                                                    <option value="Afghanistan">Afghanistan</option>
-                                                                    <option value="Africa">Africa</option>
-                                                                    <option value="Aland Islands">Aland Islands</option>
-                                                                    <option value="Albania">Albania</option>
-                                                                    <option value="Algeria">Algeria</option>
-                                                                    <option value="American Samoa">American Samoa</option>
-                                                                    <option value="Andorra">Andorra</option>
-                                                                    <option value="Angola">Angola</option>
-                                                                    <option value="Anguilla">Anguilla</option>
-                                                                    <option value="Antarctica">Antarctica</option>
-                                                                    <option value="Antigua & Barbuda">Antigua & Barbuda</option>
-                                                                    <option value="Argentina">Argentina</option>
-                                                                    <option value="Armenia">Armenia</option>
-                                                                    <option value="Aruba">Aruba</option>
-                                                                    <option value="Asia">Asia</option>
-                                                                    <option value="Australia">Australia</option>
-                                                                    <option value="Austria">Austria</option>
-                                                                    <option value="Azerbaijan">Azerbaijan</option>
-                                                                    <option value="Bahamas, The">Bahamas, The</option>
-                                                                    <option value="Bahrain">Bahrain</option>
-                                                                    <option value="Bangladesh">Bangladesh</option>
-                                                                    <option value="Barbados">Barbados</option>
-                                                                    <option value="Belarus">Belarus</option>
-                                                                    <option value="Belgium">Belgium</option>
-                                                                    <option value="Belize">Belize</option>
-                                                                    <option value="Benin">Benin</option>
-                                                                    <option value="Bermuda">Bermuda</option>
-                                                                    <option value="Bhutan">Bhutan</option>
-                                                                    <option value="Bolivia">Bolivia</option>
-                                                                    <option value="Bonaire, St.Eustat, Saba">Bonaire, St.Eustat, Saba</option>
-                                                                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                                                                    <option value="Botswana">Botswana</option>
-                                                                    <option value="Bouvet Island">Bouvet Island</option>
-                                                                    <option value="Brazil">Brazil</option>
-                                                                    <option value="British Indian Ocean T.">British Indian Ocean T.</option>
-                                                                    <option value="British Virgin Islands">British Virgin Islands</option>
-                                                                    <option value="Brunei Darussalam">Brunei Darussalam</option>
-                                                                    <option value="Bulgaria">Bulgaria</option>
-                                                                    <option value="Burkina Faso">Burkina Faso</option>
-                                                                    <option value="Burundi">Burundi</option>
-                                                                    <option value="Cabo Verde">Cabo Verde</option>
-                                                                    <option value="Cambodia">Cambodia</option>
-                                                                    <option value="Cameroon">Cameroon</option>
-                                                                    <option value="Canada">Canada</option>
-                                                                    <option value="Caribbean, the">Caribbean, the</option>
-                                                                    <option value="Cayman Islands">Cayman Islands</option>
-                                                                    <option value="Central African Republic">Central African Republic</option>
-                                                                    <option value="Central America">Central America</option>
-                                                                    <option value="Chad">Chad</option>
-                                                                    <option value="Chile">Chile</option>
-                                                                    <option value="China">China</option>
-                                                                    <option value="Christmas Island">Christmas Island</option>
-                                                                    <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
-                                                                    <option value="Colombia">Colombia</option>
-                                                                    <option value="Comoros">Comoros</option>
-                                                                    <option value="Congo">Congo</option>
-                                                                    <option value="Congo, Dem. Rep. of the">Congo, Dem. Rep. of the</option>
-                                                                    <option value="Cook Islands">Cook Islands</option>
-                                                                    <option value="Costa Rica">Costa Rica</option>
-                                                                    <option value="Cote D'Ivoire">Cote D'Ivoire</option>
-                                                                    <option value="Croatia">Croatia</option>
-                                                                    <option value="Cuba">Cuba</option>
-                                                                    <option value="Cura?ao">Cura?ao</option>
-                                                                    <option value="Cyprus">Cyprus</option>
-                                                                    <option value="Czech Republic">Czech Republic</option>
-                                                                    <option value="Denmark">Denmark</option>
-                                                                    <option value="Djibouti">Djibouti</option>
-                                                                    <option value="Dominica">Dominica</option>
-                                                                    <option value="Dominican Republic">Dominican Republic</option>
-                                                                    <option value="East Timor (Timor-Leste)">East Timor (Timor-Leste)</option>
-                                                                    <option value="Ecuador">Ecuador</option>
-                                                                    <option value="Egypt">Egypt</option>
-                                                                    <option value="El Salvador">El Salvador</option>
-                                                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
-                                                                    <option value="Eritrea">Eritrea</option>
-                                                                    <option value="Estonia">Estonia</option>
-                                                                    <option value="Ethiopia">Ethiopia</option>
-                                                                    <option value="Europe">Europe</option>
-                                                                    <option value="European Union">European Union</option>
-                                                                    <option value="Falkland Is. (Malvinas)">Falkland Is. (Malvinas)</option>
-                                                                    <option value="Faroe Islands">Faroe Islands</option>
-                                                                    <option value="Fiji">Fiji</option>
-                                                                    <option value="Finland">Finland</option>
-                                                                    <option value="France">France</option>
-                                                                    <option value="French Guiana">French Guiana</option>
-                                                                    <option value="French Polynesia">French Polynesia</option>
-                                                                    <option value="French Southern Terr.">French Southern Terr.</option>
-                                                                    <option value="Gabon">Gabon</option>
-                                                                    <option value="Gambia, the">Gambia, the</option>
-                                                                    <option value="Georgia">Georgia</option>
-                                                                    <option value="Germany">Germany</option>
-                                                                    <option value="Ghana">Ghana</option>
-                                                                    <option value="Gibraltar">Gibraltar</option>
-                                                                    <option value="Greece">Greece</option>
-                                                                    <option value="Greenland">Greenland</option>
-                                                                    <option value="Grenada">Grenada</option>
-                                                                    <option value="Guadeloupe">Guadeloupe</option>
-                                                                    <option value="Guam">Guam</option>
-                                                                    <option value="Guatemala">Guatemala</option>
-                                                                    <option value="Guernsey and Alderney">Guernsey and Alderney</option>
-                                                                    <option value="Guiana, French">Guiana, French</option>
-                                                                    <option value="Guinea">Guinea</option>
-                                                                    <option value="Guinea-Bissau">Guinea-Bissau</option>
-                                                                    <option value="Guinea, Equatorial">Guinea, Equatorial</option>
-                                                                    <option value="Guyana">Guyana</option>
-                                                                    <option value="Haiti">Haiti</option>
-                                                                    <option value="Heard & McDonald Is.">Heard & McDonald Is.</option>
-                                                                    <option value="Holy See (Vatican)">Holy See (Vatican)</option>
-                                                                    <option value="Honduras">Honduras</option>
-                                                                    <option value="Hong Kong, (China)">Hong Kong, (China)</option>
-                                                                    <option value="Hungary">Hungary</option>
-                                                                    <option value="Iceland">Iceland</option>
-                                                                    <option value="India">India</option>
-                                                                    <option value="Indonesia">Indonesia</option>
-                                                                    <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
-                                                                    <option value="Iraq">Iraq</option>
-                                                                    <option value="Ireland">Ireland</option>
-                                                                    <option value="Israel">Israel</option>
-                                                                    <option value="Italy">Italy</option>
-                                                                    <option value="Ivory Coast (Cote d'Ivoire)">Ivory Coast (Cote d'Ivoire)</option>
-                                                                    <option value="Jamaica">Jamaica</option>
-                                                                    <option value="Japan">Japan</option>
-                                                                    <option value="Jersey">Jersey</option>
-                                                                    <option value="Jordan">Jordan</option>
-                                                                    <option value="Kazakhstan">Kazakhstan</option>
-                                                                    <option value="Kenya">Kenya</option>
-                                                                    <option value="Kiribati">Kiribati</option>
-                                                                    <option value="Korea Dem. People's Rep.">Korea Dem. People's Rep.</option>
-                                                                    <option value="Korea, (South) Republic of">Korea, (South) Republic of</option>
-                                                                    <option value="Kosovo">Kosovo</option>
-                                                                    <option value="Kuwait">Kuwait</option>
-                                                                    <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                                                    <option value="Lao People's Dem. Rep.">Lao People's Dem. Rep.</option>
-                                                                    <option value="Latvia">Latvia</option>
-                                                                    <option value="Lebanon">Lebanon</option>
-                                                                    <option value="Lesotho">Lesotho</option>
-                                                                    <option value="Liberia">Liberia</option>
-                                                                    <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
-                                                                    <option value="Liechtenstein">Liechtenstein</option>
-                                                                    <option value="Lithuania">Lithuania</option>
-                                                                    <option value="Luxembourg">Luxembourg</option>
-                                                                    <option value="Macao, (China)">Macao, (China)</option>
-                                                                    <option value="Macedonia, TFYR">Macedonia, TFYR</option>
-                                                                    <option value="Madagascar">Madagascar</option>
-                                                                    <option value="Malawi">Malawi</option>
-                                                                    <option value="Malaysia">Malaysia</option>
-                                                                    <option value="Maldives">Maldives</option>
-                                                                    <option value="Mali">Mali</option>
-                                                                    <option value="Malta">Malta</option>
-                                                                    <option value="Man, Isle of">Man, Isle of</option>
-                                                                    <option value="Marshall Islands">Marshall Islands</option>
-                                                                    <option value="Martinique (FR)">Martinique (FR)</option>
-                                                                    <option value="Mauritania">Mauritania</option>
-                                                                    <option value="Mauritius">Mauritius</option>
-                                                                    <option value="Mayotte (FR)">Mayotte (FR)</option>
-                                                                    <option value="Mexico">Mexico</option>
-                                                                    <option value="Middle East">Middle East</option>
-                                                                    <option value="Monaco">Monaco</option>
-                                                                    <option value="Mongolia">Mongolia</option>
-                                                                    <option value="Montenegro">Montenegro</option>
-                                                                    <option value="Montserrat">Montserrat</option>
-                                                                    <option value="Morocco">Morocco</option>
-                                                                    <option value="Mozambique">Mozambique</option>
-                                                                    <option value="Myanmar (ex-Burma)">Myanmar (ex-Burma)</option>
-                                                                    <option value="Namibia">Namibia</option>
-                                                                    <option value="Nauru">Nauru</option>
-                                                                    <option value="Nepal">Nepal</option>
-                                                                    <option value="Netherlands">Netherlands</option>
-                                                                    <option value="Netherlands Antilles">Netherlands Antilles</option>
-                                                                    <option value="New Caledonia">New Caledonia</option>
-                                                                    <option value="New Zealand">New Zealand</option>
-                                                                    <option value="Nicaragua">Nicaragua</option>
-                                                                    <option value="Niger">Niger</option>
-                                                                    <option value="Nigeria">Nigeria</option>
-                                                                    <option value="Niue">Niue</option>
-                                                                    <option value="Norfolk Island">Norfolk Island</option>
-                                                                    <option value="North America">North America</option>
-                                                                    <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                                                                    <option value="Norway">Norway</option>
-                                                                    <option value="Oceania">Oceania</option>
-                                                                    <option value="Oman">Oman</option>
-                                                                    <option value="Pakistan">Pakistan</option>
-                                                                    <option value="Palau">Palau</option>
-                                                                    <option value="Palestinian Territory">Palestinian Territory</option>
-                                                                    <option value="Panama">Panama</option>
-                                                                    <option value="Papua New Guinea">Papua New Guinea</option>
-                                                                    <option value="Paraguay">Paraguay</option>
-                                                                    <option value="Peru">Peru</option>
-                                                                    <option value="Philippines">Philippines</option>
-                                                                    <option value="Pitcairn Island">Pitcairn Island</option>
-                                                                    <option value="Poland">Poland</option>
-                                                                    <option value="Portugal">Portugal</option>
-                                                                    <option value="Puerto Rico">Puerto Rico</option>
-                                                                    <option value="Qatar">Qatar</option>
-                                                                    <option value="Reunion (FR)">Reunion (FR)</option>
-                                                                    <option value="Romania">Romania</option>
-                                                                    <option value="Russia (Russian Fed.)">Russia (Russian Fed.)</option>
-                                                                    <option value="Rwanda">Rwanda</option>
-                                                                    <option value="Sahara, Western">Sahara, Western</option>
-                                                                    <option value="Saint Barthelemy (FR)">Saint Barthelemy (FR)</option>
-                                                                    <option value="Saint Helena (UK)">Saint Helena (UK)</option>
-                                                                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
-                                                                    <option value="Saint Lucia">Saint Lucia</option>
-                                                                    <option value="Saint Martin (FR)">Saint Martin (FR)</option>
-                                                                    <option value="S Pierre & Miquelon(FR)">S Pierre & Miquelon(FR)</option>
-                                                                    <option value="S Vincent & Grenadines">S Vincent & Grenadines</option>
-                                                                    <option value="Samoa">Samoa</option>
-                                                                    <option value="San Marino">San Marino</option>
-                                                                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
-                                                                    <option value="Saudi Arabia">Saudi Arabia</option>
-                                                                    <option value="Senegal">Senegal</option>
-                                                                    <option value="Serbia">Serbia</option>
-                                                                    <option value="Seychelles">Seychelles</option>
-                                                                    <option value="Sierra Leone">Sierra Leone</option>
-                                                                    <option value="Singapore">Singapore</option>
-                                                                    <option value="Slovakia">Slovakia</option>
-                                                                    <option value="Slovenia">Slovenia</option>
-                                                                    <option value="Solomon Islands">Solomon Islands</option>
-                                                                    <option value="Somalia">Somalia</option>
-                                                                    <option value="South Africa">South Africa</option>
-                                                                    <option value="South America">South America</option>
-                                                                    <option value="S.George & S.Sandwich">S.George & S.Sandwich</option>
-                                                                    <option value="South Sudan">South Sudan</option>
-                                                                    <option value="Spain">Spain</option>
-                                                                    <option value="Sri Lanka (ex-Ceilan)">Sri Lanka (ex-Ceilan)</option>
-                                                                    <option value="Sudan">Sudan</option>
-                                                                    <option value="Suriname">Suriname</option>
-                                                                    <option value="Svalbard & Jan Mayen Is.">Svalbard & Jan Mayen Is.</option>
-                                                                    <option value="Swaziland">Swaziland</option>
-                                                                    <option value="Sweden">Sweden</option>
-                                                                    <option value="Switzerland">Switzerland</option>
-                                                                    <option value="Syrian Arab Republic">Syrian Arab Republic</option>
-                                                                    <option value="Taiwan">Taiwan</option>
-                                                                    <option value="Tajikistan">Tajikistan</option>
-                                                                    <option value="Tanzania, United Rep. of">Tanzania, United Rep. of</option>
-                                                                    <option value="Thailand">Thailand</option>
-                                                                    <option value="Timor-Leste (East Timor)">Timor-Leste (East Timor)</option>
-                                                                    <option value="Togo">Togo</option>
-                                                                    <option value="Tokelau">Tokelau</option>
-                                                                    <option value="Tonga">Tonga</option>
-                                                                    <option value="Trinidad & Tobago">Trinidad & Tobago</option>
-                                                                    <option value="Tunisia">Tunisia</option>
-                                                                    <option value="Turkey">Turkey</option>
-                                                                    <option value="Turkmenistan">Turkmenistan</option>
-                                                                    <option value="Turks and Caicos Is.">Turks and Caicos Is.</option>
-                                                                    <option value="Tuvalu">Tuvalu</option>
-                                                                    <option value="Uganda">Uganda</option>
-                                                                    <option value="Ukraine">Ukraine</option>
-                                                                    <option value="United Arab Emirates">United Arab Emirates</option>
-                                                                    <option value="United Kingdom">United Kingdom</option>
-                                                                    <option value="United States">United States</option>
-                                                                    <option value="US Minor Outlying Isl.">US Minor Outlying Isl.</option>
-                                                                    <option value="Uruguay">Uruguay</option>
-                                                                    <option value="Uzbekistan">Uzbekistan</option>
-                                                                    <option value="Vanuatu">Vanuatu</option>
-                                                                    <option value="Vatican (Holy See)">Vatican (Holy See)</option>
-                                                                    <option value="Venezuela">Venezuela</option>
-                                                                    <option value="Viet Nam">Viet Nam</option>
-                                                                    <option value="Virgin Islands, British">Virgin Islands, British</option>
-                                                                    <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
-                                                                    <option value="Wallis and Futuna">Wallis and Futuna</option>
-                                                                    <option value="Western Sahara">Western Sahara</option>
-                                                                    <option value="Yemen">Yemen</option>
-                                                                    <option value="Zambia">Zambia</option>
-                                                                    <option value="Zimbabwe">Zimbabwe</option>
-                                                            </select>   -->
+
 
                                         </div>
-                                        <!--  <div class="form-group col-sm-3">
-                                          <label for="exampleInputNationality">Nationality</label>
-                                          <input type="text" class="form-control" name="nationality" id="nationality" placeholder="Nationality">
-                                        </div>  -->
+
                                         <div class="form-group col-sm-6">
                                             <label for="exampleInputNationality">Your Email</label>
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
@@ -5274,21 +4221,6 @@
                                         <div class="form-group col-sm-6">
                                             <label for="exampleInputNationality">Selected Model</label>
                                             <div id="modeldiv">       </div>
-
-       <!-- <select class="form-control" name="vehiclet" id="vehiclet">
-              <option value="Budget cars">Budget cars</option>
-              <option value="Standard cars">Standard cars</option>
-              <option value="Semi luxury cars">Semi luxury cars</option>
-              <option value="Luxury cars">Luxury cars</option>
-              <option value="Super luxury cars">Super luxury cars</option>
-              <option value="limousine">limousine</option>
-              <option value="Vans">Vans</option>
-              <option value="Luxury vans">Luxury vans</option>
-              <option value="Suv">Suv</option>
-              <option value="Buses">Buses</option>
-              <option value="Double cabs">Double cabs</option>
-              <option value="Motor bikes">Motor bikes</option>
-        </select>  -->
 
                                         </div>
                                         <div class="form-group col-sm-6">
