@@ -9,25 +9,10 @@
 
         <meta charset="utf-8">
         <!-- START TITLE -->
-        <title>Car Rental Sri Lanka | Casons Rent a Car Sri Lanka Official Site </title>
+        <title>MyTourDriver Sri Lanka Official Site </title>
         <!-- END TITLE -->
-        <!--
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-11381358-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-        -->
-        <!-- START META, DESCRIPTION, KEYWORDS, AUTHOR -->
-        <meta name="keywords" content="official site, car rental sri lanka, casons rent a car sri lanka official site, rent a car sri lanka, casons, sri lanka vehicle hire, luxury car hire, budget vehicle rentals, airport transfers, sri lanka" />
-
-        <meta name="description" content="Looking to rent a car? Discover the best Car Rental Sri Lanka with Casons Rent a Car, the island’s largest vehicle hire service with luxury & budget vehicles. Official site." />
-
+        
         <meta name="author" content="" />
 
         <!-- END META, DESCRIPTION, KEYWORDS, AUTHOR -->
@@ -36,7 +21,6 @@
             var js_base_url = "http://www.casons.lk/";
             var js_site_url = "http://www.casons.lk/";
 
-            //alert(js_url_path);
         </script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,11 +63,7 @@
 
         <!-- START FAVICON -->
         <link rel="shortcut icon" type="image/x-icon" href="http://www.casons.lk/images/favicon.ico">
-        <!-- EDN FAVICON -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
+
 
 
         <style type="text/css">
@@ -154,8 +134,8 @@
 
                     <div class="col-md-3 col-sm-4">
 
-                        <a href="http://www.casons.lk/"> <img alt="Casons - Budget Rent A Car" class="img-responsive c-logo"
-                                                              src="http://www.casons.lk//application_resources/images/casons-logo.png"></a>
+                        <a href="#"> <img alt="MyTourDriverLogo" class="img-responsive c-logo"
+                                                              src="#"></a>
 
                     </div>
 
@@ -168,21 +148,13 @@
                         <div class="header-top text-right">
                             <ul class="list-inline list-unstyled">
 
-                      <!--  <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#cooperatemodal"><i class="fa fa-bus"></i> Cooperate Rental </a>
-                        </li>  -->
 
                                 <li><a class="tagline " style="border-radius:20px; cursor: pointer; background: #FFF; padding: 3px 12px; color: #c91c23; font-weight: 500;"  data-toggle="modal" data-target="#inquirymodal"><i class="fa fa-cab"></i> Direct Inquiry</a>
                                 </li>
-                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#contactModal"><i class="fa fa-info-circle"></i> info@casonsrentacar.com</a>
+                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#contactModal"><i class="fa fa-info-circle"></i> kkyapa@gmail.com</a>
                                 </li>
                             </ul>
-                            <!--                    <div class="col-sm-9" style="padding-right:0 !important;">-->
-                            <!--                        <a class="tagline " style="border-radius:20px; cursor: pointer; background: #FFF; padding: 3px 12px; color: #c91c23; font-weight: 500;"  data-toggle="modal" data-target="#inquirymodal"><i class="fa fa-cab"></i> Direct Inquiry</a>-->
-                            <!--                    </div>-->
-                            <!--                     <div class="col-sm-3" style="padding-left:0 !important;">-->
-                            <!--                    <!--Google translate --> <!-- <a class="tagline" href="--><!--index.php/content/pages/71">Hassle free 24 Hour Road Help All island Wide</a>  -->
-                            <!--                         <a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#contactModal"><i class="fa fa-info-circle"></i> info@casonsrentacar.com</a>-->
-                            <!--                       </div>-->
+
                         </div>
 
                         <div class="menu-wrap">
@@ -198,7 +170,7 @@
                                             <ul>
 
                                                 <li>
-                                                    <!--                                            <a href='http://www.casons.lk//article_controller/home'>Home</a>-->
+                                                    
                                                     <a href='#'><b>Home</b></a>
 
                                                 </li>
@@ -209,19 +181,13 @@
                                                         href="#"> <b>About</b>  </a>
 
                                                     <ul>
-                                                        <li> <a href='#'>About Casons</a> </li>
-                                                        <li> <a href='#'>Terms</a> </li>
-                                                        <li> <a href='#'>Privacy Policy</a> </li>
-                                                        <li> <a href='#'>Recommendations</a> </li>
-                                                        <li> <a href='#'>Our Trademarks</a> </li>
-                                                        <li> <a href='#'>News</a> </li>
-                                                        <li> <a href='#'>Careers</a> </li>
+                                                        
                                                     </ul>
                                                 </li>
 
 
 
-                                                <li class="">
+<!--                                                <li class="">
                                                     <a
                                                         href="#"> <b>Services</b>  </a>
 
@@ -237,11 +203,11 @@
                                                         <li> <a href='http://www.casons.lk/services/limousine-services'>Limousine Services</a> </li>
                                                         <li> <a href='http://www.casons.lk/services/raca-garage-services'>RACA Garage Services</a> </li>
                                                     </ul>
-                                                </li>
+                                                </li>-->
 
 
 
-                                                <li class="">
+<!--                                                <li class="">
                                                     <a
                                                         href="#"> <b>Fleet</b>  </a>
 
@@ -253,18 +219,18 @@
                                                         <li> <a href='http://www.casons.lk/vehicles/motorbikes'>Motor Bikes</a> </li>
                                                         <li> <a href='http://www.casons.lk/vehicles/buses'>Buses</a> </li>
                                                     </ul>
-                                                </li>
+                                                </li>-->
 
 
 
-                                                <li class="">
+<!--                                                <li class="">
                                                     <a
                                                         href="#"> <b>Corporate Rental</b>  </a>
 
-                                                </li>
+                                                </li>-->
 
 
-
+<!--
                                                 <li class="">
                                                     <a
                                                         href="#"> <b>Travel</b>  </a>
@@ -281,11 +247,11 @@
                                                         <li> <a href='http://www.casons.lk/travel/unawatuna'>Travel to Unawatuna</a> </li>
                                                         <li> <a href='http://www.casons.lk/travel/nuwaraeliya'>Travel to Nuwara Eliya</a> </li>
                                                     </ul>
-                                                </li>
+                                                </li>-->
 
 
 
-                                                <li><a href='http://www.casons.lk/contact-us'><b>Contact</b></a></li>
+                                                <li><a href='#'><b>Contact</b></a></li>
 
 
                                             </ul>
@@ -297,7 +263,7 @@
                                     <div class="col-md-4">
 
                                         <div class="hotline-wrap"><span>Hotline</span> <a class="rtel"
-                                                                                          href="tel:+94 777 312 500">+94 777 312 500</a></div>
+                                                                                          href="#">+94 0000000000</a></div>
 
                                     </div>
 
@@ -328,8 +294,7 @@
                     </div>
                     <div class="modal-body clearfix">
 
-<!--<h4 class="serah-headline"><i class="fa fa-car"></i> <strong>Book / Enquire</strong></h4>-->
-                        <form   id="get_search_form">
+                        <form id="get_search_form">
                             <div class="form-group col-sm-6">
                                 <label for="exampleInputName">Name</label>
                                 <input type="text" class="form-control" name="uname" id="uname" placeholder="Your Name" autocomplete="off">
@@ -346,17 +311,13 @@
                             </div>
 
 
-                            <!--    <div class="form-group col-sm-3">
-                                <label for="exampleInputNationality">Nationality</label>
-                                <input type="text" class="form-control" name="nationality" id="nationality" placeholder="Nationality">
-                              </div>-->
 
                             <div class="form-group col-sm-6">
                                 <label for="exampleInputName">Email</label>
                                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" autocomplete="off">
                             </div>
                             <div class="form-group col-sm-3 col-np">
-                                <!--    <label for="exampleInputNationality">Contact Number</label>-->
+
                                 <label for="exampleInputName">Country Code</label>
                                 <input type="text" class="form-control" style="width: 70px" name="telephone" id="telephone" >
 
@@ -381,7 +342,7 @@
                                 </select>
                             </div>
                             <div class="form-group col-sm-6">
-                                <!--    <label for="exampleInputNationality">Type of vehicle</label>-->
+
                                 <label for="exampleInputName">Vehicle Type</label>
                                 <select class="form-control" name="vehiclet" id="vehiclet">
                                     <option value="">Select Type of vehicle</option>
@@ -430,9 +391,7 @@
                     </div>
 
                     <div class="modal-footer">
-                        <!--        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>-->
-                        <!--<div id="success_message"></div>-->
+                        
 
                     </div> 
                 </div>
@@ -454,12 +413,6 @@
 
                         <form class="form-horizontal" role="form" id="send_contact_form">
 
-                            <!--  <div class="form-group">
-                                  <label class="control-label col-sm-3" for="pwd">Subject:</label>
-                                  <div class="col-sm-9"> 
-                                      <input type="text" class="form-control" id="subject" name="subject" placeholder="">
-                                  </div>
-                              </div>   -->
                             <div class="form-group">
                                 <label class="control-label col-sm-3" for="pwd">Name:</label>
                                 <div class="col-sm-9"> 
@@ -491,9 +444,6 @@
                                 <!--<button type="submit" class="btn btn-primary" id="send_contact_submit">Send</button>-->
                                 <input type="submit" class="btn btn-danger" id="send_contact_submit" value="Send">
 
-                                <!--  <div class="col-sm-offset-2 col-sm-10">
-                                      <button type="submit" class="btn btn-default">Submit</button>
-                                  </div> -->
                             </div> 
 
                         </form>
@@ -611,9 +561,7 @@
                     </div>
 
                     <div class="modal-footer">
-                        <!--        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>-->
-                        <!--<div id="success_message"></div>-->
+                     
 
                     </div>
                 </div>
@@ -641,103 +589,6 @@
 
         <div class="slider-warpper">
 
-            <!--search area /////////////////////////////////////////// -->
-            <!--2016-01-08-->
-            <!--    <div class="search-wrap clearfix">
-                    <h4 class="serah-headline"><i class="fa fa-car"></i> <strong>Book / Enquire</strong></h4>
-                    <form   id="get_search_form">
-                        <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Your Name</label>
-                            <input type="text" class="form-control" name="uname" id="uname" placeholder="Your Name" autocomplete="off">
-                        </div>
-                        <div class="form-group col-sm-6">
-            
-                            <input type="text" id="country" name="country" class="form-control">
-            
-                        </div>
-                        <div class="form-group col-sm-12">
-            
-                            <textarea class="form-control" rows="2" name="address" id="address" placeholder="Address"></textarea>
-            
-                        </div>
-            
-            
-                            <div class="form-group col-sm-3">
-                            <label for="exampleInputNationality">Nationality</label>
-                            <input type="text" class="form-control" name="nationality" id="nationality" placeholder="Nationality">
-                          </div>
-                        <div class="form-group col-sm-6">
-                            <label for="exampleInputNationality">Your Email</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" autocomplete="off">
-                        </div>
-                        <div class="form-group col-sm-2 col-np">
-                                <label for="exampleInputNationality">Contact Number</label>
-                            <input type="text" class="form-control" name="telephone" id="telephone" readonly >
-            
-                            <input type="hidden" class="form-control" name="nationality" id="nationality" placeholder="Nationality" autocomplete="off">
-                        </div>
-                        <div class="form-group col-sm-4">
-            
-                            <input type="text" class="form-control" name="tel_no" id="tel_no" placeholder="Contact Number" autocomplete="off">
-            
-                        </div>
-            
-                        <div class="form-group col-sm-6">
-                                <label for="exampleInputNationality">Type of service</label>
-                            <select class="form-control" name="typeser" id="typeser" autocomplete="off">
-                                <option value="OTHER">Select Type of Service</option>
-                                <option value="SELF DRIVE">SELF DRIVE</option>
-                                <option value="WITH DRIVER">WITH DRIVER</option>
-                                <option value="WEDDINGS">WEDDINGS</option>
-                                <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-                                <option value="BIKE RENTAL">BIKE RENTAL</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-sm-6">
-                                <label for="exampleInputNationality">Type of vehicle</label>
-                            <select class="form-control" name="vehiclet" id="vehiclet">
-                                <option value="Budget cars">Select Type of vehicle</option>
-                                <option value="Budget cars">Budget cars</option>
-                                <option value="Standard cars">Standard cars</option>
-                                <option value="Semi luxury cars">Semi luxury cars</option>
-                                <option value="Luxury cars">Luxury cars</option>
-                                <option value="Super luxury cars">Super luxury cars</option>
-                                <option value="limousine">limousine</option>
-                                <option value="Vans">Vans</option>
-                                <option value="Luxury vans">Luxury vans</option>
-                                <option value="Suv">Suv</option>
-                                <option value="Buses">Buses</option>
-                                <option value="Double cabs">Double cabs</option>
-                                <option value="Motor bikes">Motor bikes</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-sm-6">
-                                <label for="exampleInputNationality">Starting Date</label>
-                            <input type="text" class="form-control" name="stdate" id="stdate" placeholder="Starting Date">
-                        </div>
-                        <div class="form-group col-sm-6">
-                                <label for="exampleInputNationality">Ending Date</label>
-                            <input type="text" class="form-control" name="enddate" id="enddate" placeholder="Ending Date">
-                        </div>
-                        <div class="form-group col-sm-12">
-                                                          <label for="exampleInputNationality">Message</label>
-                            <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
-                        </div>
-            
-                        <div class="form-group col-sm-12">
-                            <div  id="send_enquiry_search"></div> 
-                            </br>
-                            <div id="sentmsg"> </div>
-            
-                            <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
-                        </div>
-            
-                    </form>
-                </div>-->
-
-
-
-            <!--2016-01-08-->
 
             <div class="search-wrap clearfix">
                 <div role="tabpanel">
@@ -832,12 +683,6 @@
                                     <input type="text" class="form-control" name="num_days" id="num_days_sd1" placeholder="Number of Days" value="1" readonly>
                                 </div>
 
-                                <!--                        <div class="form-group col-sm-12">
-                                                            <select class="form-control" name="car_type" id="car_type" autocomplete="off">
-                                                                <option value="">- Vehicle Category -</option>
-                                                                <option value="0">- All Category -</option>
-                                                                                            </select>
-                                                        </div>-->
 
                                 <div class="form-group col-sm-6">
                                     <label class="control-label"><strong>Vehicle Type</strong> </label>
@@ -863,14 +708,11 @@
                                         <option value="2"
                                                 selected  >Sri Lankan Rupee (LKR)</option>
 
-                                        <!--                                <option value="lkr">LKR</option>-->
                                     </select>
                                 </div>
 
                                 <input type="hidden" class="form-control" name="service" id="service" value="SD">
 
-<!--                        <input type="hidden" class="form-control" name="drive_type" id="drive_type" value="self_driver">
-                        <input type="hidden" class="form-control" name="tab" id="tab" value="sd">-->
 
                                 <div class="form-group col-sm-12">
                                     <div id="send_enquiry_search"></div>
@@ -910,16 +752,6 @@
 
                                     </select>
                                 </div>
-
-                                <!--
-                                    <div class="form-group col-sm-6">
-                                        <input type="text" class="form-control " name="stdate" id="stdate_wd1" placeholder="Pick-Up Date and Time">
-                                    </div>
-            
-                                    <div class="form-group col-sm-6">
-                                        <input type="text" class="form-control " name="enddate" id="enddate_wd1" placeholder="Drop-Off Date and Time">
-                                    </div> 
-                                -->
 
                                 <div class="form-group col-sm-4 search-form-date-padding">
                                     <label class="control-label"><strong>pickup date</strong> </label>
@@ -974,16 +806,11 @@
                                         <option value="2"
                                                 selected >Sri Lankan Rupee (LKR)</option>
 
-                                        <!--<option value="lkr">LKR</option>-->
                                     </select>
                                 </div>
 
                                 <input type="hidden" class="form-control" name="service" id="service" value="WD">
-
-<!--                        <input type="hidden" class="form-control" name="drive_type" id="drive_type" value="with_driver">
-                        <input type="hidden" class="form-control" name="tab" id="tab" value="wd">-->
-
-                                <div class="form-group col-sm-12">
+<div class="form-group col-sm-12">
                                     <div id="send_enquiry_search"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
@@ -1559,8 +1386,6 @@
                                 </div>
                                 <input type="hidden" class="form-control" name="service" id="service" value="AP">
 
-<!--                        <input type="hidden" class="form-control" name="drive_type" id="drive_type" value="">
-                        <input type="hidden" class="form-control" name="tab" id="tab" value="airport">-->
 
                                 <div id="dvDistanceair" style="display: none">
                                 </div>
@@ -1575,17 +1400,12 @@
                             <!--for map-->
 
                             <div class="map-wrap">
-                                <!--                        <div id="dvMaptaxi" style="width:100%; height: 300px; display: none">
-                                                        
-                                                        </div>-->
+                                
                                 <div id="dvMapair" style="width:100%; height: 300px; display: none">
 
                                 </div>
                             </div>
 
-
-
-                            <!--for map-->
                         </div>
 
                         <div role="tabpanel" class="tab-pane fade" id="weddings">
@@ -1741,8 +1561,6 @@
 
                                 <input type="hidden" class="form-control" name="service" id="service" value="WED">
 
-<!--                        <input type="hidden" class="form-control" name="drive_type" id="drive_type" value="">
-                        <input type="hidden" class="form-control" name="tab" id="tab" value="wedding">-->
 
                                 <div class="form-group col-sm-12">
                                     <div id="send_enquiry_search"></div>
@@ -1881,11 +1699,6 @@
                                     </select>
                                 </div>
 
-                                <div id="drop_hotel" name="drop_hotel">
-
-
-                                </div>
-
                                 <div class="form-group col-sm-6">
                                     <label class="control-label"> <strong>PickUp Date </strong></label>
                                     <input type="text" class="form-control " name="stdate" id="stdate" placeholder="Pick-Up Date and Time" value="28/10/2016" >
@@ -1903,15 +1716,10 @@
                                         <option value="2"
                                                 selected >Sri Lankan Rupee (LKR)</option>
 
-                                        <!--<option value="lkr">LKR</option>-->
                                     </select>
                                 </div>
 
                                 <input type="hidden" class="form-control" name="service" id="service" value="TX">
-
-<!--                        <input type="hidden" class="form-control" name="drive_type" id="drive_type" value="">
-                        <input type="hidden" class="form-control" name="tab" id="tab" value="taxi">-->
-
                                 <div id="dvDistancetaxi" style="display: none">
                                 </div>
 
@@ -1943,11 +1751,11 @@
 
                     <div class="slider-discription">
 
-                        <h1>Best Wedding Limousines <br> In Sri Lanka</h1>
+                        <h1><br> In Sri Lanka</h1>
 
-                        <p><p>Best Cars &amp; Limousines for Weddings, Special Occasions, VIP Transfers, Delegates and Celebrity Transfers. We are specialized in Event Management &amp; Motor Cads as well.<br />
+                        <p><p><br />
                             <br />
-                            <strong>Call us Now! +94 777 312 500</strong></p>
+                            <strong>Call us Now! +94 000 000 000</strong></p>
                         </p>
 
 
@@ -1969,11 +1777,11 @@
 
                     <div class="slider-discription">
 
-                        <h1>Casons Car Rental is specialized in 4x4 rental packages</h1>
+                        <h1></h1>
 
-                        <p><p>We have the largest 4x4 fleet of Sri Lanka consist of 4x4, Cabs, SUV&rsquo;s, Defenders, discovery 4, Montero, Land Cruiser, range Rover, Range Rover Auto Biography, Mitsubishi L200 Double Cabs<br />
+                        <p><p><br />
                             <br />
-                            <strong>Call us Now! +94 777 312 500</strong></p>
+                            <strong>Call us Now! +94 000 000 000</strong></p>
                         </p>
 
 
@@ -1995,11 +1803,11 @@
 
                     <div class="slider-discription">
 
-                        <h1>Casons Budget Car Rental for nations of sri Lanka.</h1>
+                        <h1></h1>
 
-                        <p><p>We provide Budget, Standard, Luxury, Motor Bikes for rental to meet your budget. We cater an exclusive cheapest rental deals for all travelers, dealers, holiday makers, tourists, expat in foreign missions &amp; NGO&rsquo;s.</p>
+                        <p><p></p>
 
-                        <p><strong>Call us Now! +94 777 312 500</strong></p>
+                        <p><strong>Call us Now! +94 000 000 000</strong></p>
                         </p>
 
 
@@ -2021,11 +1829,11 @@
 
                     <div class="slider-discription">
 
-                        <h1>24 Hours best service provider in Sri Lanka</h1>
+                        <h1></h1>
 
-                        <p><p>We operate the largest fleet of over 500 vehicles consist of Cars, Vans, SUV&rsquo;s, Motor Bikes and Coaches<br />
+                        <p><p><br />
                             <br />
-                            <strong>Call us Now! +94 777 312 500</strong></p>
+                            <strong>Call us Now! +94 000 000 000</strong></p>
                         </p>
 
 
@@ -2047,9 +1855,9 @@
 
                     <div class="slider-discription">
 
-                        <h1>Casons 24 hours Budget Rental Cars at Colombo International Airport</h1>
+                        <h1></h1>
 
-                        <p><p><strong>Call us Now! +94 777 312 500</strong></p>
+                        <p><p><strong>Call us Now! +94 000 000 000</strong></p>
                         </p>
 
 
@@ -2075,10 +1883,6 @@
                     </div>
 
                 </div>
-
-
-
-
             </div>
 
             <!--end slider ////////////////////////////////////////////////////-->
@@ -2090,85 +1894,79 @@
 
         <!--/ snippet warp /////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-        <div class="home-snippt-wrap">
-
-
-
-
-
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-8 col-md-offset-2 text-center snippet-head">
-
-                        <h1>Enjoy the efficient and specialized services of Casons Rent a Car;
-
-                            Sri Lanka's leading rent-a-car company </h1>
-
-                    </div>
-
-                </div>
-
-                <div class="row">
-
-                    <div class="col-sm-3 snippt-box">
-
-                        <i class="fa fa-car fa-3x"></i>
-
-                        <h2>Over 500 Vehicles</h2>
-
-                        <p>Over 60 4WD Jeeps, 50 Vans, 200 Cars, Double Cabs, Luxury Coaches, Lorries etc</p>
-
-                    </div>
-
-                    <div class="col-sm-3 snippt-box">
-
-                        <i class="fa fa-user fa-3x"></i>
-
-                        <h2>Our Strength</h2>
-
-                        <p>30 In-house Operational Staff, 18 Automobile Technicians and 90 permanent Drivers from every part of
-                            the Island</p>
-
-                    </div>
-
-                    <div class="col-sm-3 snippt-box">
-
-                        <i class="fa fa-star fa-3x"></i>
-
-                        <h2>Insurance</h2>
-
-                        <p>Comprehensive Insurance available for all our vehicles including Passengers</p>
-
-                    </div>
-
-                    <div class="col-sm-3 snippt-box">
-
-                        <i class="fa fa-user fa-3x"></i>
-
-                        <h2>24/7 Breakdown Service </h2>
-
-                        <p>24 hrs Island wide backup services with affiliated Garages and Mobile units</p>
-
-                    </div>
-
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-12 divider">
-
-                        <a class="btn btn-border" href="../casonsnew/index.php/article_controller/pages/61">Findout more about
-                            us</a>
-
-                    </div>
-
-                </div>
-
-            </div>        
-        </div>
+        <!--        <div class="home-snippt-wrap">
+                    <div class="container">
+        
+                        <div class="row">
+        
+                            <div class="col-md-8 col-md-offset-2 text-center snippet-head">
+        
+                                <h1>Enjoy the efficient and specialized services of Casons Rent a Car;
+        
+                                    Sri Lanka's leading rent-a-car company </h1>
+        
+                            </div>
+        
+                        </div>
+        
+                        <div class="row">
+        
+                            <div class="col-sm-3 snippt-box">
+        
+                                <i class="fa fa-car fa-3x"></i>
+        
+                                <h2>Over 500 Vehicles</h2>
+        
+                                <p>Over 60 4WD Jeeps, 50 Vans, 200 Cars, Double Cabs, Luxury Coaches, Lorries etc</p>
+        
+                            </div>
+        
+                            <div class="col-sm-3 snippt-box">
+        
+                                <i class="fa fa-user fa-3x"></i>
+        
+                                <h2>Our Strength</h2>
+        
+                                <p>30 In-house Operational Staff, 18 Automobile Technicians and 90 permanent Drivers from every part of
+                                    the Island</p>
+        
+                            </div>
+        
+                            <div class="col-sm-3 snippt-box">
+        
+                                <i class="fa fa-star fa-3x"></i>
+        
+                                <h2>Insurance</h2>
+        
+                                <p>Comprehensive Insurance available for all our vehicles including Passengers</p>
+        
+                            </div>
+        
+                            <div class="col-sm-3 snippt-box">
+        
+                                <i class="fa fa-user fa-3x"></i>
+        
+                                <h2>24/7 Breakdown Service </h2>
+        
+                                <p>24 hrs Island wide backup services with affiliated Garages and Mobile units</p>
+        
+                            </div>
+        
+                        </div>
+        
+                        <div class="row">
+        
+                            <div class="col-md-12 divider">
+        
+                                <a class="btn btn-border" href="../casonsnew/index.php/article_controller/pages/61">Findout more about
+                                    us</a>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>        
+                </div>-->
 
         <!--/ end snippet warp /////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
@@ -2208,17 +2006,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(32)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/nissan-march">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(32)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2243,17 +2035,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(34)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-viva-elite">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(34)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2278,17 +2064,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(35)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-corolla-121">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(35)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2313,17 +2093,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(45)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-allion-240">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(45)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2339,7 +2113,7 @@
                                     <div class="car-details clearfix">
                                         <span class="car-name">Toyota Allion 260 (2010)</span>
                                         <span class="car-details-price">
-                                            <h1> </h1>
+                                            <h1> kalinga</h1>
                                             <span>per a day</span>
                                         </span>
 
@@ -2348,17 +2122,12 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(47)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-allion-260-2010">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(47)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2374,7 +2143,7 @@
                                     <div class="car-details clearfix">
                                         <span class="car-name">Toyota Premio 260</span>
                                         <span class="car-details-price">
-                                            <h1> </h1>
+                                            <h1> dsad</h1>
                                             <span>per a day</span>
                                         </span>
 
@@ -2383,17 +2152,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(49)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-premio-260">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(49)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2418,17 +2181,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(55)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-fortuner">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(55)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2453,17 +2210,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(58)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-prado-trj-150-2011">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(58)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2488,17 +2239,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(60)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mitsubishi-montero-v6">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(60)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2523,17 +2268,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(61)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/hummer-h3">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(61)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2558,17 +2297,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(62)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/range-rover-evoque">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(62)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2593,17 +2326,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(63)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-land-cruiser-v8">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(63)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2628,17 +2355,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(65)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/bmw-5-series">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(65)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2654,7 +2375,7 @@
                                     <div class="car-details clearfix">
                                         <span class="car-name">Mercedes Benz E Class</span>
                                         <span class="car-details-price">
-                                            <h1> </h1>
+                                            <h1> asds</h1>
                                             <span>per a day</span>
                                         </span>
 
@@ -2663,17 +2384,12 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(68)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mercedes-benz-e-class">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(68)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2689,7 +2405,7 @@
                                     <div class="car-details clearfix">
                                         <span class="car-name">Chrysler Limousine</span>
                                         <span class="car-details-price">
-                                            <h1> </h1>
+                                            <h1> fdfd</h1>
                                             <span>per a day</span>
                                         </span>
 
@@ -2698,17 +2414,12 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(71)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/chrysler-limousine">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(71)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2724,7 +2435,7 @@
                                     <div class="car-details clearfix">
                                         <span class="car-name">Toyota KDH 200 (8 seater)</span>
                                         <span class="car-details-price">
-                                            <h1> </h1>
+                                            <h1> dsdsddsd</h1>
                                             <span>per a day</span>
                                         </span>
 
@@ -2733,17 +2444,12 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(73)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-kdh-200-8-seater">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(73)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2768,18 +2474,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(75)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-hilux">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(75)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
                                             <a class="close-overlay hidden">x</a>
                                         </div>
                                     </div>
@@ -2803,17 +2502,12 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(76)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mitsubishi-l200">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(76)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -2838,17 +2532,12 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(77)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/nissan-navara">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(77)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -3013,17 +2702,13 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(110)">View Detail</a>
-  
-                                            -->
+
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/suzuki-alto-800">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(110)">Make  Enquiry</a></br>
 
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -3048,18 +2733,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(114)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-harrier-hybrid-2015">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(114)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
                                             <a class="close-overlay hidden">x</a>
                                         </div>
                                     </div>
@@ -3083,18 +2761,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(115)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/land-rover-defender-2015">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(115)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
                                             <a class="close-overlay hidden">x</a>
                                         </div>
                                     </div>
@@ -3117,18 +2788,11 @@
 
                                     <div class="overlay">
                                         <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(116)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/audi-q7">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(116)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -3153,17 +2817,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(118)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-alphard">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(118)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -3678,17 +3336,11 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(140)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mahindra-imperio">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(140)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
 
                                             <a class="close-overlay hidden">x</a>
                                         </div>
@@ -3713,24 +3365,15 @@
                                     <div class="overlay">
                                         <div class="expand">
 
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(141)">View Detail</a>
-  
-                                            -->
                                             <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/renault-kwid">View Detail</a>
 
                                             </br>
 
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(141)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
                                             <a class="close-overlay hidden">x</a>
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <!-- end item row-->
 
                             </div>
@@ -3755,31 +3398,6 @@
 
         <!--/ end offers /////////////////////////////////////////////////////////////////////////////////////////-->
 
-        <!--testimonails ////////////////////////////////////////////////////////////////-->
-
-        <div class="testimonial-wrap clearfix">
-
-            <div class="conatiner">
-
-                <div class="col-md-8 col-md-offset-2 text-center">
-
-                    <div id="testi-slider" class="owl-carousel owl-theme">
-
-                        <div class="item">
-                            <div class="testimonial">
-                            </div>
-
-                            <p>– Jane & Glenn Preaseley,
-                                <small> South Hampton UK</small>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
         <script type="text/javascript">
 
@@ -3917,7 +3535,6 @@
                 $.ajax({
                     type: 'POST',
                     url: site_url + '/article_controller/viewVehicleModelDetail',
-                    // data: 'bookingid=' + bookingid,
                     data: {'modelid': modelid},
                     success: function (msg) {
                         $("#vehicle_model_detail").html(msg);
@@ -3975,138 +3592,138 @@
         <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
-        <div class="contact-row-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
+                <div class="contact-row-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
+                            </div>
+        
+                            <div class="col-md-4 social-icons">
+                                <ul class="list-inline list-unstyled pull-right">
+                                    <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
+                                    <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
+                                    <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
+                                    <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
+                                    <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
+                                </ul>
+                            </div>
+        
+                        </div>
                     </div>
-
-                    <div class="col-md-4 social-icons">
-                        <ul class="list-inline list-unstyled pull-right">
-                            <li><a href="http://www.facebook.com/pages/Casons-Rent-A-Car-Pvt-Ltd/229363797099459" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
-                            <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
-                            <li><a href="https://plus.google.com/u/0/117567926753584130941/posts" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
-                            <li><a href="http://twitter.com/#!/casonsrentacar" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
-                            <li><a href="http://www.youtube.com/Casonsrentacar" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
-                        </ul>
-                    </div>
-
                 </div>
-            </div>
-        </div>
         <!--contact row-->
         <!--footer wrap ///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-        <div class="footer-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
+        <!--        <div class="footer-wrap">
+                    <div class="container">
                         <div class="row">
-
-                            <div class="col-sm-4">
-                                <h2 class="red-txt"><b>Services</b></h2>
-                                <ul class="list-unstyled footerlinks">
-
-
-                                    <li><a href='#'>4x4 Rentals </a></li>
-
-                                    <li><a href='#'>Weddings & Events </a></li>
-
-                                    <li><a href='#'>Fleet Management </a></li>
-
-                                    <li><a href='#'>Road Side Assistance  </a></li>
-
-                                    <li><a href='#'>MoterBike Rental </a></li>
-
-                                    <li><a href='#'>Self Drive Rental </a></li>
-
-                                    <li><a href='#'>Chauffeur Driven & Tours </a></li>
-
-                                    <li><a href='#'>Airport Tansfers </a></li>
-
-                                    <li><a href='#'>Limousine Services </a></li>
-
-                                    <li><a href='#'>RACA Garage Services </a></li>
-
-                                </ul>
+                            <div class="col-md-7">
+                                <div class="row">
+        
+                                    <div class="col-sm-4">
+                                        <h2 class="red-txt"><b>Services</b></h2>
+                                        <ul class="list-unstyled footerlinks">
+        
+        
+                                            <li><a href='#'>4x4 Rentals </a></li>
+        
+                                            <li><a href='#'>Weddings & Events </a></li>
+        
+                                            <li><a href='#'>Fleet Management </a></li>
+        
+                                            <li><a href='#'>Road Side Assistance  </a></li>
+        
+                                            <li><a href='#'>MoterBike Rental </a></li>
+        
+                                            <li><a href='#'>Self Drive Rental </a></li>
+        
+                                            <li><a href='#'>Chauffeur Driven & Tours </a></li>
+        
+                                            <li><a href='#'>Airport Tansfers </a></li>
+        
+                                            <li><a href='#'>Limousine Services </a></li>
+        
+                                            <li><a href='#'>RACA Garage Services </a></li>
+        
+                                        </ul>
+                                    </div>
+        
+        
+        
+                                    <div class="col-sm-3">
+                                        <h2 class="red-txt"><b>Fleet</b></h2>
+                                        <ul class="list-unstyled footerlinks">
+                                            <li><a href='http://www.casons.lk/vehicles/cars'>Cars </a></li>
+        
+                                            <li><a href='http://www.casons.lk/vehicles/vans'>Vans </a></li>
+        
+                                            <li><a href='http://www.casons.lk/vehicles/suvs'>SUV’s </a></li>
+        
+                                            <li><a href='http://www.casons.lk/vehicles/4-4-cabs'>4x4 Cabs </a></li>
+        
+                                            <li><a href='http://www.casons.lk/vehicles/motorbikes'>Motor Bikes </a></li>
+        
+                                            <li><a href='http://www.casons.lk/vehicles/buses'>Buses </a></li>
+        
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <h2 class="red-txt">Contact Us</h2>
+        
+                                        <p><strong>Casons Rent-A-Car (Pvt) Ltd</strong><br>
+        
+                                            181, Gothami Gardens,
+        
+                                            Gothami Road, Rajagiriya, Sri Lanka.</p>
+        
+                                        <p>
+        
+                                            <strong>Hotlines:</strong><br>
+        
+                                            <a class="rtel" href="Tel:+94 11 4 377 366" >+94 11 4 377 366, +94 777 312 500</a></p>
+        
+                                        <p>
+                                        <p><strong>Fax:</strong><br> +94 11 4 406 544 </p>
+        
+                                        <p><strong>Email:</strong><br><a href="mailto:info@casonsrentacar.com" target="_top">info@casonsrentacar.com</a></p>
+                                    </div>
+                                </div>
                             </div>
-
-
-
-                            <div class="col-sm-3">
-                                <h2 class="red-txt"><b>Fleet</b></h2>
-                                <ul class="list-unstyled footerlinks">
-                                    <li><a href='http://www.casons.lk/vehicles/cars'>Cars </a></li>
-
-                                    <li><a href='http://www.casons.lk/vehicles/vans'>Vans </a></li>
-
-                                    <li><a href='http://www.casons.lk/vehicles/suvs'>SUV’s </a></li>
-
-                                    <li><a href='http://www.casons.lk/vehicles/4-4-cabs'>4x4 Cabs </a></li>
-
-                                    <li><a href='http://www.casons.lk/vehicles/motorbikes'>Motor Bikes </a></li>
-
-                                    <li><a href='http://www.casons.lk/vehicles/buses'>Buses </a></li>
-
-                                </ul>
+                            <div class="col-md-5">
+        
+                                                                                  <h2 class="red-txt">Related Links</h2>
+                                <div class="row related-link-row">
+                                    <div class="col-xs-6 col-sm-3 col-md-6 related-link">
+                                        <a target="_blank" href="http://www.casonstour.com/"><img alt="Explore Sri Lanka" class="img-responsive" src="http://www.casons.lk//application_resources/images/explore-srilanka.png"></a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-6 related-link">
+                                        <a target="_blank" href="http://www.bikerentsrilanka.com/"><img alt="Motorbike Rental in Sri Lanka" class="img-responsive" src="http://www.casons.lk//application_resources/images/motorbike-srilanka.png"></a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-6 related-link">
+                                        <a href="#"><img alt="Car Rental Service India" class="img-responsive" src="http://www.casons.lk//application_resources/images/car-india.png"></a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-3 col-md-6 related-link">
+                                        <a href="#"><img alt="Motorcar Deals" class="img-responsive" src="http://www.casons.lk//application_resources/images/motorcar-deals.png"></a>
+                                    </div>
+                                </div>
+        
+        
                             </div>
-                            <div class="col-sm-5">
-                                <h2 class="red-txt">Contact Us</h2>
-
-                                <p><strong>Casons Rent-A-Car (Pvt) Ltd</strong><br>
-
-                                    181, Gothami Gardens,
-
-                                    Gothami Road, Rajagiriya, Sri Lanka.</p>
-
-                                <p>
-
-                                    <strong>Hotlines:</strong><br>
-
-                                    <a class="rtel" href="Tel:+94 11 4 377 366" >+94 11 4 377 366, +94 777 312 500</a></p>
-
-                                <p>
-                                <p><strong>Fax:</strong><br> +94 11 4 406 544 </p>
-
-                                <p><strong>Email:</strong><br><a href="mailto:info@casonsrentacar.com" target="_top">info@casonsrentacar.com</a></p>
+                        </div>
+                        copy rights
+                        <div class="footer-bottom">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p>Member of <a target="_self" href="http://www.casons.lk/"><img src="http://www.casons.lk//application_resources/images/raca.jpg"></a></p>
+                                </div>
+                                <div class="col-sm-6 text-right">
+                                    <p>Copyright © 2015 Casons Rent-A-Car (Pvt) Ltd. . All Rights Reserved.</br>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-
-                        <!--                         -->                         <h2 class="red-txt">Related Links</h2>
-                        <div class="row related-link-row">
-                            <div class="col-xs-6 col-sm-3 col-md-6 related-link">
-                                <a target="_blank" href="http://www.casonstour.com/"><img alt="Explore Sri Lanka" class="img-responsive" src="http://www.casons.lk//application_resources/images/explore-srilanka.png"></a>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-6 related-link">
-                                <a target="_blank" href="http://www.bikerentsrilanka.com/"><img alt="Motorbike Rental in Sri Lanka" class="img-responsive" src="http://www.casons.lk//application_resources/images/motorbike-srilanka.png"></a>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-6 related-link">
-                                <a href="#"><img alt="Car Rental Service India" class="img-responsive" src="http://www.casons.lk//application_resources/images/car-india.png"></a>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 col-md-6 related-link">
-                                <a href="#"><img alt="Motorcar Deals" class="img-responsive" src="http://www.casons.lk//application_resources/images/motorcar-deals.png"></a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-                <!--copy rights-->
-                <div class="footer-bottom">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <p>Member of <a target="_self" href="http://www.casons.lk/"><img src="http://www.casons.lk//application_resources/images/raca.jpg"></a></p>
-                        </div>
-                        <div class="col-sm-6 text-right">
-                            <p>Copyright © 2015 Casons Rent-A-Car (Pvt) Ltd. . All Rights Reserved.</br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                </div>-->
 
 
         <!--/ end footer wrap-->
@@ -4117,7 +3734,6 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-
                     </div>
                     <div class="modal-body">
                         ...
@@ -4249,9 +3865,6 @@
                 </div>
             </div>
         </div>
-
-
-
         <!--end inquary modal-->
 
 
@@ -4263,7 +3876,7 @@
         <script src="http://www.casons.lk/application_resources/js/placeholders.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
 
-<!--  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+
 
         <script src="http://www.casons.lk/application_resources/js/jquery-ui.js"></script>
         <!-- date time picker -->
@@ -4295,13 +3908,6 @@
                     responsiveRefreshRate: 200,
                     responsiveBaseWidth: window
 
-                            // "singleItem:true" is a shortcut for:
-                            // items : 1,
-                            // itemsDesktop : false,
-                            // itemsDesktopSmall : false,
-                            // itemsTablet: false,
-                            // itemsMobile : false
-
                 });
 
             });
@@ -4320,12 +3926,6 @@
                     responsiveRefreshRate: 200,
                     responsiveBaseWidth: window
 
-                            // "singleItem:true" is a shortcut for:
-                            // items : 1,
-                            // itemsDesktop : false,
-                            // itemsDesktopSmall : false,
-                            // itemsTablet: false,
-                            // itemsMobile : false
 
                 });
 
@@ -4333,16 +3933,6 @@
 
         </script>
 
-
-
-
-
-        <!--        calender
-                <script type="text/javascript">
-                    $(function () {
-                        $('#datetimepicker1').datetimepicker();
-                    });
-                </script>-->
 
 
         <!--prodcts slider - owl-->
@@ -4417,31 +4007,7 @@
 
         <script>
             $(document).ready(function () {
-                // $( "#stdate_enq" ).datepicker();
-                // $( "#enddate_enq" ).datepicker();
-                // $( "#stdate" ).datepicker();
-                // $( "#enddate" ).datepicker();
 
-
-                //	 $('#stdate_enq').datetimepicker({
-                //		 dayOfWeekStart : 1,
-                //		 lang:'en'
-                //	 });
-                //	 $('#enddate_enq').datetimepicker({
-                //		 dayOfWeekStart : 1,
-                //		 lang:'en'
-                //	 });
-                //	 $('#stdate').datetimepicker({
-                //		 dayOfWeekStart : 1,
-                //		 lang:'en'
-                //	 });
-                //	 $('#enddate').datetimepicker({
-                //		 dayOfWeekStart : 1,
-                //		 lang:'en'
-                //	 });
-
-                //     harshana start
-                //  input[name=stdate]
                 $('input[name=stdate_enq]').datetimepicker({
                     dayOfWeekStart: 1,
                     lang: 'en',
@@ -4494,12 +4060,6 @@
                     minDate: 0
                 });
 
-
-
-                //     harshana end
-
-                //$('#datetimepicker').datetimepicker({value:,step:10});
-
             });
         </script>
 
@@ -4511,18 +4071,6 @@
         <!--New-->
         <script src="http://www.casons.lk/application_resources/js/slider.js" type="text/javascript"></script>
         <script src="http://www.casons.lk/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
-        <!--
-           <script>
-               $("#slider_pasenger").flatslider({
-                   min: 1,
-                   max: 40,
-                   step: 1,
-                   value: 2,
-                   range: "min", // false | true | "min" | "max"
-                   einheit: '<i class="fa fa-user"></i>'
-               });
-           </script>
-        -->
 
         <!--slider - owl-->
         <script>
@@ -4544,22 +4092,9 @@
             });
         </script>
 
-        <!--   <link rel="stylesheet" type="text/css" href="--><!--application_resources/css/build/css/intlTelInput.css"/>-->
         <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/build/css/demo.css"/>
-        <!---->
-        <!--   <script src="--><!--application_resources/css/build/js/intlTelInput.min.js" type="text/javascript"></script>-->
 
-
-        <!--   <link rel="stylesheet" href="http://www.techieat.com/international-telephone/build/css/intlTelInput.css">-->
-        <!--   <link rel="stylesheet" href="http://www.techieat.com/international-telephone/build/css/demo.css">-->
-        <!--   <link rel="stylesheet" href="--><!--application_resources/css/build/css/custom.css">-->
-        <!--   <script src="http://www.techieat.com/international-telephone/build/js/intlTelInput.js"></script>-->
-
-        <!-- 2016/02/10 <link rel="stylesheet" href="http://www.techieat.com/international-telephone/build/css/intlTelInput.css">-->
-        <!--   <link rel="stylesheet" href="http://www.techieat.com/international-telephone/build/css/demo.css">-->
         <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/build/css/custom.css">
-        <!-- 2016/02/10 <script src="http://www.techieat.com/international-telephone/build/js/intlTelInput.js"></script>-->
-
 
         <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/country/css/countrySelect.css"/>
 
@@ -4618,44 +4153,8 @@
             $('#country').countrySelect({
                 //  defaultCountry: "lk",
             });
-
-
-
-            // 2015-08-20
-
-            /// $('#country').on('change', function(){
-
-            ///    var countryData = $("#country").countrySelect("getSelectedCountryData");
-            ///    var countrycode = countryData.iso2;
-            ///    alert(countrycode);
-
-
-            ///     $("#phone_no").intlTelInput("selectCountry", countrycode);
-
-
-            /// });
-
-
-            //    $("#phone_no").on("keyup change", function() {
-            //        var intlNumber = $("#phone_no").intlTelInput("getNumber");
-            //        if (intlNumber) {
-            //         //   output.text("International: " + intlNumber);
-            //            alert("International: " + intlNumber);
-            //
-            //        } else {
-            //          //  output.text("Please enter a number below");
-            //            alert("Please enter a number below");
-            //        }
-            //    });
-
-
-
-
         </script>
 
-
-
-        <!--      SITE  -->
         <script>
 
 
@@ -4664,9 +4163,7 @@
                 defaultCountry: "auto"
             });
 
-            $('input[name="telephone"]').intlTelInput({//autoFormat: true ,
-                // autoHideDialCode: true,
-                // defaultCountry: "lk"
+            $('input[name="telephone"]').intlTelInput({
                 autoFormat: false,
                 autoHideDialCode: false,
                 defaultCountry: "auto",
@@ -4714,12 +4211,6 @@
         <script src="http://www.casons.lk/application_resources/social_media/js/demo.js"></script>
 
         <!--   END FLOATING SOCIAL MEDIA ICONS-->
-
-
-
-
-
-
     </body>
 
 </html>
