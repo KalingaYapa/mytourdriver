@@ -95,14 +95,10 @@
 
         <!--      SITE  -->
         <script>
-
-
             $('input[name="country"]').countrySelect({
                 //  defaultCountry: "lk"
                 defaultCountry: "auto"
             });
-
-
         </script>
 
         <script>
@@ -449,105 +445,6 @@
         </div>
 
         <!--End Login Modal -->
-        <!--start Cooperate rental model-->
-
-        <div class="modal fade" id="cooperatemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-car"></i>  <strong>Cooperate Rental </strong></h4>
-                    </div>
-                    <div class="modal-body clearfix">
-
-                        <form   id="cooperate_inquiry_form">
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Name</label>
-                                <input type="text" class="form-control" name="u_name" id="u_name" placeholder="Contact person Name" autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Company Name</label>
-                                <input type="text" class="form-control" name="c_name" id="c_name" placeholder="Your Company Name" autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-3">
-                                <label for="exampleInputName">Mobile No</label>
-                                <input type="text" class="form-control" name="u_mobile" id="u_mobile" placeholder="Mobile No." autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-3">
-                                <label for="exampleInputName">Telephone No</label>
-                                <input type="text" class="form-control" name="c_telno" id="c_telno" placeholder="Telephone No." autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Email</label>
-                                <input type="text" class="form-control" name="email" id="email" placeholder="Email" autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Start Date</label>
-                                <input type="date" class="form-control" name="stdate" id="stdate"  autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">End Date</label>
-                                <input type="date" class="form-control" name="enddate" id="enddate"  autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Service Type</label>
-                                <select class="form-control" name="service" id="service" autocomplete="off">
-                                    <option value="OTHER">Select Type of Service</option>
-                                    <option value="SELF DRIVE">SELF DRIVE</option>
-                                    <option value="WITH DRIVER">WITH DRIVER</option>
-                                    <option value="WEDDINGS">WEDDINGS</option>
-                                    <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-                                    <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-
-                                <label for="exampleInputName">Vehicle Type</label>
-                                <select class="form-control" name="vehicletype" id="vehicletype">
-                                    <option value="">Select Type of vehicle</option>
-                                    <option value="Budget cars">Budget cars</option>
-                                    <option value="Standard cars">Standard cars</option>
-                                    <option value="Semi luxury cars">Semi luxury cars</option>
-                                    <option value="Luxury cars">Luxury cars</option>
-                                    <option value="Super luxury cars">Super luxury cars</option>
-                                    <option value="limousine">limousine</option>
-                                    <option value="Vans">Vans</option>
-                                    <option value="Luxury vans">Luxury vans</option>
-                                    <option value="Suv">Suv</option>
-                                    <option value="Buses">Buses</option>
-                                    <option value="Double cabs">Double cabs</option>
-                                    <option value="Motor bikes">Motor bikes</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group col-sm-12">
-                                <!--                              <label for="exampleInputNationality">Message</label>-->
-                                <label for="exampleInputName">Message</label>
-                                <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
-                            </div>
-
-                            <div class="form-group col-sm-12">
-                                <div  id="send_enquiry_search"></div>
-                                </br>
-                                <div id="sentmsg"> </div>
-
-                                <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--end Cooperate rental model-->
-
         <script>
             $('input[name=stdate] ').datetimepicker({
                 dayOfWeekStart: 1,
@@ -557,14 +454,9 @@
                 timepicker: false,
                 //        format:'Y/m/d',
                 format: 'd/m/Y'
-
-
             });
 
         </script>
-
-
-
         <div class="slider-warpper">
             <div class="search-wrap clearfix" style="width: 483px;height: 430px">
                 <div role="tabpanel" style="width: 483px;">
@@ -573,19 +465,19 @@
 
                         <li role="presentation" style="width: 161px;">
                             <a class="withDriver" href="#withDriver" aria-controls="with Driver" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="#">
+                                <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="application_resources/images/driver-icon.png">
                                 <span class="hidden-xs"> With Driver</span>
                             </a>
                         </li>
                         <li role="presentation" style="width: 161px;">
                             <a class="taxi" href="#taxi" aria-controls="Taxi" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="#">
+                                <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="application_resources/images/taxi-icon.png">
                                 <span class="hidden-xs">Drop & Pickup (Taxi)</span>
                             </a>
                         </li>
                         <li role="presentation" style="width: 161px;">
                             <a class="airport" href="#airport" aria-controls="Airport Transfer" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="#">
+                                <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="application_resources/images/airport.png">
                                 <span class="hidden-xs">Airport Transfer</span>
                             </a>
                         </li>
@@ -595,7 +487,7 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="withDriver">
 
-                            <form id="get_search_form1" action="http://www.casons.lk/article_controller/search_result" method="post">
+                            <form id="get_search_form1" action="#" method="post">
 
                                 <div class="form-group col-sm-12">
                                     <label class="control-label"><strong>PickUp Location</strong> </label>
@@ -843,8 +735,8 @@
 
                 <div class="item  ">
 
-                    <img src="http://www.casons.lk/uploads/slide2.jpg"
-                         alt="Luxury Wedding Car Hires with Casons Rent a Car">
+                    <img src="#"
+                         alt="">
 
                     <div class="slider-discription">
 
@@ -869,8 +761,8 @@
 
                 <div class="item  ">
 
-                    <img src="http://www.casons.lk/uploads/slide-4x4.jpg"
-                         alt="4 Wheel Drive Vehicles at Casons Rent a Car">
+                    <img src="#"
+                         alt="">
 
                     <div class="slider-discription">
 
@@ -895,8 +787,8 @@
 
                 <div class="item  ">
 
-                    <img src="http://www.casons.lk/uploads/rent-a-car-srilanka.jpg"
-                         alt="casons">
+                    <img src="#"
+                         alt="">
 
                     <div class="slider-discription">
 
@@ -921,8 +813,8 @@
 
                 <div class="item  ">
 
-                    <img src="http://www.casons.lk/uploads/24-Hours.jpg"
-                         alt="Interior of a Luxury Car of Casons Rent a Car">
+                    <img src="#"
+                         alt="">
 
                     <div class="slider-discription">
 
@@ -947,8 +839,8 @@
 
                 <div class="item  ">
 
-                    <img src="http://www.casons.lk/uploads/air-port.jpg"
-                         alt="Bandaranaike International Airport Sri Lanka Exterior View">
+                    <img src="#"
+                         alt="">
 
                     <div class="slider-discription">
 
@@ -966,8 +858,8 @@
 
                 <div class="item  ">
 
-                    <img src="http://www.casons.lk/uploads/casons_cab_tours.jpg"
-                         alt="Casons ">
+                    <img src="application_resources/images/slider/doubleCab.jpg"
+                         alt="Casons " style="height: 470px">
 
                     <div class="slider-discription">
 
@@ -1071,1391 +963,36 @@
         <!--offers////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <div class="offers-wrap">
-
             <div class="container">
-
                 <div class="row">
-
                     <div class="col-md-12">
-
-                        <h1 class="text-center">Our Best Car Rental Offers</h1>
-
-
+                        <h1 class="text-center"> Best Offers In my tour Driver</h1>
                         <div id="effect-6" class="effects clearfix">
-
                             <div id="offers-slider" class="owl-carousel owl-theme">
-
-
+                                <!-- start Item -->
+                                
                                 <div class="item img">
                                     <img class="img-responsive"
                                          src="http://www.casons.lk/uploads/model/thumb/nissanmarch.jpg"
                                          alt="Hire Nissan March with Casons">
-
                                     <div class="car-details clearfix">
                                         <span class="car-name">Nissan March</span>
                                         <span class="car-details-price">
                                             <h1> </h1>
                                             <span>per a day</span>
                                         </span>
-
                                     </div>
-
                                     <div class="overlay">
                                         <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/nissan-march">View Detail</a>
-
+                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myModal" onclick="viewModelDetails(32)"  href="#">View Detail</a>
                                             </br>
-
                                             <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(32)">Make  Enquiry</a></br>
-
                                             <a class="close-overlay hidden">x</a>
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/vivaelite.jpg"
-                                         alt="Viva Elite for Rent from Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Perodua Viva Elite</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-viva-elite">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(34)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/121.jpg"
-                                         alt="Toyota Corolla 121 Rentals with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Corolla 121</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-corolla-121">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(35)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/allion240.jpg"
-                                         alt="Toyota Allion Car for Rent at Casons Rent a Car">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Allion 240</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-allion-240">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(45)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/allion260.jpg"
-                                         alt="Toyota Allion 260 for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Allion 260 (2010)</span>
-                                        <span class="car-details-price">
-                                            <h1> kalinga</h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-allion-260-2010">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(47)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/premio260.jpg"
-                                         alt="Toyota Premio Rentals at Casons Rent a Car">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Premio 260</span>
-                                        <span class="car-details-price">
-                                            <h1> dsad</h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-premio-260">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(49)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/toyotafortuner.jpg"
-                                         alt="casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Fortuner</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-fortuner">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(55)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/prado.jpg"
-                                         alt="Toyota Prado for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Prado TRJ 150 2011</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-prado-trj-150-2011">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(58)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/montero.jpg"
-                                         alt="casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mitsubishi Montero  V6</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mitsubishi-montero-v6">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(60)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/hummerh3anaheim4770000458515374591.jpg"
-                                         alt="Prestigious Hummer for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Hummer H3</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/hummer-h3">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(61)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/rangerover.jpg"
-                                         alt="Range Rover Evoke for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Range Rover Evoque</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/range-rover-evoque">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(62)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/v82015.jpg"
-                                         alt="Toyota Land Cruiser Prado for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Land Cruiser V8</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-land-cruiser-v8">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(63)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/bmw5series520d2012id34571128typemain.jpg"
-                                         alt="BMW 5 Series for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">BMW 5 Series</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/bmw-5-series">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(65)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/benzeclassnew.jpg"
-                                         alt="Mercedes Benz E Class Rentals at Casons Rent a Car">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mercedes Benz E Class</span>
-                                        <span class="car-details-price">
-                                            <h1> asds</h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mercedes-benz-e-class">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(68)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/oakvillebanquethalllimo.png"
-                                         alt="Chrysler Limousine for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Chrysler Limousine</span>
-                                        <span class="car-details-price">
-                                            <h1> fdfd</h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/chrysler-limousine">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(71)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/1450759000643bulletin.jpg"
-                                         alt="Toyota KDH-220 Van Hires at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota KDH 200 (8 seater)</span>
-                                        <span class="car-details-price">
-                                            <h1> dsdsddsd</h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-kdh-200-8-seater">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(73)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/modelimg11336fe.jpg"
-                                         alt="Toyota Hilux Cab to Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Hilux</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-hilux">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(75)">Make  Enquiry</a></br>
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/mitsubishil200.png"
-                                         alt="Mitsubishi L200 Cab Rentals at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mitsubishi L200</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mitsubishi-l200">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(76)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/nissannavaradoublecabvisia.jpg"
-                                         alt="Nissan Navara Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Nissan Navara</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/nissan-navara">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(77)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/swift.jpg"
-                                         alt="Swift Rent at Casons Rent a Car">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Swift</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/swift">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(83)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/wagonrnew.jpg"
-                                         alt="Suzuki Wagon R Rental with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Suzuki Wagon R</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(95)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/suzuki-wagon-r">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(95)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/lexusrx350.jpg"
-                                         alt="Lexus RX 350 Rentals with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Lexus RX 350</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(97)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/lexus-rx-350">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(97)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/nissanpatrol.jpg"
-                                         alt="casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Nissan Petrol</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(99)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/nissan-petrol">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(99)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/alto800white.jpg"
-                                         alt="Alto 800">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Suzuki Alto 800</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/suzuki-alto-800">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(110)">Make  Enquiry</a></br>
-
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/toyotaharrierhybridh2015.jpg"
-                                         alt="Casons ">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Harrier Hybrid 2015</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-harrier-hybrid-2015">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(114)">Make  Enquiry</a></br>
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/images.jpg"
-                                         alt="-">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Land Rover Defender 2015</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/land-rover-defender-2015">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(115)">Make  Enquiry</a></br>
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/audiq7.jpg"
-                                         alt="Casons ">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Audi Q7</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/audi-q7">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(116)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/alfardnew.jpg"
-                                         alt="Casons ">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Alphard </span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-alphard">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(118)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/htb1h5shkfxxxxxpxxxxq6xxfxxxr.jpg"
-                                         alt="ddd">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Glory 330</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(124)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/glory-330">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(124)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/axiastandardperoduacar.jpg"
-                                         alt="Perodua Axia Rentals With Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Perodua Axia - Green</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(125)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-axia-green">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(125)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/untitled1.jpg"
-                                         alt="Perodua Axia Rentals With Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Perodua Axia - Blue</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(126)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-axia-blue">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(126)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/untitled2.jpg"
-                                         alt="Perodua Axia Rentals With Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Perodua Axia - Cherry Blossom</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(127)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-axia-cherry-blossom">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(127)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/axiasilver34sidee.jpg"
-                                         alt="Perodua Axia Rentals With Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Perodua Axia - Silver</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-axia-silver">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(128)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/axiared.jpg"
-                                         alt="Perodua Axia Rentals With Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Perodua Axia - Black</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(129)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/perodua-axia-black">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(129)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/audiq51.jpg"
-                                         alt="Audi Q5 Rental with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Audi Q5</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(130)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/audi-q5">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(130)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/bmwx12.jpg"
-                                         alt="BMW X1 Rental with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">BMW X1</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(131)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/bmw-x1">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(131)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/benzc200.jpg"
-                                         alt="Mercedes Benz C200 Rentals with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mercedes Benz C200</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(132)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mercedes-benz-c200">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(132)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/mitshuoutlander1.jpg"
-                                         alt="Mitsubishi Outlander PHEV Rentals with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mitsubishi Outlander PHEV</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(133)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mitsubishi-outlander-phev">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(133)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/harrier11.jpg"
-                                         alt="Toyota Harrier rentals with Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Toyota Harrier</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(134)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/toyota-harrier">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(134)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/benzbclassnew.jpg"
-                                         alt="Mercedes Benz B Class Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mercedes Benz B Class</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(136)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mercedes-benz-b-class">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(136)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/datsongowhite.jpg"
-                                         alt="Datson Go for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Datson Go - White</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(138)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/datson-go-white">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(138)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/datsongored.jpg"
-                                         alt="Datson Go for Rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Datson Go - Red</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <!--mycardetail-->
-                                            <!--  <a class=" btn btn-border" data-toggle="modal" data-target="#mycardetail" onclick="viewModelDetails(139)">View Detail</a>
-  
-                                            -->
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/datson-go-red">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(139)">Make  Enquiry</a></br>
-
-                                            <!--                                        <a href="#" class=" btn btn-border btn-border-red" data-toggle="modal" data-target="#myModal2">Book Now</a>-->
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/mahindraimperiodoublecabblueside.jpg"
-                                         alt="Mahindra Imperio rent at Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Mahindra Imperio</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/mahindra-imperio">View Detail</a>
-
-                                            </br>
-
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(140)">Make  Enquiry</a></br>
-
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="item img">
-                                    <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/renaultkwid.jpg"
-                                         alt="Renault KWID for rent in Casons">
-
-                                    <div class="car-details clearfix">
-                                        <span class="car-name">Renault KWID</span>
-                                        <span class="car-details-price">
-                                            <h1> </h1>
-                                            <span>per a day</span>
-                                        </span>
-
-                                    </div>
-
-                                    <div class="overlay">
-                                        <div class="expand">
-                                            <a class=" btn btn-border"  href="http://www.casons.lk/vehicle/renault-kwid">View Detail</a>
-                                            </br>
-                                            <a class=" btn btn-border" data-toggle="modal" data-target="#myInq" onclick="inquiryModel(141)">Make  Enquiry</a></br>
-                                            <a class="close-overlay hidden">x</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end item row-->
-
+                                <!-- end Item -->
+                              
                             </div>
 
                             <div class="customNavigation">
@@ -2611,6 +1148,7 @@
         </script>
         <script>
             function viewModelDetails(modelid) {
+                alert(modelid);
                 $.ajax({
                     type: 'POST',
                     url: site_url + '/article_controller/viewVehicleModelDetail',
@@ -2625,7 +1163,9 @@
             }
 
             function inquiryModel(modelid) {
+                alert(modelid);
                 $.ajax({
+                    
                     type: 'POST',
                     url: site_url + 'article_controller/getVehicleModel',
                     // data: 'bookingid=' + bookingid,
@@ -2639,9 +1179,6 @@
                     }
                 });
             }
-
-
-
         </script>
 
 
@@ -2665,6 +1202,7 @@
                 </div>
             </div>
         </div>
+        
         <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
@@ -2672,7 +1210,7 @@
             <div class="container">
                 <div class="row" style="width: 850px;">
                     <div class="col-md-8">
-                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
+                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="#">Contact Us</a></h2>
                     </div>
 
                     <div class="col-md-4 social-icons">
@@ -2831,7 +1369,7 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-5">
-                                <img class="img-responsive" src="http://www.casons.lk//application_resources/images/allion-view.jpg">
+                                <img class="img-responsive" src="application_resources/images/slider/doubleCab.jpg">
                             </div>
                             <div class="col-md-7">
                                 <h1>Toyota Allion 240 - Self Driven</h1>
@@ -2850,8 +1388,9 @@
                                             <span>per a day</span>
                                         </span>
                                         <div class="clearfix"></div>
-                                        <div class="text-right small-text">Refundable Deposit  $350</div>
-                                        <a class="btn btn-lg btn-danger pull-right" href="#">Book Now</a>
+                                        <div class="text-right small-text">Refundable Deposit</div>
+                                        <!--<a class="btn btn-lg btn-danger pull-right" href="#">Book Now</a>-->
+                                        <a class=" btn btn-lg btn-danger pull-right" data-toggle="modal" data-target="#myModal2" onclick="">Book Now</a><br>
                                     </div>
                                 </div>
                             </div>
@@ -2872,7 +1411,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <h1>Phone Reservations </h1>
-                                <h2>SMS : +94 777 312 500</h2>
+                                <h2>SMS : +94 077 000 000 000</h2>
                                 <div class="form-wrap clearfix">
                                     <div class="col-sm-12 clearfix">
                                         <h2>Make Enquiry</h2>
@@ -2965,9 +1504,9 @@
         <script src="http://www.casons.lk/application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
-                $(function () {
-                    $('[data-toggle="tooltip"]').tooltip()
-                });
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
         </script>
 
         <!--owl carousal-->
@@ -3139,22 +1678,15 @@
 
             });
         </script>
-
-
         <script src="http://www.casons.lk/application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
-
         <script src="http://momentjs.com/downloads/moment.js"></script> 
-
         <!--New-->
         <script src="http://www.casons.lk/application_resources/js/slider.js" type="text/javascript"></script>
         <script src="http://www.casons.lk/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
-
         <!--slider - owl-->
         <script>
             $(document).ready(function () {
-
                 var owl = $("#sort-slider");
-
                 owl.owlCarousel({
                     items: 6, //10 items above 1000px browser width
                     itemsDesktop: [1000, 4], //5 items between 1000px and 901px
@@ -3201,19 +1733,9 @@
 
 
             $("#phone_no").intlTelInput(
-                    {//autoFormat: true,  // autoHideDialCode: false,
-                        //defaultCountry: "lk"
-                        //  nationalMode: true,
-                        // utilsScript: "http://www.casons.lk/application_resources/css/build/js/utils.js"
-
-                        autoFormat: false,
+                    { autoFormat: false,
                         autoHideDialCode: false,
-                        // defaultCountry: "in",
-                        //nationalMode: true,
-                        //numberType: "MOBILE",
-                        //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-                        //preferredCountries: ['cn', 'jp'],
-                        //responsiveDropdown: true,
+                     
                         defaultCountry: "auto",
                         geoIpLookup: function (callback) {
                             $.get('http://ipinfo.io', function () {
