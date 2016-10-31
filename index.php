@@ -600,7 +600,6 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="withDriver">
 
-<<<<<<< HEAD
                             <form id="get_search_form1" action="http://www.casons.lk/article_controller/search_result" method="post">
 
                                 <div class="form-group col-sm-12">
@@ -692,98 +691,6 @@
 
                         </div>
 
-
-                        <div role="tabpanel" class="tab-pane fade" id="withDriver">
-
-                            <form id="get_search_form2" action="http://www.casons.lk/article_controller/search_result" method="post">
-=======
-                            <form id="get_search_form2" action="#" method="post">
->>>>>>> beec3c4aba4489fef0f08112d474029161a0df58
-
-                                <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>pickup location</strong> </label>
-                                    <select class="form-control" name="pick_location" id="pick_location" autocomplete="off">
-                                        <option value="">- PICKUP LOCATION -</option>
-                                        <option value="1" >Bandaranayake International Airport</option>
-                                        <option value="2" >Colombo</option>
-                                        <option value="3" selected>Casons Head office</option>
-
-                                    </select>
-
-                                    <input id="location_checkbox_wd" type="checkbox" value="1" name="checkbox_location">
-                                    <label for="location_checkbox"> Return at Different Location</label>
-                                </div>
-
-                                <div class="form-group col-sm-12" id="ret_location_row_wd" style="display: none;">
-                                    <label class="control-label"><strong>return location</strong> </label>
-                                    <select class="form-control" name="ret_location" id="ret_location" autocomplete="off">
-                                        <option value="">- RETURN LOCATION -</option>
-                                        <option value="1">Bandaranayake International Airport</option>
-                                        <option value="2">Colombo</option>
-                                        <option value="3">Casons Head office</option>
-
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-sm-4 search-form-date-padding">
-                                    <label class="control-label"><strong>pickup date</strong> </label>
-                                    <input type="text" class="form-control " name="stdate" id="stdate_wd1" placeholder="Pick-Up Date" value="28/10/2016" >
-                                </div>
-                                <div class="form-group col-sm-2">
-                                    <label class="control-label"><strong>time</strong> </label>
-                                    <input type="text" class="form-control " name="sttime" id="sttime_sd1" placeholder="Time" value="00:00">
-                                </div>
-
-                                <div class="form-group col-sm-4 search-form-date-padding">
-                                    <label class="control-label"><strong>return date</strong> </label>
-                                    <input type="text" class="form-control " name="enddate" id="enddate_wd1" placeholder="Drop-Off Date" value="28/10/2016" >
-                                </div>
-                                <div class="form-group col-sm-2">
-                                    <label class="control-label"><strong>time</strong> </label>
-                                    <input type="text" class="form-control " name="endtime" id="endtime_sd1" placeholder="Time" value="00:00">
-                                </div>
-
-                                <div class="form-group col-sm-6">
-                                    <label class="control-label"><strong>Number of Days</strong> </label>
-                                    <input type="text" class="form-control" name="num_days" id="num_days_wd1" placeholder="Number of Days" value="1" readonly>
-                                </div>
-
-
-                                <div class="form-group col-sm-6">
-                                    <label class="control-label"><strong>vehicle type</strong> </label>
-                                    <select class="form-control" name="car_type" id="car_type" autocomplete="off">
-                                        <!--<option value="">- Vehicle Category -</option>-->
-                                        <option value="0">- All Type-</option>
-                                        <option value="52">Motor Bike</option>
-                                        <option value="22">Cars</option>
-                                        <option value="24"> SUV's</option>
-                                        <option value="27"> 4*4 Cabs</option>
-                                        <option value="23">Vans</option>
-                                        <option value="54">Bus</option>
-                                        <option value="53">Lorry</option>
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>currency type</strong> </label>
-                                    <select class="form-control" name="currency" id="currency" autocomplete="off">
-                                        <option value="">- CURRENCY -</option>
-                                        <option value="2"
-                                                selected >Sri Lankan Rupee (LKR)</option>
-
-                                    </select>
-                                </div>
-
-                                <input type="hidden" class="form-control" name="service" id="service" value="WD">
-                                <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
-                                    <input class="btn btn-danger pull-right" type="submit" value="Search"/>
-                                </div>
-
-                            </form>
-
-                        </div>
-
                         <div role="tabpanel" class="tab-pane fade" id="airport">
 
                             <form id="get_search_form3" action="#" method="post">
@@ -865,172 +772,6 @@
                             </div>
 
                         </div>
-
-<<<<<<< HEAD
-                        <div role="tabpanel" class="tab-pane fade" id="weddings">
-
-                            <form id="get_search_form4" action="http://www.casons.lk/article_controller/search_result" method="post">
-
-                                <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>pickup location</strong> </label>
-                                    <select class="form-control pickup_loc "  name="pick_location" id="pick_location_wedding" autocomplete="off">
-                                        <!--<option value="">- LOCATION -</option>-->
-                                        <option value="2">Colombo</option>
-                                        <!--<option value="1" >Bandaranayake International Airport</option>-->
-                                        <!--<option value="2" >Colombo</option>-->
-                                        <!--<option value="3" >Casons Head office</option>-->
-                                        <!--<option value="4" >Adams Peak</option>-->
-                                        <!--<option value="5" >Ahungalla</option>-->
-                                        <!--<option value="6" >Aluthgama</option>-->
-                                        <!--<option value="7" >Ambalangoda</option>-->
-                                        <!--<option value="8" >Ambepussa</option>-->
-                                        <!--<option value="9" >Anuradapura</option>-->
-                                        <!--<option value="10" >Arugambay</option>-->
-                                        <!--<option value="11" >Awissawella</option>-->
-                                        <!--<option value="12" >Balangoda</option>-->
-                                        <!--<option value="13" >Balapitiya</option>-->
-                                        <!--<option value="14" >Bellihuloya</option>-->
-                                        <!--<option value="15" >Bentota</option>-->
-                                        <!--<option value="16" >Beruwala</option>-->
-                                        <!--<option value="17" >Bundala</option>-->
-                                        <!--<option value="18" >Chillaw</option>-->
-                                        <!--<option value="19" >Dambulla</option>-->
-                                        <!--<option value="20" >Denniyaya</option>-->
-                                        <!--<option value="21" >Dikwella</option>-->
-                                        <!--<option value="22" >Digana</option>-->
-                                        <!--<option value="23" >Elephant Pass</option>-->
-                                        <!--<option value="24" >Ella</option>-->
-                                        <!--<option value="25" >Embilipitiya</option>-->
-                                        <!--<option value="26" >Galle</option>-->
-                                        <!--<option value="27" >Gampaha</option>-->
-                                        <!--<option value="28" >Gampola</option>-->
-                                        <!--<option value="29" >Giritale</option>-->
-                                        <!--<option value="30" >Habarana</option>-->
-                                        <!--<option value="31" >Hambantota</option>-->
-                                        <!--<option value="32" >Haputale</option>-->
-                                        <!--<option value="33" >Hatton</option>-->
-                                        <!--<option value="34" >Hikkaduwa</option>-->
-                                        <!--<option value="35" >Induruwa</option>-->
-                                        <!--<option value="36" >Yala</option>-->
-                                        <!--<option value="37" >Jaffna</option>-->
-                                        <!--<option value="39" >Higurakgoda</option>-->
-                                        <!--<option value="40" >galewela</option>-->
-                                        <!--<option value="43" >Mihintale</option>-->
-                                        <!--<option value="44" >Mahiyanganaya</option>-->
-                                        <!--<option value="45" >Badulla</option>-->
-                                        <!--<option value="46" >Bandarawela</option>-->
-                                        <!--<option value="47" >Kahawatta</option>-->
-                                        <!--<option value="48" >Kalmunai</option>-->
-                                        <!--<option value="49" >Kalpitiya</option>-->
-                                        <!--<option value="50" >Kalutara</option>-->
-                                        <!--<option value="51" >Kandalama</option>-->
-                                        <!--<option value="52" >Kandy</option>-->
-                                        <!--<option value="53" >Kataragama</option>-->
-                                        <!--<option value="54" >Kegalle</option>-->
-                                        <!--<option value="55" >Kitulgala</option>-->
-                                        <!--<option value="56" >Puttalam</option>-->
-                                        <!--<option value="57" >Point Pedro</option>-->
-                                        <!--<option value="58" >Ampara</option>-->
-                                        <!--<option value="59" >Kadugannawa</option>-->
-                                        <!--<option value="60" >Batticaloa</option>-->
-                                        <!--<option value="61" >Knuckles</option>-->
-                                        <!--<option value="62" >Koggala</option>-->
-                                        <!--<option value="63" >Kosgoda</option>-->
-                                        <!--<option value="64" >Kotmale</option>-->
-                                        <!--<option value="65" >Kurunegala</option>-->
-                                        <!--<option value="66" >Lahugala</option>-->
-                                        <!--<option value="67" >Leisure World</option>-->
-                                        <!--<option value="68" >Medawachchiya</option>-->
-                                        <!--<option value="69" >Mahaoya</option>-->
-                                        <!--<option value="70" >Mannar</option>-->
-                                        <!--<option value="71" >Marawila</option>-->
-                                        <!--<option value="72" >Matale</option>-->
-                                        <!--<option value="73" >Matara</option>-->
-                                        <!--<option value="74" >Mathugama</option>-->
-                                        <!--<option value="75" >Minneriya</option>-->
-                                        <!--<option value="76" >Mirissa</option>-->
-                                        <!--<option value="77" >Monaragala</option>-->
-                                        <!--<option value="78" >Moratuwa</option>-->
-                                        <!--<option value="79" >Mount Lavinia</option>-->
-                                        <!--<option value="80" >Nawalapitiya</option>-->
-                                        <!--<option value="81" >Negombo</option>-->
-                                        <!--<option value="82" >Nittambuwa</option>-->
-                                        <!--<option value="83" >Nuwara Eliya</option>-->
-                                        <!--<option value="84" >Omantai</option>-->
-                                        <!--<option value="85" >Passara</option>-->
-                                        <!--<option value="86" >Polonnaruwa</option>-->
-                                        <!--<option value="87" >Pothuwil</option>-->
-                                        <!--<option value="88" >Pulmudai</option>-->
-                                        <!--<option value="89" >Ramboda</option>-->
-                                        <!--<option value="90" >Ranna</option>-->
-                                        <!--<option value="91" >Rathnapura</option>-->
-                                        <!--<option value="92" >Sigiriya</option>-->
-                                        <!--<option value="93" >Sooriyawewa</option>-->
-                                        <!--<option value="94" >Talawakale</option>-->
-                                        <!--<option value="95" >Tangalle</option>-->
-                                        <!--<option value="96" >Tissamaharama</option>-->
-                                        <!--<option value="97" >Trincomalee</option>-->
-                                        <!--<option value="98" >Udawalawe</option>-->
-                                        <!--<option value="99" >Unawatuna</option>-->
-                                        <!--<option value="100" >Vavuniya</option>-->
-                                        <!--<option value="101" >Wadduwa</option>-->
-                                        <!--<option value="102" >wasgamuwa</option>-->
-                                        <!--<option value="103" >Weligama</option>-->
-                                        <!--<option value="104" >Wellawaya</option>-->
-                                        <!--<option value="105" >Wilpattu</option>-->
-                                        <!--<option value="106" >Talpe</option>-->
-                                        <!--<option value="107" >Ingiriya</option>-->
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-sm-6">
-                                    <label class="control-label"><strong>pickup date</strong> </label>
-                                    <input type="text" class="form-control " name="stdate" id="stdate" placeholder="Pick-Up Date and Time" value="28/10/2016">
-                                </div>
-
-                                <div class="form-group col-sm-6">
-                                    <label class="control-label"><strong>time</strong> </label>
-                                    <input type="text" class="form-control " name="sttime" id="sttime" placeholder="Time" value="00:00">
-                                </div>
-
-                                <!-- 2016/02/03                        <div class="form-group col-sm-12">
-                                                            <input type="text" class="form-control " name="hours" id="hours" placeholder="Hours you need">
-                                                        </div>-->
-
-                                <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>vehicle type</strong> </label>
-                                    <select class="form-control" name="car_type" id="car_type" autocomplete="off">
-                                        <!--<option value="">- Vehicle Type -</option>-->
-
-                                        <option value="0">- All Type -</option>
-                                        <option value="24"> SUV's</option>
-                                        <option value="22">Cars</option>
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>currency type</strong> </label>
-                                    <select class="form-control" name="currency" id="currency" autocomplete="off">
-                                        <option value="">- CURRENCY -</option>
-                                        <option value="2"
-                                                selected >Sri Lankan Rupee (LKR)</option>
-
-                                    </select>
-                                </div>
-
-                                <input type="hidden" class="form-control" name="service" id="service" value="WED">
-
-
-                                <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
-                                    <input class="btn btn-danger pull-right" type="submit" value="Search"/>
-                                </div>
-
-                            </form>
-
-                        </div>
-=======
->>>>>>> beec3c4aba4489fef0f08112d474029161a0df58
 
                         <div role="tabpanel" class="tab-pane fade" id="taxi">
 
@@ -2935,7 +2676,9 @@
         <div class="contact-row-wrapper">
             <div class="container">
                 <div class="row">
-<<<<<<< HEAD
+                    <div class="col-md-8">
+                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
+                    </div>
 
                     <div class="col-md-4 social-icons">
                         <ul class="list-inline list-unstyled pull-right">
@@ -2945,29 +2688,11 @@
                             <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
                             <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
                         </ul>
-=======
-                    <div class="col-md-8">
-                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
-
->>>>>>> beec3c4aba4489fef0f08112d474029161a0df58
                     </div>
                 </div>
-
-<<<<<<< HEAD
-=======
-                <div class="col-md-4 social-icons">
-                    <ul class="list-inline list-unstyled pull-right">
-                        <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
-                        <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
-                        <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
-                        <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
-                        <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
-                    </ul>
->>>>>>> beec3c4aba4489fef0f08112d474029161a0df58
-                </div>
-
             </div>
         </div>
+
 
         <!--contact row-->
         <!--footer wrap ///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
