@@ -366,7 +366,7 @@
                             </div>
 
                             <div class="form-group col-sm-12">
-                                <div  id="send_enquiry_search"></div> 
+                                <div  id="send_enquiry_search" style=" margin-bottom: 10px;"></div> 
                                 </br>
                                 <div id="sentmsg"> </div>
 
@@ -691,7 +691,7 @@
 
 
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -787,7 +787,7 @@
 
                                 <input type="hidden" class="form-control" name="service" id="service" value="WD">
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -1367,7 +1367,7 @@
                                 </div>
 
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -1539,7 +1539,7 @@
 
 
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -1700,7 +1700,7 @@
                                 </div>
 
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -3862,9 +3862,9 @@
         <script src="http://www.casons.lk/application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
-                $(function () {
-                    $('[data-toggle="tooltip"]').tooltip()
-                });
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
         </script>
 
         <!--owl carousal-->
