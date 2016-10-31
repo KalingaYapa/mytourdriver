@@ -34,9 +34,8 @@
         <script type="text/javascript">
 
             var js_base_url = "";
-            var js_site_url = "";
-
-            //alert(js_url_path);
+                    var js_site_url = "";
+                    //alert(js_url_path);
         </script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -113,34 +112,26 @@
 
         <script>
 
-           $('#country').countrySelect({
-               //  defaultCountry: "lk",
-           });
-
-        </script>
+                        $('#country').countrySelect({
+                //  defaultCountry: "lk",
+                });        </script>
 
         <!--      SITE  -->
         <script>
 
 
-            $('input[name="country"]').countrySelect({
-                //  defaultCountry: "lk"
-                defaultCountry: "auto"
-            });
-
-
-        </script>
+                            $('input[name="country"]').countrySelect({
+                    //  defaultCountry: "lk"
+                    defaultCountry: "auto"
+                    });        </script>
 
         <script>
 
-            $(window).load(function () {
-                var countryCode = $('input[name="telephone"]').intlTelInput("getSelectedCountryData").iso2;
-                // alert(countryData.iso2);
-                $('input[name="country"]').countrySelect("selectCountry", countryCode);
-
-            });
-
-        </script>
+                            $(window).load(function () {
+                    var countryCode = $('input[name="telephone"]').intlTelInput("getSelectedCountryData").iso2;
+                            // alert(countryData.iso2);
+                            $('input[name="country"]').countrySelect("selectCountry", countryCode);
+                    });        </script>
 
 
 
@@ -254,9 +245,6 @@
                                                         <li> <a href='http://www.casons.lk/vehicles/buses'>Buses</a> </li>
                                                     </ul>
                                                 </li>
-
-
-
                                                 <li class="">
                                                     <a
                                                         href="http://www.casons.lk/corporate-rental"> <b>Corporate Rental</b>  </a>
@@ -623,19 +611,17 @@
         <!--end Cooperate rental model-->
 
         <script>
-            $('input[name=stdate] ').datetimepicker({
-                dayOfWeekStart: 1,
-                lang: 'en',
-                minDate: 0,
-                // datepicker:false,
-                timepicker: false,
-        //        format:'Y/m/d',
-                format: 'd/m/Y'
+                            $('input[name=stdate] ').datetimepicker({
+                    dayOfWeekStart: 1,
+                            lang: 'en',
+                            minDate: 0,
+                            // datepicker:false,
+                            timepicker: false,
+                            //        format:'Y/m/d',
+                            format: 'd/m/Y'
 
 
-            });
-
-        </script>
+                    });        </script>
 
         <div class="container content-wrapper">
 
@@ -6056,7 +6042,7 @@ Unlimited mileage: </li>  -->
                                                 <option value="2"
                                                         >
                                                     Colombo</option>
-                                               
+
 
                                             </select>
                                         </div>
@@ -7298,32 +7284,27 @@ Unlimited mileage: </li>  -->
 
 
 
-            function submitBookingForm(service , discountedamount, amount , model, excess, freemileage,modelid){
-    
-                //$('#bookingform') .find('#pick_location').val(service);
-                $('#bookingform').find('#modelid').val(modelid);
-                $('#bookingform').find('#discountedamount').val(discountedamount);
-                $('#bookingform').find('#amount').val(amount);
-    
-                if ($('#unlimited'+modelid).is(":checked")){
-                    $('#bookingform').find ('#unlimited').val(1);
-            }else{
-                    $('#bookingform' ).fi nd('#unlimited').val(0);
-            }
-    
-  
-                $('#bookingform').submit();
-    
-        }
+                            function submitBookingForm(service, discountedamount, amount, model, excess, freemileage, modelid){
 
-            function searchByCaregory(categoryid){
-    
-                $('#formcategory'). find('#car_type').val(categoryid);
-    
-    
-                $('#formcategory').submit();
-    
-        }
+                            //$('#bookingform') .find('#pick_location').val(service);
+                            $('#bookingform').find('#modelid').val(modelid);
+                                    $('#bookingform').find('#discountedamount').val(discountedamount);
+                                    $('#bookingform').find('#amount').val(amount);
+                                    if ($('#unlimited' + modelid).is(":checked")){
+                            $('#bookingform').find ('#unlimited').val(1);
+                            } else{
+                            $('#bookingform').fi nd('#unlimited').val(0);
+                            }
+
+
+                            $('#bookingform').submit();
+                            }
+
+                    function searchByCaregory(categoryid){
+
+                    $('#formcategory').find('#car_type').val(categoryid);
+                            $('#formcategory').submit();
+                    }
 
 
 
@@ -7340,112 +7321,102 @@ Unlimited mileage: </li>  -->
 
 
 
-            var source, destination;
-            var directionsDisplay;
-            var directionsService = new google.maps.DirectionsService();
-            google.maps.event.addDomListener(window, 'load', function () {
-                // new google.maps.places.SearchBox(document.getElementById('txtSource'));
-                // new google.maps.places.SearchBox(document.getElementById('txtDestination'));
-                directionsDisplay = new google.maps.DirectionsRenderer({ 'draggable': true });
-            });
+                            var source, destination;
+                            var directionsDisplay;
+                            var directionsService = new google.maps.DirectionsService();
+                            google.maps.event.addDomListener(window, 'load', function () {
+                            // new google.maps.places.SearchBox(document.getElementById('txtSource'));
+                            // new google.maps.places.SearchBox(document.getElementById('txtDestination'));
+                            directionsDisplay = new google.maps.DirectionsRenderer({ 'draggable': true });
+                            });
+                            function GetRouteAir() {
+                            var SLanka = new google.maps.LatLng(7.0000, 81.0000);
+                                    var mapOptions = {
+                                    zoom: 7,
+                                            center: SLanka         };
+                                    map = new google.maps.Map(document.getElementById('dvMapair'), mapOptions);
+                                    directionsDisplay.setMap(map);
+                                    directionsDisplay.setPanel(document.getElementById('dvPanelair'));
+                                    //*********DIRECTIONS AND ROUTE**********************//
 
+                                    source = $('#pick_location_air  option:selected').text();
+                                    destination = $('#ret_location_air  option:selected').text();
+                                    //  source = document.getElementById("txtSource").value;
+                                    //  destination = document.getElementById("txtDestination").value;
 
-            function GetRouteAir() {
-                var SLanka = new google.maps.LatLng(7.0000, 81.0000);
-                var mapOptions = {
-                zoom: 7,
-                    center: SLanka         };
-                map = new google.maps.Map(document.getElementById('dvMapair'), mapOptions);
-                directionsDisplay.setMap(map);
-                directionsDisplay.setPanel(document.getElementById('dvPanelair'));
+                                    var request = {
+                                    origin: source, destination: destination,
+                                            travelMode: google.maps.TravelMode.DRIVING
+                                    };
+                                    directionsService.route(request, function (response, status) {             if (status == google.maps.DirectionsStatus.OK) {
+                                    directionsDisplay.setDirections(response);
+                                    }
+                                    });
+                                    //*********DISTANCE AND DURATION**********************//
+                                    var service = new google.maps.DistanceMatrixService();
+                                    service.getDistanceMatrix({
+                                    origins: [source],
+                                            destinations: [destination],
+                                            travelMode: google.maps.TravelMode.DRIVING,
+                                            unitSystem: google.maps.UnitSystem.METRIC,
+                                            avoidHighways: false,
+                                            avoidTolls: false
+                                    }, function (response, status) {             if (status == google.maps.DistanceMatrixStatus.OK && response.rows[0].elements[0].status != "ZERO_RESULTS") {
+                                    var distance = response.rows[0].elements[0].distance.text;
+                                            var duration = response.rows[0].elements[0].duration.text;
+                                            var dvDistance = document.getElementById("dvDistanceair");
+                                            dvDistance.innerHTML = "";
+                                            dvDistance.innerHTML += "Distance:" + " <input type='hidden' id='length' name='length' value='" + distance + "'>" + distance + "< b r />";
+                                            dvDistance.innerHTML += "Duration:" + duration;
+                                    } else {
+                                    alert("Unable to find the distance via road.");
+                                    }
+                                    });
+                            }
 
-                //*********DIRECTIONS AND ROUTE**********************//
+                    function GetRouteTaxi() {
+                    var SLanka = new google.maps.LatLng(7.0000, 81.0000);
+                            var mapOptions = {
+                            zoom: 7,
+                                    center: SLanka         };
+                            map = new google.maps.Map(document.getElementById('dvMaptaxi'), mapOptions);
+                            directionsDisplay.setMap(map);
+                            directionsDisplay.setPanel(document.getElementById('dvPaneltaxi'));
+                            //*********DIRECTIONS AND ROUTE**********************//
 
-                source = $('#pick_location_air  option:selected').text();
-                destination = $('#ret_location_air  option:selected').text();
+                            source = $('#pick_location_taxi  option:selected').text();
+                            destination = $('#ret_location_taxi  option:selected').text();
+                            //  source = document.getElementById("txtSource").value;
+                            //  destination = document.getElementById("txtDestination").value;
 
-                //  source = document.getElementById("txtSource").value;
-                //  destination = document.getElementById("txtDestination").value;
-
-                var request = {
-                    origin: source,             destination: destination,
-                    travelMode: google.maps.TravelMode.DRIVING
-                };
-                    directionsService.route(request, function (response, status) {             if (status == google.maps.DirectionsStatus.OK) {
-                        directionsDisplay.setDirections(response);
-                    }
-                });
-
-                //*********DISTANCE AND DURATION**********************//
-                var service = new google.maps.DistanceMatrixService();
-                service.getDistanceMatrix({
-                    origins: [source],
-                    destinations: [destination],
-                    travelMode: google.maps.TravelMode.DRIVING,
-                    unitSystem: google.maps.UnitSystem.METRIC,
-                    avoidHighways: false,
-                    avoidTolls: false
-                    }, function (response, status) {             if (status == google.maps.DistanceMatrixStatus.OK && response.rows[0].elements[0].status != "ZERO_RESULTS") {
-                        var distance = response.rows[0].elements[0].distance.text;
-                        var duration = response.rows[0].elements[0].duration.text;
-                        var dvDistance = document.getElementById("dvDistanceair");
-                        dvDistance.innerHTML = "";
-                        dvDistance.innerHTML += "Distance:" + " <input type='hidden' id='length' name='length' value='"+distance+"'>" + distance + "< b r />";
-                        dvDistance.innerHTML += "Duration:" + duration;
-
-                    } else {
-                        alert("Unable to find the distance via road.");
-                    }
-                });
-                    }
-
-            function GetRouteTaxi() {
-                var SLanka = new google.maps.LatLng(7.0000, 81.0000);
-                var mapOptions = {
-                zoom: 7,
-                    center: SLanka         };
-                map = new google.maps.Map(document.getElementById('dvMaptaxi'), mapOptions);
-                directionsDisplay.setMap(map);
-                directionsDisplay.setPanel(document.getElementById('dvPaneltaxi'));
-
-                //*********DIRECTIONS AND ROUTE**********************//
-
-                source = $('#pick_location_taxi  option:selected').text();
-                destination = $('#ret_location_taxi  option:selected').text();
-
-                //  source = document.getElementById("txtSource").value;
-                //  destination = document.getElementById("txtDestination").value;
-
-                var request = {
-                    origin: source,             destination: destination,
-                    travelMode: google.maps.TravelMode.DRIVING
-                };
-                    directionsService.route(request, function (response, status) {             if (status == google.maps.DirectionsStatus.OK) {
-                        directionsDisplay.setDirections(response);
-                    }
-                });
-
-                //*********DISTANCE AND DURATION**********************//
-                var service = new google.maps.DistanceMatrixService();
-                service.getDistanceMatrix({
-                    origins: [source],
-                    destinations: [destination],
-                    travelMode: google.maps.TravelMode.DRIVING,
-                    unitSystem: google.maps.UnitSystem.METRIC,
-                    avoidHighways: false,
-                    avoidTolls: false
-                    }, function (response, status) {             if (status == google.maps.DistanceMatrixStatus.OK && response.rows[0].elements[0].status != "ZERO_RESULTS") {
-                        var distance = response.rows[0].elements[0].distance.text;
-                        var duration = response.rows[0].elements[0].duration.text;
-                        var dvDistance = document.getElementById("dvDistancetaxi");
-                        dvDistance.innerHTML = "";
-                        dvDistance.innerHTML += "Distance:" + " <input type='hidden' id='length' name='length' value='"+distance+"'>" + distance + "< b r />";
-                        dvDistance.innerHTML += "Duration:" + duration;
-
-                    } else {
-                        alert("Unable to find the distance via road.");
-                    }
-                });
+                            var request = {
+                            origin: source, destination: destination,
+                                    travelMode: google.maps.TravelMode.DRIVING
+                            };
+                            directionsService.route(request, function (response, status) {             if (status == google.maps.DirectionsStatus.OK) {
+                            directionsDisplay.setDirections(response);
+                            }
+                            });
+                            //*********DISTANCE AND DURATION**********************//
+                            var service = new google.maps.DistanceMatrixService();
+                            service.getDistanceMatrix({
+                            origins: [source],
+                                    destinations: [destination],
+                                    travelMode: google.maps.TravelMode.DRIVING,
+                                    unitSystem: google.maps.UnitSystem.METRIC,
+                                    avoidHighways: false,
+                                    avoidTolls: false
+                            }, function (response, status) {             if (status == google.maps.DistanceMatrixStatus.OK && response.rows[0].elements[0].status != "ZERO_RESULTS") {
+                            var distance = response.rows[0].elements[0].distance.text;
+                                    var duration = response.rows[0].elements[0].duration.text;
+                                    var dvDistance = document.getElementById("dvDistancetaxi");
+                                    dvDistance.innerHTML = "";
+                                    dvDistance.innerHTML += "Distance:" + " <input type='hidden' id='length' name='length' value='" + distance + "'>" + distance + "< b r />";
+                                    dvDistance.innerHTML += "Duration:" + duration;
+                            } else {
+                            alert("Unable to find the distance via road.");
+                            }
+                            });
                     }
 
         </script>
@@ -7461,179 +7432,162 @@ Unlimited mileage: </li>  -->
 
 
 
-            function getAlert($tab, $amount, $model, $excessperkm, $freemilaege, $model_id ){
+                    function getAlert($tab, $amount, $model, $excessperkm, $freemilaege, $model_id){
 
-                //$("input[name=nam eGoesHere]").val();
-                // var price = $('.price').val();
-                // var amount = $('.amount').val(price);
-                /// var price$("input[name=price]").val();
+                    //$("input[name=nam eGoesHere]").val();
+                    // var price = $('.price').val();
+                    // var amount = $('.amount').val(price);
+                    /// var price$("input[name=price]").val();
 
-                var checkboxid = '#unlimitedmile'+$model_id;         var unlimi t edpercentage =         //  unlimitedmile
-            unlimitedamt =0;
-                if (unlimitedpercen tage){
-                    var unlimitedamt  = ($amount/100)*unlimitedpercentage;
-                   } 
+                    var checkboxid = '#unlimitedmile' + $model_id; var unlimi t edpercentage = //  unlimitedmile
+                            unlimitedamt = 0;
+                            if (unlimitedpercen tage){
+                    var unlimitedamt = ($amount / 100) * unlimitedpercentage;
+                    }
 
-                if ($(checkboxid).is(":checked"))
-                {
+                    if ($(checkboxid).is(":checked"))
+                    {
                     $('.unlimited').val(unlimitedamt);
-                }
+                    }
 
-                $('.priceamount').val($amount);
-                $('.vehiclemodel').val($model);
-       
-      
-                var pick_location, ret_location, stdate, enddate, num_days, car_type, currency, priceamount, vehiclemodel, drtype, excessperkm, freemilaege, model_id;
-
-                //  if ($tab == 'sd'){
-                if ($tab == 'sd') {
+                    $('.priceamount').val($amount);
+                            $('.vehiclemodel').val($model);
+                            var pick_location, ret_location, stdate, enddate, num_days, car_type, currency, priceamount, vehiclemodel, drtype, excessperkm, freemilaege, model_id;
+                            //  if ($tab == 'sd'){
+                            if ($tab == 'sd') {
 
                     pick_location = $('#get_search_form1').find('.pick_location').val();
-                    ret_location = $('#get_search_form1').find('.ret_location').val();
-                    stdate = $('#get_search_form1').find('.stdate').val();
-                    enddate = $('#get_search_form1').find('.enddate').val();
-                    num_days = $('#get_search_form1').find('.num_days').val();
-                    car_type = $('#get_search_form1').find('.car_type').val();
-                    currency = $('#get_search_form1').find('.currency').val();
-                    priceamount = $('#get_search_form1').find('.priceamount').val();
-                    vehiclemodel = $('#get_search_form1').find('.vehiclemodel').val();
-                    drtype = $('#get_search_form1').find('.drtype').val();
-                    //   var amount = $('#get_search_form1').find('.priceamount').val();
-                    excessperkm = $excessperkm;
-                    freemilaege = $freemilaege;
-                    model_id = $model_id;
-
-
-                } else if ($tab == 'wd') {
+                            ret_location = $('#get_search_form1').find('.ret_location').val();
+                            stdate = $('#get_search_form1').find('.stdate').val();
+                            enddate = $('#get_search_form1').find('.enddate').val();
+                            num_days = $('#get_search_form1').find('.num_days').val();
+                            car_type = $('#get_search_form1').find('.car_type').val();
+                            currency = $('#get_search_form1').find('.currency').val();
+                            priceamount = $('#get_search_form1').find('.priceamount').val();
+                            vehiclemodel = $('#get_search_form1').find('.vehiclemodel').val();
+                            drtype = $('#get_search_form1').find('.drtype').val();
+                            //   var amount = $('#get_search_form1').find('.priceamount').val();
+                            excessperkm = $excessperkm;
+                            freemilaege = $freemilaege;
+                            model_id = $model_id;
+                    } else if ($tab == 'wd') {
 
                     pick_location = $('#get_search_form2').find('.pick_location').val();
-                    ret_location = $('#get_search_form2').find('.ret_location').val();
-                    stdate = $('#get_search_form2').find('.stdate').val();
-                    enddate = $('#get_search_form2').find('.enddate').val();
-                    num_days = $('#get_search_form2').find('.num_days').val();
-                    car_type = $('#get_search_form2').find('.car_type').val();
-                    currency = $('#get_search_form2').find('.currency').val();
-                    priceamount = $('#get_search_form2').find('.priceamount').val();
-                    vehiclemodel = $('#get_search_form2').find('.vehiclemodel').val();
-                    drtype = $('#get_search_form2').find('.drtype').val();
-                    excessperkm = $excessperkm;
-                    freemilaege = $freemilaege;
-                    model_id = $model_id;
-                    //alert(pick_location );
-                    //return;
+                            ret_location = $('#get_search_form2').find('.ret_location').val();
+                            stdate = $('#get_search_form2').find('.stdate').val();
+                            enddate = $('#get_search_form2').find('.enddate').val();
+                            num_days = $('#get_search_form2').find('.num_days').val();
+                            car_type = $('#get_search_form2').find('.car_type').val();
+                            currency = $('#get_search_form2').find('.currency').val();
+                            priceamount = $('#get_search_form2').find('.priceamount').val();
+                            vehiclemodel = $('#get_search_form2').find('.vehiclemodel').val();
+                            drtype = $('#get_search_form2').find('.drtype').val();
+                            excessperkm = $excessperkm;
+                            freemilaege = $freemilaege;
+                            model_id = $model_id;
+                            //alert(pick_location );
+                            //return;
 
-                } else if ($tab == 'airport') { 
+                    } else if ($tab == 'airport') {
                     pick_location = $('#get_search_form3').find('.pick_location').val();
-                    ret_location = $('#get_search_form3').find('.ret_location').val();
-                    stdate = $('#get_search_form3').find('.stdate').val();
-                    enddate = $('#get_search_form3').find('.enddate').val();
-                    num_days = $('#get_search_form3').find('.num_days').val();
-                    car_type = $('#get_search_form3').find('.car_type').val();
-                    currency = $('#get_search_form3').find('.currency').val();
-                    priceamount = $('#get_search_form3').find('.priceamount').val();
-                    vehiclemodel = $('#get_search_form3').find('.vehiclemodel').val();
-                    drtype = $('#get_search_form3').find('.drtype').val();
-                    excessperkm = $excessperkm;
-                    freemilaege = $freemilaege;
-                    model_id = $model_id;
-
-
-
-
+                            ret_location = $('#get_search_form3').find('.ret_location').val();
+                            stdate = $('#get_search_form3').find('.stdate').val();
+                            enddate = $('#get_search_form3').find('.enddate').val();
+                            num_days = $('#get_search_form3').find('.num_days').val();
+                            car_type = $('#get_search_form3').find('.car_type').val();
+                            currency = $('#get_search_form3').find('.currency').val();
+                            priceamount = $('#get_search_form3').find('.priceamount').val();
+                            vehiclemodel = $('#get_search_form3').find('.vehiclemodel').val();
+                            drtype = $('#get_search_form3').find('.drtype').val();
+                            excessperkm = $excessperkm;
+                            freemilaege = $freemilaege;
+                            model_id = $model_id;
                     } else if ($tab == 'wedding') {             pick_location = $('#get_search_form4').find('.pick_location').val();
-                    ret_location = $('#get_search_form4').find('.ret_location').val();
-                    stdate = $('#get_search_form4').find('.stdate').val();
-                    enddate = $('#get_search_form4').find('.enddate').val();
-                    num_days = $('#get_search_form4').find('.num_days').val();
-                    car_type = $('#get_search_form4').find('.car_type').val();
-                    currency = $('#get_search_form4').find('.currency').val();
-                    priceamount = $('#get_search_form4').find('.priceamount').val();
-                    vehiclemodel = $('#get_search_form4').find('.vehiclemodel').val();
-                    drtype = $('#get_search_form4').find('.drtype').val();
-                    excessperkm = $excessperkm;
-                    freemilaege = $freemilaege;
-                    model_id = $model_id;
-
-                }else if ($tab == 'taxi') {
+                            ret_location = $('#get_search_form4').find('.ret_location').val();
+                            stdate = $('#get_search_form4').find('.stdate').val();
+                            enddate = $('#get_search_form4').find('.enddate').val();
+                            num_days = $('#get_search_form4').find('.num_days').val();
+                            car_type = $('#get_search_form4').find('.car_type').val();
+                            currency = $('#get_search_form4').find('.currency').val();
+                            priceamount = $('#get_search_form4').find('.priceamount').val();
+                            vehiclemodel = $('#get_search_form4').find('.vehiclemodel').val();
+                            drtype = $('#get_search_form4').find('.drtype').val();
+                            excessperkm = $excessperkm;
+                            freemilaege = $freemilaege;
+                            model_id = $model_id;
+                    } else if ($tab == 'taxi') {
                     pick_location = $('#get_search_form5').find('.pick_location').val();
-                    ret_location = $('#get_search_form5').find('.ret_location').val();
-                    stdate = $('#get_search_form5').find('.stdate').val();
-                    enddate = $('#get_search_form5').find('.enddate').val();
-                    num_days = $('#get_search_form5').find('.num_days').val();
-                    car_type = $('#get_search_form5').find('.car_type').val();
-                    currency = $('#get_search_form5').find('.currency').val();
-                    priceamount = $('#get_search_form5').find('.priceamount').val();
-                    vehiclemodel = $('#get_search_form5').find('.vehiclemodel').val();
-                    drtype = $('#get_search_form5').find('.drtype').val();
-                    excessperkm = $excessperkm;
-                    freemilaege = $freemilaege;
-                    model_id = $model_id;
+                            ret_location = $('#get_search_form5').find('.ret_location').val();
+                            stdate = $('#get_search_form5').find('.stdate').val();
+                            enddate = $('#get_search_form5').find('.enddate').val();
+                            num_days = $('#get_search_form5').find('.num_days').val();
+                            car_type = $('#get_search_form5').find('.car_type').val();
+                            currency = $('#get_search_form5').find('.currency').val();
+                            priceamount = $('#get_search_form5').find('.priceamount').val();
+                            vehiclemodel = $('#get_search_form5').find('.vehiclemodel').val();
+                            drtype = $('#get_search_form5').find('.drtype').val();
+                            excessperkm = $excessperkm;
+                            freemilaege = $freemilaege;
+                            model_id = $model_id;
+                    }
 
-                }
+                    // alert(pick_location);
 
-                // alert(pick_location);
+                    $('#hpick_location').val(pick_location);
+                            $('#hret_location').val(ret_location);
+                            $('#hstdate').val(stdate);
+                            $('#henddate').val(enddate);
+                            $('#hnum_days').val(num_days);
+                            $('#hcar_type').val(car_type);
+                            $('#hcurrency').val(currency);
+                            $('#hdrtype').val(drtype);
+                            $('#hexcess_per_km').val(excessperkm);
+                            $('#hfreemilaege').val(freemilaege);
+                            $('#hmodel_id').val(model_id);
+                            $('#quatationform').submit();
+                            //        $('.quatationform').find('.pick_location').val(pick_location);
+                            //        $('.quatationform').find('.ret_location').val(ret_location);
+                            //        $('.quatationform').find('.stdate').val(stdate);
+                            //        $('.quatationform').find('.enddate').val(enddate);
+                            //        $('.quatationform').find('.num_days').val(num_days);
+                            //        $('.quatationform').find('.car_type').val(car_type);
+                            //        $('.quatationform').find('.currency').val(currency);
+                            //        $('.quatationform').find('.priceamount').val(priceamount);
+                            //        $('.quatationform').find('.vehiclemodel').val(vehiclemodel);
+                            //        $('.quatationform').find('.drtype').val(drtype);
+                            //
+                            //        $('.quatationform').find('.excess_per_km').val(excessperkm);
+                            //        $('.quatationform').find('.freemilaege').val(freemilaege);
+                            //        $('.quatationform').find('.model_id').val(model_id);
 
-                $('#hpick_location').val(pick_location);
-                $('#hret_location').val(ret_location);
-                $('#hstdate').val(stdate);
-                $('#henddate').val(enddate);
-                $('#hnum_days').val(num_days);
-                $('#hcar_type').val(car_type);
-                $('#hcurrency').val(currency);
-                $('#hdrtype').val(drtype);
-                $('#hexcess_per_km').val(excessperkm);
-                $('#hfreemilaege').val(freemilaege);
-                $('#hmodel_id').val(model_id);
+                            ////     document.getElementById("quatationform").submit();
 
-
-
-
-                $('#quatationform').submit();
-
-
-        //        $('.quatationform').find('.pick_location').val(pick_location);
-        //        $('.quatationform').find('.ret_location').val(ret_location);
-        //        $('.quatationform').find('.stdate').val(stdate);
-        //        $('.quatationform').find('.enddate').val(enddate);
-        //        $('.quatationform').find('.num_days').val(num_days);
-        //        $('.quatationform').find('.car_type').val(car_type);
-        //        $('.quatationform').find('.currency').val(currency);
-        //        $('.quatationform').find('.priceamount').val(priceamount);
-        //        $('.quatationform').find('.vehiclemodel').val(vehiclemodel);
-        //        $('.quatationform').find('.drtype').val(drtype);
-        //
-        //        $('.quatationform').find('.excess_per_km').val(excessperkm);
-        //        $('.quatationform').find('.freemilaege').val(freemilaege);
-        //        $('.quatationform').find('.model_id').val(model_id);
-
-                ////     document.getElementById("quatationform").submit();
-
-        //           $('#hpick_location').val(pick_location);
-        //           $('#hret_location').val(ret_location);
-        //           $('#hstdate').val(stdate);
-        //           $('#henddate').val(enddate);
-        //           $('#hnum_days').val(num_days);
-        //           $('#hcar_type').val(car_type);
-        //           $('#hcurrency').val(currency);
-        //           $('#hpriceamount').val(priceamount);
-        //           $('#hvehiclemodel').val(vehiclemodel);
-            //   }
-        //        return;
-                //
-        //
-        //
-        //        $.post(site_url + '/article_controller/get_extras', $('#get_search_form1').serialize(), function (msg) {
-        //          if (msg == 1) {
-        //              //  location.reload();
-        //              location.href = site_url + '/article_controller/get_extras';
-        //            }
-        //           else {
-        ////                none
-        //            }
-        //        });
+                            //           $('#hpick_location').val(pick_location);
+                            //           $('#hret_location').val(ret_location);
+                            //           $('#hstdate').val(stdate);
+                            //           $('#henddate').val(enddate);
+                            //           $('#hnum_days').val(num_days);
+                            //           $('#hcar_type').val(car_type);
+                            //           $('#hcurrency').val(currency);
+                            //           $('#hpriceamount').val(priceamount);
+                            //           $('#hvehiclemodel').val(vehiclemodel);
+                            //   }
+                            //        return;
+                            //
+                            //
+                            //
+                            //        $.post(site_url + '/article_controller/get_extras', $('#get_search_form1').serialize(), function (msg) {
+                            //          if (msg == 1) {
+                            //              //  location.reload();
+                            //              location.href = site_url + '/article_controller/get_extras';
+                            //            }
+                            //           else {
+                            ////                none
+                            //            }
+                            //        });
 
 
-            }
+                    }
 
 
         </script>
@@ -7643,87 +7597,76 @@ Unlimited mileage: </li>  -->
 
 
         <script>
-            $(document).ready(function()
-            {
-                $( "#slider_p rice" ).slider({
-            range:true,
+                            $(document).ready(function()
+                    {
+                    $("#slider_p rice").slider({
+                    range:true,
+                            min: 0,
+                            max: 25000,
+                            step:1,
+                            values: [ 0, 25 000 ],
+                            slide: function(event, ui) {
+                            $("#app_min_price").text(ui.values[0] + "$");
+                                    $("#app_max_price").text(ui.values[1] + "$");
+                            },
+                            stop: function(event, ui) {
+                    var nr_total = getEstatesNumber(ui.values[0], ui.values[1]);
+                    $("#number_results").text(nr_total);
+                            },
+                    });
+                            $("#app_min_price").text($("#slider_price").slider("values", 0) + "$");
+                            $("#app_max_price").text($("#slider_price").slider("values", 1) + "$");
+                    });                      function getEstatesNumber(min_price, max_price)
+                            {
+                            //alert(min_price);
+                    //alert(max_price);
+                            $("input[name='min_val']").val(min_price);
+                    $("input[name='max_val']").val(max_price);
+                                     $('#get_search_form1').submit();
+                            }
+
+                    ///////////////////////////
+                    $(document).ready(function()
+                    {
+                    $("#slider_p asenger").slider({            range:true,
                     min: 0,
-                    max: 25000,
+                            max: 40,
                     step:1,
-                    values: [ 0, 25 000 ],
-                    slide: function( event, ui ) {
-                    $( "#app_min_price" ).text(ui.values[0] + "$");
-                        $( "#app_max_price" ).text(ui.values[1] + "$");
-                   },
-                    stop: function( event, ui ) {
-                        var nr_total = getEstatesNumber(ui.values[0], ui.values[1]);
-                        $("#number_results").text(nr_total);
-                    },
-                });
-                $("#app_min_price").text( $("#slider_price").slider("values", 0) + "$");
-                $("#app_max_price").text( $("#slider_price").slider("values", 1) + "$");
-            });
-            function getEstatesNumber(min_price, max_price)
-            {
-            //alert(min_price);
-                //alert(max_price);
-                $( "input[name='min_val']" ).val(min_price);
-                $( "input[name='max_val']" ).val(max_price);
+                    values:[ 0, 40  ],
+                            slide: function(event, ui) {
+                            $("#app_min_pasenger").text(ui.values[0] + "$");
+                                    $("#app_max_pasenger").text(ui.values[1] + " ");
+                            },
+                            stop: function(event, ui) {
+                            var nr_total = getEstatesPasenger(ui.values[0], ui.values[1]);
+                                    $("#number_results").text(nr_total);
+                            },
+                    });
+                            $("#app_min_pasenger").text($("#slider_pasenger").slider("values", 0) + "$");
+                            $("#app_max_pasenger").text($("#slider_pasenger").slider("values", 1) + "");
+                    });
+                            function getEstatesPasenger(min_pasenger, max_pasenger)
+                            {
+                            // alert(min_pasenger);
+                            //  alert(max_pasenger);
+                            // $( "input[name='min_val']" ).val(min_price);
+                            $("input[name='pasenger']").val(max_pasenger);
+                                    var tab_type = $("input[name='tabtype']").val();
+                                    if (tab_type == 'sd'){
+                            $('#get_sea rch_f orm1').submit();
+                            } else if (tab_type == 'wd'){
+                            $('#get_sea rch_f orm2').submit();
+                            } else if (tab_type == 'airport'){
+                            $('#ge t_search_f orm3').submit();
+                            } else if (tab_type == 'wedding'){
+                            $('#ge t_search_f orm4').submit();
+                            } else if (tab_type == 'taxi'){
+                            $('#get_s earch_f orm5').submit();
+                            }
 
-                $('#get_search_form1').submit();
+                            // $('#get_search_form1').submit();
 
-            }
-
-            ///////////////////////////
-            $(document).ready(function()
-            {
-                $( "#slider_p asenger" ).slider({            range:true,
-                    min: 0,
-                    max: 40,
-                    step:1,
-                    values: [ 0, 40  ],
-                    slide: function( event, ui ) {
-                        $( "#app_min_pasenger" ).text(ui.values[0] + "$");
-                        $( "#app_max_pasenger" ).text(ui.values[1] + " ");
-                   },
-                    stop: function( event, ui ) {
-                        var nr_total = getEstatesPasenger(ui.values[0], ui.values[1]);
-                        $("#number_results").text(nr_total);
-                    },
-                });
-                $("#app_min_pasenger").text( $("#slider_pasenger").slider("values", 0) + "$");
-                $("#app_max_pasenger").text( $("#slider_pasenger").slider("values", 1) + "");
-            });
-
-
-            function getEstatesPasenger(min_pasenger, max_pasenger)
-            {
-                // alert(min_pasenger);
-                //  alert(max_pasenger);
-                // $( "input[name='min_val']" ).val(min_price);
-                $( "input[name='pasenger']" ).val(max_pasenger);
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-
-                // $('#get_search_form1').submit();
-
-            }
+                            }
 
 
 
@@ -7733,31 +7676,31 @@ Unlimited mileage: </li>  -->
 
 
 
-            //jQuery(function() {
-            //    jQuery( "#slider_range" ).flatslider({
-            //  min: 10000, max: 500000,
+                    //jQuery(function() {
+                    //    jQuery( "#slider_range" ).flatslider({
+                    //  min: 10000, max: 500000,
                     //  step: 1000,
-            //  values: [45000, 130000],
+                    //  values: [45000, 130000],
 
-            //        min: 1, max: 500,
-            //        step: 1,
-            //         values: [0, 500],
-           //         range: true,
-            //         einheit: '&#36;'
-          //      });
-          //  });
+                    //        min: 1, max: 500,
+                    //        step: 1,
+                    //         values: [0, 500],
+                    //         range: true,
+                    //         einheit: '&#36;'
+                    //      });
+                    //  });
 
 
-            <!--    --- Narrow the container down AMAP.-->
-        <!--    $(".flat-slider").bind("DOMSubtreeModified", HandleDOM_ChangeWithDelay);-->
-        <!---->
-        <!--    var zGbl_DOM_ChangeTimer = null;-->
-        <!---->
-        <!--    function HandleDOM_ChangeWithDelay(zEvent) {-->
-        <!---->
-        <!--        if (typeof zGbl_DOM_ChangeTimer == "number") {-->
-        <!---->
-        <!--            clearTimeout(zGbl_DOM_ChangeTimer);-->
+<!--    --- Narrow the container down AMAP.-->
+<!--    $(".flat-slider").bind("DOMSubtreeModified", HandleDOM_ChangeWithDelay);-->
+<!---->
+<!--    var zGbl_DOM_ChangeTimer = null;-->
+<!---->
+<!--    function HandleDOM_ChangeWithDelay(zEvent) {-->
+<!---->
+<!--        if (typeof zGbl_DOM_ChangeTimer == "number") {-->
+<!---->
+<!--            clearTimeout(zGbl_DOM_ChangeTimer);-->
         <!--            zGbl_DOM_ChangeTimer = '';-->
         <!--        }-->
         <!--        zGbl_DOM_ChangeTimer = setTimeout(HandleDOM_Change, 333);-->
@@ -7793,443 +7736,360 @@ Unlimited mileage: </li>  -->
         </script>
         <!--slider - owl-->
         <script>
-                    $(document).ready(function() {
+                            $(document).ready(function() {
 
-                var owl = $("#so rt-slider");
-
-                owl.owlCarousel({
-                    items : 6, //10 items above 1000px browser width
-                    itemsDesktop : [1000,4], //5 items between1000px a nd 901px
-                    itemsDesktopSmall : [900,3], // betweem 900px and 601px 
-                    itemsTablet: [600,2], //2 items between 600 and  0
-                    itemsMobile : [480,1], // itemsMobile disabled -  inherit from itemsTablet option
-                    pagination:false,
-                    navigation: true,
-                    navigationTe xt: ["<i class='fa fa-angle-left '></i>","<i class='fa fa-angle-right'> </i>"]
-                });
-
-            });
-        </script>
+                    var owl = $("#so rt-slider");
+                            owl.owlCarousel({
+                            items : 6, //10 items above 1000px browser width
+                                    itemsDesktop : [1000, 4], //5 items between1000px a nd 901px
+                                    itemsDesktopSmall : [900, 3], // betweem 900px and 601px 
+                                    itemsTablet: [600, 2], //2 items between 600 and  0
+                                    itemsMobile : [480, 1], // itemsMobile disabled -  inherit from itemsTablet option
+                                    pagination:false,
+                                    navigation: true,
+                                    navigationTe xt: ["<i class='fa fa-angle-left '></i>", "<i class='fa fa-angle-right'> </i>"]
+                            });
+                    });        </script>
 
         <script>
 
-            $('.selfDrive').on('click', function(){
-                $( "input[name='ta bt ype']" ).val('sd');
-            });
-
-            $('.withDriver').on('click', function(){
-                $( "input[name='ta bt ype']" ).val('wd');
-            });
-
-            $('.airport').on('click', function(){
-                $( "input[name='ta bt ype']" ).val('airport');
-            });
-
-            $('.weddings').on('click', function(){
-                $( "input[name='ta bt ype']" ).val('wedding');
-            });
-
-            $('.taxi').on('click', function(){
-                $( "input[name='ta bt ype']" ).val('taxi');
-            });
-
-
-        </script>
-
-        <script>
-    
-            function priceAcending(){
-    
-                $( "input[name='pri ceorder']" ).val(0);
-
-                $( "input[name='typeorder']" ).val(2);
-                $( "input[name='nameorder']" ).val(2);
-
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-            }
-
-            function priceDecending(){
-
-                $( "input[name='pri ceorder']" ).val(1);
-
-                $( "input[name='typeorder']" ).val(2);
-                $( "input[name='nameorder']" ).val(2);
-
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-            }
-
-            function nameAcending(){
-
-                $( "input[name='nam eorder']" ).val(0);
-
-                $( "input[name='typeorder']" ).val(2);
-                $( "input[name='priceorder']" ).val(2);
-
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-            }
-
-            function nameDecending(){
-    
-                $( "input[name='nam eorder']" ).val(1);
-
-                $( "input[name='typeorder']" ).val(2);
-                $( "input[name='priceorder']" ).val(2);
-
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-            }
-
-            function typeAcending(){
-
-                $( "input[name='typ eorder']" ).val(0);
-
-                $( "input[name='nameorder']" ).val(2);
-                $( "input[name='priceorder']" ).val(2);
-
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-            }
-
-            function typeDecending(){
-    
-                $( "input[name='typ eorder']" ).val(1);
-
-                $( "input[name='nameorder']" ).val(2);
-                $( "input[name='priceorder']" ).val(2);
-
-                var tab_type = $( "input[name='tabtype']" ).val();
-
-                if (tab_type =='sd'){
-                    $('#get_sea rch_f orm1').submit();
-
-                }else if(tab_type =='wd'){
-                    $('#get_sea rch_f orm2').submit();
-
-                }else if(tab_type =='airport'){ 
-                    $('#ge t_search_f orm3').submit();
-
-                }else if(tab_type =='wedding'){ 
-                    $('#ge t_search_f orm4').submit();
-
-                }else if(tab_type =='taxi'){
-                    $('#get_s earch_f orm5').submit();
-                }
-            }
-
-
-
-
-        </script>
-
+                            $('.selfDrive').on('click', function(){
+                    $("input[name='ta bt ype']").val('sd');
+                    });
+                            $('.withDriver').on('click', function(){
+                    $("input[name='ta bt ype']").val('wd');
+                    });
+                            $('.airport').on('click', function(){
+                    $("input[name='ta bt ype']").val('airport');
+                    });
+                            $('.weddings').on('click', function(){
+                    $("input[name='ta bt ype']").val('wedding');
+                    });
+                            $('.taxi').on('click', function(){
+                    $("input[name='ta bt ype']").val('taxi');
+                    });        </script>
 
         <script>
 
+                            function priceAcending(){
 
-        //    var models = [];
-        //    document.getElementById("vehiclemodelp").innerHTML = models;
-        //
-        //     var modelsid = [];
-        //    document.getElementById("emodelid").innerHTML = modelsid;
-        //
-        //    var modelamount = [];
-        //    document.getElementById("amount").innerHTML = modelamount;
+                            $("input[name='pri ceorder']").val(0);
+                                    $("input[name='typeorder']").val(2);
+                                    $("input[name='nameorder']").val(2);
+                                    var tab_type = $("input[name='tabtype']").val();
+                                    if (tab_type == 'sd'){
+                            $('#get_sea rch_f orm1').submit();
+                            } else if (tab_type == 'wd'){
+                            $('#get_sea rch_f orm2').submit();
+                            } else if (tab_type == 'airport'){
+                            $('#ge t_search_f orm3').submit();
+                            } else if (tab_type == 'wedding'){
+                            $('#ge t_search_f orm4').submit();
+                            } else if (tab_type == 'taxi'){
+                            $('#get_s earch_f orm5').submit();
+                            }
+                            }
 
-            var models = [];
-            document.getElementById("vehiclemodelp").innerHTML = models;
+                    function priceDecending(){
 
-            var modelsname = [];
-            document.getElementById("emodel").innerHTML = modelsname;
+                    $("input[name='pri ceorder']").val(1);
+                            $("input[name='typeorder']").val(2);
+                            $("input[name='nameorder']").val(2);
+                            var tab_type = $("input[name='tabtype']").val();
+                            if (tab_type == 'sd'){
+                    $('#get_sea rch_f orm1').submit();
+                    } else if (tab_type == 'wd'){
+                    $('#get_sea rch_f orm2').submit();
+                    } else if (tab_type == 'airport'){
+                    $('#ge t_search_f orm3').submit();
+                    } else if (tab_type == 'wedding'){
+                    $('#ge t_search_f orm4').submit();
+                    } else if (tab_type == 'taxi'){
+                    $('#get_s earch_f orm5').submit();
+                    }
+                    }
 
-            var modelsid = [];
-            document.getElementById("emodelid").innerHTML = modelsid;
+                    function nameAcending(){
 
-            var modelamount = [];
-            document.getElementById("eamount").innerHTML = modelamount;
+                    $("input[name='nam eorder']").val(0);
+                            $("input[name='typeorder']").val(2);
+                            $("input[name='priceorder']").val(2);
+                            var tab_type = $("input[name='tabtype']").val();
+                            if (tab_type == 'sd'){
+                    $('#get_sea rch_f orm1').submit();
+                    } else if (tab_type == 'wd'){
+                    $('#get_sea rch_f orm2').submit();
+                    } else if (tab_type == 'airport'){
+                    $('#ge t_search_f orm3').submit();
+                    } else if (tab_type == 'wedding'){
+                    $('#ge t_search_f orm4').submit();
+                    } else if (tab_type == 'taxi'){
+                    $('#get_s earch_f orm5').submit();
+                    }
+                    }
 
+                    function nameDecending(){
 
-            function selectVehicleModel(modelid, model, amount){
+                    $("input[name='nam eorder']").val(1);
+                            $("input[name='typeorder']").val(2);
+                            $("input[name='priceorder']").val(2);
+                            var tab_type = $("input[name='tabtype']").val();
+                            if (tab_type == 'sd'){
+                    $('#get_sea rch_f orm1').submit();
+                    } else if (tab_type == 'wd'){
+                    $('#get_sea rch_f orm2').submit();
+                    } else if (tab_type == 'airport'){
+                    $('#ge t_search_f orm3').submit();
+                    } else if (tab_type == 'wedding'){
+                    $('#ge t_search_f orm4').submit();
+                    } else if (tab_type == 'taxi'){
+                    $('#get_s earch_f orm5').submit();
+                    }
+                    }
 
-            //   alert(amount);
-                if (!Array.prototype.remove) {
-                    Array.prototype.remove = function(val) {
-                        var i = th is.indexOf(val);
-                        return i>-1 ? this.splice(i, 1) : [];
-                  };
-            }
+                    function typeAcending(){
 
+                    $("input[name='typ eorder']").val(0);
+                            $("input[name='nameorder']").val(2);
+                            $("input[name='priceorder']").val(2);
+                            var tab_type = $("input[name='tabtype']").val();
+                            if (tab_type == 'sd'){
+                    $('#get_sea rch_f orm1').submit();
+                    } else if (tab_type == 'wd'){
+                    $('#get_sea rch_f orm2').submit();
+                    } else if (tab_type == 'airport'){
+                    $('#ge t_search_f orm3').submit();
+                    } else if (tab_type == 'wedding'){
+                    $('#ge t_search_f orm4').submit();
+                    } else if (tab_type == 'taxi'){
+                    $('#get_s earch_f orm5').submit();
+                    }
+                    }
 
+                    function typeDecending(){
 
-                if ($('#emailchkboxmodel'+modelid).is(":checked") == tr u e)
-            {
-                // it is checked
-
-                    models.push('<li>'+model+'</li>');
-                    var a r r2 =  m odels.join('');
-                    document.getElementById("vehiclemodelp").innerHTML = arr2;
-
-                    modelsid.push(modelid);
-                    modelsname.push(model);
-
-                    $('#emodel').val(modelsname);
-
-                    //var arrid = modelsid.join('');
-                    // document.getElementById("vehiclemodelp").innerHTML = arr2;
-                    $('#emodelid').val(modelsid);
-
-                    modelamount.push(amount);
-                    $('#eamount').val(modelamount);
-
-
-
-            }else{
-
-                    models.remove(' <li> '+model+'</li>');
-                    var a r r2 =  m odels.join('');
-                    document.getElementById("vehiclemodelp").innerHTML = arr2;
-
-                    /// modelsid.splice(1, modelid);
-                    //var arrid = modelsid.join('');
-                    // document.getElementById("vehiclemodelp").innerHTML = arr2;
-
-                    modelsid.remove(modelid);
-
-                    $('#emodelid').val(modelsid);
-
-
-                    ///modelamount.splice(1, amount);
-                    modelamount.remove(amount);
-
-                    $('#eamount').val(modelamount);
-
-                    ///  modelsname.splice(1, model);
-
-                    modelsname.remove(model);
-
-                    $('#emodel').val(modelsname);
-
-
-
-            }
-   
-                //     if ($('#emailchkboxmodel'+modelid).is(":checked") == true)
-        //        {
-        //          // it is checked
-        //
-        //            models.push('<li>'+model+'</li>');
-        //            var arr2 = models.join('');
-        //            document.getElementById("vehiclemodelp").innerHTML = arr2;
-        //
-        //            modelsid.push(modelid);
-        //            //var arrid = modelsid.join('');
-        //           // document.getElementById("vehiclemodelp").innerHTML = arr2;
-        //            $('#emodelid').val(modelsid);
-        //
-        //            modelamount.push(amount);
-        //            $('#eamount').val(modelamount);
-        //
-        //
-        //        }else{
-        //
-        //            models.splice('<li>'+model+'</li>');
-        //            var arr2 = models.join('');
-        //            document.getElementById("vehiclemodelp").innerHTML = arr2;
-        //
-        //            modelsid.splice(1, modelid);
-        //            //var arrid = modelsid.join('');
-        //           // document.getElementById("vehiclemodelp").innerHTML = arr2;
-        //            $('#emodelid').val(modelsid);
-        //
-        //            modelamount.splice(1, amount);
-        //
-        //            $('#eamount').val(modelamount);
-        //
-        //
-        //        }
-
-        }
-
-
-            function sendEmail(){
-            // 2016-01-24
-
-                /*   alert('Email 1');
-                 $.post(site_url + 'article_controller/sendQuotationByEmail', $('#email_form').serialize(), function (msg) {
-
-
-                    alert(msg);
-
-                 //    alert('Email Quotation sent');
-                 //                    if (msg == 1) {
-        //
-                 //                        alert(msg);
-                 //                        //window.location.href = site_url + "/COMMON/system_user/index";
-        //
-                 //                    } else {
-        //
-                 //                        $('#messagesave').html('<div class="alert alert-danger  alert-dark"> Error !!</div>');
-        //
-        //                    }
-                 });   */
-
-
-                $("#email_form").validate({
-
-                    rules: {
-                        emodelid: { required: true},
-                        eemail: { required: true},
-                        ecustname: { required: true}
-
-                    },
-
-                    messages: {
-                        emodelid: " Please select At least One Vehicle Model",
-                        eemail: "Receiver E-mail Required",
-                        ecustname: "Receiver Name Required"
-
-                                //confirmpassword: "confirmpassword Required" ecustname
-
-                    },
-
-                    submitHandler: function (form) {
-
-                        $.post(site_url + 'article_controller/sendQuotationByEmail', $('#email_form').serialize(), function (msg) {
-
-                            alert('Email Quotation sent');
-        //                    if (msg == 1) {
-        //                        alert(msg);
-        //                        //window.location.href = site_url + "/COMMON/system_user/index";
-        //                    } else {
-        //                        $('#messagesave').html('<div class="alert alert-danger  alert-dark"> Error !!</div>');
-        //                    }
-                        });
-
-                        }
-                });
-
+                    $("input[name='typ eorder']").val(1);
+                            $("input[name='nameorder']").val(2);
+                            $("input[name='priceorder']").val(2);
+                            var tab_type = $("input[name='tabtype']").val();
+                            if (tab_type == 'sd'){
+                    $('#get_sea rch_f orm1').submit();
+                    } else if (tab_type == 'wd'){
+                    $('#get_sea rch_f orm2').submit();
+                    } else if (tab_type == 'airport'){
+                    $('#ge t_search_f orm3').submit();
+                    } else if (tab_type == 'wedding'){
+                    $('#ge t_search_f orm4').submit();
+                    } else if (tab_type == 'taxi'){
+                    $('#get_s earch_f orm5').submit();
+                    }
                     }
 
 
-            // ordering table row in acending order
-            $( document ).ready(function() {
-        //       function sortT able(){
-        //            var rows = $('#searchtable tbody  tr').get();
-        //
-        //            rows.sort(function( a,b) {
-        //
-        //                var A = $(a).children('td').eq(0).text();
-        //                var B = $(b).children('td').eq(0).text();
-        //
-        //                var A = parseInt(A);
-        //                var B = parseInt(B);
-        //
-        //                if(A < B) {
-        //                    return -1;
-        //                }
-        //
-        //                if(A > B) {
-        //                    return 1;
-        //                }
-        //
-        //                return 0;
-        //
-        //            });
-        //
-        //            $.each(rows, function(index, row) {
-        //                $('#searchtable').children('tbody').append(row);
-        //            });
-        //        }
-
-                //sortTable();
-
-
-
-                var countrows = $('#searchtable tr').length;
-                $('#vehicleresultcount').text(countrows+' Models Available');
-
-                $('#allid').text(countrows);
-
-            });
 
 
         </script>
+
+
+        <script>
+
+
+                    //    var models = [];
+                    //    document.getElementById("vehiclemodelp").innerHTML = models;
+                    //
+                    //     var modelsid = [];
+                    //    document.getElementById("emodelid").innerHTML = modelsid;
+                    //
+                    //    var modelamount = [];
+                    //    document.getElementById("amount").innerHTML = modelamount;
+
+                    var models = [];
+                            document.getElementById("vehiclemodelp").innerHTML = models;
+                            var modelsname = [];
+                            document.getElementById("emodel").innerHTML = modelsname;
+                            var modelsid = [];
+                            document.getElementById("emodelid").innerHTML = modelsid;
+                            var modelamount = [];
+                            document.getElementById("eamount").innerHTML = modelamount;
+                            function selectVehicleModel(modelid, model, amount){
+
+                            //   alert(amount);
+                            if (!Array.prototype.remove) {
+                            Array.prototype.remove = function(val) {
+                            var i = th is.indexOf(val);
+                                    return i > - 1 ? this.splice(i, 1) : [];
+                            };
+                            }
+
+
+
+                            if ($('#emailchkboxmodel' + modelid).is(":checked") == tr u e)
+                            {
+                            // it is checked
+
+                            models.push('<li>' + model + '</li>');
+                                    var a r r2 = m odels.join('');
+                                    document.getElementById("vehiclemodelp").innerHTML = arr2;
+                                    modelsid.push(modelid);
+                                    modelsname.push(model);
+                                    $('#emodel').val(modelsname);
+                                    //var arrid = modelsid.join('');
+                                    // document.getElementById("vehiclemodelp").innerHTML = arr2;
+                                    $('#emodelid').val(modelsid);
+                                    modelamount.push(amount);
+                                    $('#eamount').val(modelamount);
+                            } else{
+
+                            models.remove(' <li> ' + model + '</li>');
+                                    var a r r2 = m odels.join('');
+                                    document.getElementById("vehiclemodelp").innerHTML = arr2;
+                                    /// modelsid.splice(1, modelid);
+                                    //var arrid = modelsid.join('');
+                                    // document.getElementById("vehiclemodelp").innerHTML = arr2;
+
+                                    modelsid.remove(modelid);
+                                    $('#emodelid').val(modelsid);
+                                    ///modelamount.splice(1, amount);
+                                    modelamount.remove(amount);
+                                    $('#eamount').val(modelamount);
+                                    ///  modelsname.splice(1, model);
+
+                                    modelsname.remove(model);
+                                    $('#emodel').val(modelsname);
+                            }
+
+                            //     if ($('#emailchkboxmodel'+modelid).is(":checked") == true)
+                            //        {
+                            //          // it is checked
+                            //
+                            //            models.push('<li>'+model+'</li>');
+                            //            var arr2 = models.join('');
+                            //            document.getElementById("vehiclemodelp").innerHTML = arr2;
+                            //
+                            //            modelsid.push(modelid);
+                            //            //var arrid = modelsid.join('');
+                            //           // document.getElementById("vehiclemodelp").innerHTML = arr2;
+                            //            $('#emodelid').val(modelsid);
+                            //
+                            //            modelamount.push(amount);
+                            //            $('#eamount').val(modelamount);
+                            //
+                            //
+                            //        }else{
+                            //
+                            //            models.splice('<li>'+model+'</li>');
+                            //            var arr2 = models.join('');
+                            //            document.getElementById("vehiclemodelp").innerHTML = arr2;
+                            //
+                            //            modelsid.splice(1, modelid);
+                            //            //var arrid = modelsid.join('');
+                            //           // document.getElementById("vehiclemodelp").innerHTML = arr2;
+                            //            $('#emodelid').val(modelsid);
+                            //
+                            //            modelamount.splice(1, amount);
+                            //
+                            //            $('#eamount').val(modelamount);
+                            //
+                            //
+                            //        }
+
+                            }
+
+
+                    function sendEmail(){
+                    // 2016-01-24
+
+                    /*   alert('Email 1');
+                     $.post(site_url + 'article_controller/sendQuotationByEmail', $('#email_form').serialize(), function (msg) {
+                     
+                     
+                     alert(msg);
+                     
+                     //    alert('Email Quotation sent');
+                     //                    if (msg == 1) {
+                     //
+                     //                        alert(msg);
+                     //                        //window.location.href = site_url + "/COMMON/system_user/index";
+                     //
+                     //                    } else {
+                     //
+                     //                        $('#messagesave').html('<div class="alert alert-danger  alert-dark"> Error !!</div>');
+                     //
+                     //                    }
+                     });   */
+
+
+                    $("#email_form").validate({
+
+                    rules: {
+                    emodelid: { required: true},
+                            eemail: { required: true},
+                            ecustname: { required: true}
+
+                    },
+                            messages: {
+                            emodelid: " Please select At least One Vehicle Model",
+                                    eemail: "Receiver E-mail Required",
+                                    ecustname: "Receiver Name Required"
+
+                                    //confirmpassword: "confirmpassword Required" ecustname
+
+                            },
+                            submitHandler: function (form) {
+
+                            $.post(site_url + 'article_controller/sendQuotationByEmail', $('#email_form').serialize(), function (msg) {
+
+                            alert('Email Quotation sent');
+                                    //                    if (msg == 1) {
+                                    //                        alert(msg);
+                                    //                        //window.location.href = site_url + "/COMMON/system_user/index";
+                                    //                    } else {
+                                    //                        $('#messagesave').html('<div class="alert alert-danger  alert-dark"> Error !!</div>');
+                                    //                    }
+                            });
+                            }
+                    });
+                    }
+
+
+                    // ordering table row in acending order
+                    $(document).ready(function() {
+                    //       function sortT able(){
+                    //            var rows = $('#searchtable tbody  tr').get();
+                    //
+                    //            rows.sort(function( a,b) {
+                    //
+                    //                var A = $(a).children('td').eq(0).text();
+                    //                var B = $(b).children('td').eq(0).text();
+                    //
+                    //                var A = parseInt(A);
+                    //                var B = parseInt(B);
+                    //
+                    //                if(A < B) {
+                    //                    return -1;
+                    //                }
+                    //
+                    //                if(A > B) {
+                    //                    return 1;
+                    //                }
+                    //
+                    //                return 0;
+                    //
+                    //            });
+                    //
+                    //            $.each(rows, function(index, row) {
+                    //                $('#searchtable').children('tbody').append(row);
+                    //            });
+                    //        }
+
+                    //sortTable();
+
+
+
+                    var countrows = $('#searchtable tr').length;
+                            $('#vehicleresultcount').text(countrows + ' Models Available');
+                            $('#allid').text(countrows);
+                    });        </script>
 
 
 
@@ -8880,25 +8740,24 @@ Unlimited mileage: </li>  -->
         <script src="http://www.casons.lk/application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            });
-        </script>
+                            $(function () {
+                            $('[data-toggle="tooltip"]').tooltip()
+                            });        </script>
 
         <!--owl carousal-->
         <script>
-            $(document).ready(function() {
+                            $(document).ready(function() {
 
-                $("#home-sl ider").owlCarousel({
+                    $("#home-sl ider").owlCarousel({
 
                     navigation : false, // Show next and prev buttons 		            slideSpeed : 800,
-                    paginationSpeed : 400,
-                    singleItem:true,
+                            paginationSpeed : 400,
+                            singleItem:true,
                             autoPlay:  9000,
-                    // Responsive
-                    responsive: true,
-                    responsiveRefreshRate : 200,
-                    responsiveBaseWidth: window
+                            // Responsive
+                            responsive: true,
+                            responsiveRefreshRate : 200,
+                            responsiveBaseWidth: window
 
                             // "singleItem:true" is a shortcut for:
                             // items : 1,
@@ -8908,22 +8767,19 @@ Unlimited mileage: </li>  -->
                             // itemsMobile : false
 
                     });
-
-                });
-
-        </script>
+                    });        </script>
         <script>
-            $(document).ready(function() {
+                            $(document).ready(function() {
 
-                $("#testi-s lider").owlCarousel({
+                    $("#testi-s lider").owlCarousel({
 
                     navigation : false, // Show next and prev buttons 		            slideSpeed : 300,
-                    paginationSpeed : 400,
-                    singleItem:true,
+                            paginationSpeed : 400,
+                            singleItem:true,
                             // Respons ive
-                    responsive: true,
-                    responsiveRefreshRate : 200,
-                    responsiveBaseWidth: window
+                            responsive: true,
+                            responsiveRefreshRate : 200,
+                            responsiveBaseWidth: window
 
                             // "singleItem:true" is a shortcut for:
                             // items : 1,
@@ -8933,10 +8789,7 @@ Unlimited mileage: </li>  -->
                             // itemsMobile : false
 
                     });
-
-                });
-
-        </script>
+                    });        </script>
 
 
 
@@ -8952,167 +8805,152 @@ Unlimited mileage: </li>  -->
 
         <!--prodcts slider - owl-->
         <script>
-            $(document).ready(function() {
+                            $(document).ready(function() {
 
-                var owl = $ ("#offers-slider");
-
-                owl.owlCarousel({
-                    items : 3, //10 items above 1000px browser width
-                    itemsDesktop : [1000,3], //5 items between1000px a nd 901px
-                    itemsDesktopSmall : [900,2], // betweem 900px and 601px 
-                    itemsTablet: [600,1], //2 items between 600 and  0
-                    itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
-                    pagination:false,
-                            autoPlay:  2000,
-                    stopOnHover: true
-                    });
-
-                // Custom Navigation Events
-                $(".next").click(function(){
-                    owl.trigger( 'o wl.next');
+                    var owl = $ ("#offers-slider");
+                            owl.owlCarousel({
+                            items : 3, //10 items above 1000px browser width
+                                    itemsDesktop : [1000, 3], //5 items between1000px a nd 901px
+                                    itemsDesktopSmall : [900, 2], // betweem 900px and 601px 
+                                    itemsTablet: [600, 1], //2 items between 600 and  0
+                                    itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+                                    pagination:false,
+                                    autoPlay:  2000,
+                                    stopOnHover: true
+                            });
+                            // Custom Navigation Events
+                            $(".next").click(function(){
+                    owl.trigger('o wl.next');
                     })
-                $(".prev").click(function(){
-                    owl.trigger( 'o wl.prev');
+                            $(".prev").click(function(){
+                    owl.trigger('o wl.prev');
                     })
-                $(".play").click(function(){
-                    owl.trigger( 'o wl.play',1000); //owl.play event accept  autoPlay speed as second parameter
+                            $(".play").click(function(){
+                    owl.trigger('o wl.play', 1000); //owl.play event accept  autoPlay speed as second parameter
                     })
-                $(".stop").click(function(){
-                    owl.trigger( 'o wl.stop');
+                            $(".stop").click(function(){
+                    owl.trigger('o wl.stop');
                     })
 
-                });
-        </script>
+                    });        </script>
 
 
         <!--hover effects-->
         <script>
-            $(document).ready(function(){
-            if (Modernizr.touch)  {
+                            $(document).ready(function(){
+                    if (Modernizr.touch)  {
                     // show the close overlay button
                     $(".close-overlay").removeClass("hidden");
-                    // handle the adding of hover class when clicked
-                    $(".img").click(function(e){
-                        if (!$(this).hasCl ass ("hover")) {
-                            $(this).addClass("hover");
-                            }
+                            // handle the adding of hover class when clicked
+                            $(".img").click(function(e){
+                    if (!$(this).hasCl ass ("hover")) {
+                    $(this).addClass("hover");
+                    }
                     });
-                    // handle the closing of the overlay
-                    $(".close-overlay").click(function(e){
-                            e.preventDefault() ;
-                        e.stopPropagation();
-                        if ($(this).closest(".img").hasClass("hover")) {
-                            $(this).closest(".img").removeClass("hover");
-                            }
+                            // handle the closing of the overlay
+                            $(".close-overlay").click(function(e){
+                    e.preventDefault();
+                            e.stopPropagation();
+                            if ($(this).closest(".img").hasClass("hover")) {
+                    $(this).closest(".img").removeClass("hover");
+                    }
                     });
-                        } else {
+                    } else {
                     // handle the mouseenter functionality
                     $(".img").mouseenter(function(){
-                        $(this).addClass("h ov er");
+                    $(this).addClass("h ov er");
                     })
                             // handle the mouseleave functionality
                             .mouseleave(function(){
-                                $(this).removeClas s( "hover");
+                            $(this).removeClas s("hover");
                             });
-            }
-    });
-        </script>
+                    }
+                    });        </script>
 
 
 
         <script>
-            $(document).ready(function() {
-                // $( "#stdate_enq" ).da tepicker();
-                // $( "#enddate_enq" ).datepicker();
-                // $( "#stdate" ).datepicker();
-                // $( "#enddate" ).datepicker();
+                            $(document).ready(function() {
+                    // $( "#stdate_enq" ).da tepicker();
+                    // $( "#enddate_enq" ).datepicker();
+                    // $( "#stdate" ).datepicker();
+                    // $( "#enddate" ).datepicker();
 
 
-     //	 $('#stdate_enq').datetimepicker({
-     //		 dayOfWeekStart : 1,
-     //		 lang:'en'
-     //	 });
-     //	 $('#enddate_enq').datetimepicker({
-     //		 dayOfWeekStart : 1,
-     //		 lang:'en'
-     //	 });
-     //	 $('#stdate').datetimepicker({
-     //		 dayOfWeekStart : 1,
-     //		 lang:'en'
-     //	 });
-     //	 $('#enddate').datetimepicker({
-     //		 dayOfWeekStart : 1,
-     //		 lang:'en'
-     //	 });
+                    //	 $('#stdate_enq').datetimepicker({
+                    //		 dayOfWeekStart : 1,
+                    //		 lang:'en'
+                    //	 });
+                    //	 $('#enddate_enq').datetimepicker({
+                    //		 dayOfWeekStart : 1,
+                    //		 lang:'en'
+                    //	 });
+                    //	 $('#stdate').datetimepicker({
+                    //		 dayOfWeekStart : 1,
+                    //		 lang:'en'
+                    //	 });
+                    //	 $('#enddate').datetimepicker({
+                    //		 dayOfWeekStart : 1,
+                    //		 lang:'en'
+                    //	 });
 
-     //     harshana start
-         //  input[name=stdate]
-                $('input[name=stdate_enq]').datetimepicker({
-             dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0
-           });
-                $('input[name=enddate_enq]').datetimepicker({
-             dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0
-           });
-                $('input[name=stdate] ').datetimepicker({
-             dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0,
-                    // datepicker:false,
-                    timepicker:false,
-                    //        format:'Y/m/d ',
-             format:'d/m/Y',
-               
-         
-           });
-                $('input[name=sttime] ').datetimepicker({
-             dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0,
-                    datepicker:false,
-                    format:'H:i',
-                    defaultTime:'00 :00',
+                    //     harshana start
+                    //  input[name=stdate]
+                    $('input[name=stdate_enq]').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0
+                    });
+                            $('input[name=enddate_enq]').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0
+                    });
+                            $('input[name=stdate] ').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0,
+                            // datepicker:false,
+                            timepicker:false,
+                            //        format:'Y/m/d ',
+                            format:'d/m/Y',
+                    });
+                            $('input[name=sttime] ').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0,
+                            datepicker:false,
+                            format:'H:i',
+                            defaultTime:'00 :00',
+                    });
+                            $('input[name=enddate] ').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0,
+                            timepicker:false,
+                            //format:'Y/m/d ',
+                            format:'d/m/Y',
+                            //  format:'d-m-Y H:i',
+                    });
+                            $('input[name=endtime] ').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0,
+                            datepicker:false,
+                            format:'H:i',
+                            defaultTime:'00 :00',
+                            // format:'d- m-Y H:i',
+                    });
+                            $('input[name=led] ').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0
+                    });
+                            //     harshana end
 
-               
-         
-          });
-                $('input[name=enddate] ').datetimepicker({
-             dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0,
-                    timepicker:false,
-                    //format:'Y/m/d ',
-                    format:'d/m/Y',
-               
-                    //  format:'d-m-Y H:i',
-          });
-                $('input[name=endtime] ').datetimepicker({
-             dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0,
-                    datepicker:false,
-                    format:'H:i',
-                    defaultTime:'00 :00',
-                    // format:'d- m-Y H:i',
-          });
+                            //$('#datetimepicker').datetimepicker({value:,step:10});
 
-                $('input[name=led] ').datetimepicker({
-              dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0
-           });
-
-               
-
-                //     harshana end
-
-                //$('#datetimepicker').datetimepicker({value:,step:10});
-
-      });
-        </script>
+                    });        </script>
 
 
         <script src="http://www.casons.lk/application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
@@ -9137,23 +8975,20 @@ Unlimited mileage: </li>  -->
 
         <!--slider - owl-->
         <script>
-            $(document).ready(function() {
+                            $(document).ready(function() {
 
-                var owl = $(" #sort-slider");
-
-                owl.owlCarousel({
-                    items : 6, //10 items above 1000px browser width
-                    itemsDesktop : [1000,4], //5 items between1000px a nd 901px
-                    itemsDesktopSmall : [900,3], // betweem 900px and 601px 
-                    itemsTablet: [600,2], //2 items between 600 and  0
-                    itemsMobile : [480,1], // itemsMobile disabled -  inherit from itemsTablet option
-                    pagination:false,
-                    navigati on:true,
-                    navigatio nText: ["<i class='fa fa-angle-left '></i>","<i class='fa fa-angle-right'> </i>"]
-                });
-
-            });
-        </script>
+                    var owl = $(" #sort-slider");
+                            owl.owlCarousel({
+                            items : 6, //10 items above 1000px browser width
+                                    itemsDesktop : [1000, 4], //5 items between1000px a nd 901px
+                                    itemsDesktopSmall : [900, 3], // betweem 900px and 601px 
+                                    itemsTablet: [600, 2], //2 items between 600 and  0
+                                    itemsMobile : [480, 1], // itemsMobile disabled -  inherit from itemsTablet option
+                                    pagination:false,
+                                    navigati on:true,
+                                    navigatio nText: ["<i class='fa fa-angle-left '></i>", "<i class='fa fa-angle-right'> </i>"]
+                            });
+                    });        </script>
 
         <!--   <link rel="stylesheet" type="text/css" href="--><!--application_resources/css/build/css/intlTelInput.css"/>-->
         <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/build/css/demo.css"/>
@@ -9199,65 +9034,61 @@ Unlimited mileage: </li>  -->
         <script>
 
 
-            $("#phone_no").intlTelInput(
+                            $("#phone_no").intlTelInput(
                     {   //autoFormat: true,  // autoHideDialCode: false,
-                        //defaultCountry: "lk"
-                        //  nationalMode: true,
-                        // utilsScript: "http://www.casons.lk/application_resources/css/build/js/utils.js"
+                    //defaultCountry: "lk"
+                    //  nationalMode: true,
+                    // utilsScript: "http://www.casons.lk/application_resources/css/build/js/utils.js"
 
-                        autoFormat: false,
-                        autoHideDialCode: false,
-                        // defaultCountry: "in",
-                        //nationalMode: true,
-                        //numberType: "MOBILE",
-                        //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-                        //preferredCountries: ['cn', 'jp'],
-                        //responsiveDropdown: true,
-                        defaultCountry: "auto",
-                        geoIpLookup: function(callback) {
-                            $ .get('http://ipinfo.io', function() {}, "jsonp").always(functio n(re
-                            sp) {
-                                v ar countryCode = (resp && resp.country) ? resp.country : "";
-                                callback(countryCode);
-                        });
+                    autoFormat: false,
+                            autoHideDialCode: false,
+                            // defaultCountry: "in",
+                            //nationalMode: true,
+                            //numberType: "MOBILE",
+                            //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                            //preferredCountries: ['cn', 'jp'],
+                            //responsiveDropdown: true,
+                            defaultCountry: "auto",
+                            geoIpLookup: function(callback) {
+                            $.get('http://ipinfo.io', function() {}, "jsonp").always(functio n(re
+                                    sp) {
+                            v ar countryCode = (resp && resp.country) ? resp.country : "";
+                                    callback(countryCode);
+                            });
                             },
-                        utilsScript: "http://www.techieat.com/international-telephone/lib/libphonenumber/build/utils.js"
+                            utilsScript: "http://www.techieat.com/international-telephone/lib/libphonenumber/build/utils.js"
 
 
-                });
+                    });
+                            $('#country').countrySelect({
+                    //  defaultCountry: "lk",
+                    });
+                            // 2015-08-20
 
-            $('#country').countrySelect( {
-                //  defaultCountry: "lk",
-                });
+                            /// $('#country').on('change', function(){
 
-
-
-            // 2015-08-20
-
-            /// $('#country').on('change', function(){
-
-            ///    var countryData = $("#country").countrySelect("getSelectedCountryData");
-            ///    var countrycode = countryData.iso2;
-            ///    alert(countrycode);
+                            ///    var countryData = $("#country").countrySelect("getSelectedCountryData");
+                            ///    var countrycode = countryData.iso2;
+                            ///    alert(countrycode);
 
 
-            ///     $("#phone_no").intlTelInput("selectCountry", countrycode);
+                            ///     $("#phone_no").intlTelInput("selectCountry", countrycode);
 
 
-           /// });
+                            /// });
 
 
-            //    $("#phone_no").on("keyup change", function() {
-        //        var intlNumber = $("#phone_no").intlTelInput("getNumber");
-        //        if (intlNumber) {
-        //         //   output.text("International: " + intlNumber);
-        //            alert("International: " + intlNumber);
-        //
-        //        } else {
-        //          //  output.text("Please enter a number below");
-        //            alert("Please enter a number below");
-        //        }
-        //    });
+                            //    $("#phone_no").on("keyup change", function() {
+                            //        var intlNumber = $("#phone_no").intlTelInput("getNumber");
+                            //        if (intlNumber) {
+                            //         //   output.text("International: " + intlNumber);
+                            //            alert("International: " + intlNumber);
+                            //
+                            //        } else {
+                            //          //  output.text("Please enter a number below");
+                            //            alert("Please enter a number below");
+                            //        }
+                            //    });
 
 
 
@@ -9270,50 +9101,41 @@ Unlimited mileage: </li>  -->
         <script>
 
 
-            $('input[name="country"]').countrySelect( {
-                //  defaultCountry: "lk"
-                defaultCountry: "auto"
-            });
-
-            $('input[name="telephone"]').intlTelInput( { //autoFormat: true ,
-                // autoHideDialCode: true,
-                // defaultCountry: "lk"
-                autoFormat: false,
-                autoHideDialCode: false,
-                defaultCountry: "auto",
-                geoIpLookup: function(callback) {
-                    $. get('http://ipinfo.io', function() {}, "jsonp").always(functio n(re
-                    sp) {
-                        va r countryCode = (resp && resp.country) ? resp.country : "";
-                        callback(countryCode);
+                            $('input[name="country"]').countrySelect({
+                    //  defaultCountry: "lk"
+                    defaultCountry: "auto"
                     });
-                    },
-                utilsScript: "http://www.techieat.com/international-telephone/lib/libphonenumber/build/utils.js"
+                            $('input[name="telephone"]').intlTelInput({ //autoFormat: true ,
+                    // autoHideDialCode: true,
+                    // defaultCountry: "lk"
+                    autoFormat: false,
+                            autoHideDialCode: false,
+                            defaultCountry: "auto",
+                            geoIpLookup: function(callback) {
+                            $.get('http://ipinfo.io', function() {}, "jsonp").always(functio n(re
+                                    sp) {
+                            va r countryCode = (resp && resp.country) ? resp.country : "";
+                                    callback(countryCode);
+                            });
+                            },
+                            utilsScript: "http://www.techieat.com/international-telephone/lib/libphonenumber/build/utils.js"
 
-            });
+                    });
+                            $('input[name="country"]').on('change', function(){
 
-            $('input[name="country"]').on('change', function(){
-
-                var countryDat a  = $("#country").countrySelect("getSelectedCountryData");
-                var countrycode = countryData.iso2;
-
-                $('input[name="telephone"]').intlTelInput("selectCountry", countrycode);
-
-            });
-
-        </script>
+                    var countryDat a = $("#country").countrySelect("getSelectedCountryData");
+                            var countrycode = countryData.iso2;
+                            $('input[name="telephone"]').intlTelInput("selectCountry", countrycode);
+                    });        </script>
 
         <script>
 
-            $(window).load(function () {
-                var countryCode = $('input[name="telephone"]').intlTelInput("getSelectedCountryData").iso2;
-                // alert(countryData.iso2);
+                            $(window).load(function () {
+                    var countryCode = $('input[name="telephone"]').intlTelInput("getSelectedCountryData").iso2;
+                            // alert(countryData.iso2);
 
-                $('input[name="country"]').countrySelect("selectCountry", countryCode);
-
-            });
-
-        </script>
+                            $('input[name="country"]').countrySelect("selectCountry", countryCode);
+                    });        </script>
 
 
 
@@ -9338,77 +9160,66 @@ Unlimited mileage: </li>  -->
 
 <script type="text/javascript">
 
-    $("#send_contact_form").validate({
+                            $("#send_contact_form").validate({
 
-        rules: {
-            subject: { required: true },
-            name: { required: true },
-            email: { required: true },
-            tel : {required:true, digits: true ,maxlength:  9},            
-            msg: { required: true }
-        },        messages: {
-            //name: "Place Yor Name",
-            
-        },
-        submitHandler: function (form) {
+                    rules: {
+                    subject: { required: true },
+                            name: { required: true },
+                            email: { required: true },
+                            tel : {required:true, digits: true, maxlength:  9},
+                            msg: { required: true }
+                    }, messages: {
+                    //name: "Place Yor Name",
 
-            $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
-                if (msg == 1) {
-                    //location.reload();
-                    
-                    $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
-                    
-                    //alert('msg sent ');
-                    location.reload();
-                }
-                else {
-                    $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
+                    },
+                            submitHandler: function (form) {
+
+                            $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
+                            if (msg == 1) {
+                            //location.reload();
+
+                            $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
+                                    //alert('msg sent ');
+                                    location.reload();
+                            }
+                            else {
+                            $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
 //                none
-                    // alert('not sent');
-                }
-                });
-        }
-            });
-
-</script>
+                                    // alert('not sent');
+                            }
+                            });
+                            }
+                    });</script>
 
 
 <script>
-    
+
 //$('#license_expire').datetimepicker();
-    $('input[name=license_expire] ').datetimepicker({
-        dayOfWeekStart : 1,
-        lang:'en',
-        minDate: 0,
-        timepicker:false,
-        //format:'Y/m/d ',
-        format:'d/m/Y',
-        
-        //  format:'d-m-Y H:i',
-     });
+                    $('input[name=license_expire] ').datetimepicker({
+            dayOfWeekStart : 1,
+                    lang:'en',
+                    minDate: 0,
+                    timepicker:false,
+                    //format:'Y/m/d ',
+                    format:'d/m/Y',
+                    //  format:'d-m-Y H:i',
+            });
+                    $('#flightarrivaltime').datetimepicker({
+            dayOfWeekStart : 1,
+                    lang:'en',
+                    minDate: 0,
+                    date picker:false,
+                    format:'H:i',
+                    d efaultTime:'00:00',
+                    // format:'d-m-Y  H:i',
 
-    $('#flightarrivaltime').datetimepicker({
-    dayOfWeekStart : 1,
-        lang:'en',
-        minDate: 0,
-        date picker:false,
-        format:'H:i',
-        d efaultTime:'00:00' ,
-
-        // format:'d-m-Y  H:i',
-
-        });
-
-    $('input[name="stdate"]').bind("mousewheel", function() {
-        return false;
-     });
-        
-    $('input[name="enddate"]').bind("mousewheel", function() {
-        return false;
-     });
-        
-
-</script>
+            });
+                    $('input[name="stdate"]').bind("mousewheel", function() {
+            return false;
+            });
+                    $('input[name="enddate"]').bind("mousewheel", function() {
+            return false;
+            });</script>
 
 
 <!--start notifi-->
