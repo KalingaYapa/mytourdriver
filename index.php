@@ -184,9 +184,15 @@
 
                                                     </ul>
                                                 </li>
+<<<<<<< HEAD
 
 
 
+=======
+
+
+
+>>>>>>> 7aa813c12e27141f73022991791069dba77e6b01
                                                 <!--                                                <li class="">
                                                                                                     <a
                                                                                                         href="#"> <b>Services</b>  </a>
@@ -3597,6 +3603,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
+<<<<<<< HEAD
                     </div>
 
                     <div class="col-md-4 social-icons">
@@ -3609,6 +3616,20 @@
                         </ul>
                     </div>
 
+=======
+                    </div>
+
+                    <div class="col-md-4 social-icons">
+                        <ul class="list-inline list-unstyled pull-right">
+                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
+                            <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
+                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
+                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
+                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
+                        </ul>
+                    </div>
+
+>>>>>>> 7aa813c12e27141f73022991791069dba77e6b01
                 </div>
             </div>
         </div>
@@ -4200,15 +4221,12 @@
             });
 
         </script>
-
-
-
         <!--   START FLOATING SOCIAL MEDIA ICONS-->
 
-        <link href="http://www.casons.lk/application_resources/social_media/css/contact-buttons.css" rel="stylesheet">
+        <!--<link href="http://www.casons.lk/application_resources/social_media/css/contact-buttons.css" rel="stylesheet">-->
 
-        <script src="http://www.casons.lk/application_resources/social_media/js/jquery.contact-buttons.js"></script>
-        <script src="http://www.casons.lk/application_resources/social_media/js/demo.js"></script>
+        <!--<script src="http://www.casons.lk/application_resources/social_media/js/jquery.contact-buttons.js"></script>-->
+        <!--<script src="http://www.casons.lk/application_resources/social_media/js/demo.js"></script>-->
 
         <!--   END FLOATING SOCIAL MEDIA ICONS-->
     </body>
@@ -4218,37 +4236,37 @@
 
 <script type="text/javascript">
 
-            $("#send_contact_form").validate({
-                rules: {
-                    subject: {required: true},
-                    name: {required: true},
-                    email: {required: true},
-                    tel: {required: true, digits: true, maxlength: 9},
-                    msg: {required: true}
-                },
-                messages: {
-                    //name: "Place Yor Name",
+    $("#send_contact_form").validate({
+        rules: {
+            subject: {required: true},
+            name: {required: true},
+            email: {required: true},
+            tel: {required: true, digits: true, maxlength: 9},
+            msg: {required: true}
+        },
+        messages: {
+            //name: "Place Yor Name",
 
-                },
-                submitHandler: function (form) {
+        },
+        submitHandler: function (form) {
 
-                    $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
-                        if (msg == 1) {
-                            //location.reload();
+            $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
+                if (msg == 1) {
+                    //location.reload();
 
-                            $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
+                    $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
 
-                            //alert('msg sent ');
-                            location.reload();
-                        }
-                        else {
-                            $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
+                    //alert('msg sent ');
+                    location.reload();
+                }
+                else {
+                    $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
 //                none
-                            // alert('not sent');
-                        }
-                    });
+                    // alert('not sent');
                 }
             });
+        }
+    });
 
 </script>
 
