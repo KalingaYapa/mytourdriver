@@ -176,9 +176,15 @@
 
                                                     </ul>
                                                 </li>
+<<<<<<< HEAD
 
 
 
+=======
+
+
+
+>>>>>>> 7aa813c12e27141f73022991791069dba77e6b01
                                                 <!--                                                <li class="">
                                                                                                     <a
                                                                                                         href="#"> <b>Services</b>  </a>
@@ -3576,6 +3582,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
+<<<<<<< HEAD
                     </div>
 
                     <div class="col-md-4 social-icons">
@@ -3588,6 +3595,20 @@
                         </ul>
                     </div>
 
+=======
+                    </div>
+
+                    <div class="col-md-4 social-icons">
+                        <ul class="list-inline list-unstyled pull-right">
+                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
+                            <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
+                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
+                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
+                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
+                        </ul>
+                    </div>
+
+>>>>>>> 7aa813c12e27141f73022991791069dba77e6b01
                 </div>
             </div>
         </div>
