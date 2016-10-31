@@ -77,7 +77,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!-- START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.casons.lk/images/favicon.ico">
+        <!--<link rel="shortcut icon" type="image/x-icon" href="http://www.casons.lk/images/favicon.ico">-->
         <!-- EDN FAVICON -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

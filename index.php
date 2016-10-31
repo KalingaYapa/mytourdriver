@@ -59,7 +59,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!--         START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="application_resources/">
+        <!--<link rel="shortcut icon" type="image/x-icon" href="application_resources/">-->
         <style type="text/css">
             .error{
                 font-size: 10px;
