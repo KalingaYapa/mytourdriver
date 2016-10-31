@@ -18,29 +18,29 @@
         <!-- END META, DESCRIPTION, KEYWORDS, AUTHOR -->
         <script type="text/javascript">
 
-            var js_base_url = "http://www.casons.lk/";
-            var js_site_url = "http://www.casons.lk/";
+            var js_base_url = "";
+            var js_site_url = "";
 
         </script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- START THEME STYLE -->
-        <link href="http://www.casons.lk/application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-        <link href="http://www.casons.lk/application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="http://www.casons.lk/application_resources/css/template.css" rel="stylesheet" type="text/css">
-        <link href="http://www.casons.lk/application_resources/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="application_resources/css/template.css" rel="stylesheet" type="text/css">
+        <link href="application_resources/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
         <!--new-->
-        <link href="http://www.casons.lk/application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
-        <link href="http://www.casons.lk/application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
+        <link href="application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
+        <link href="application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
 
-        <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/build.css" type="text/css">
+        <link rel="stylesheet" href="application_resources/css/build.css" type="text/css">
 
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
         <!--menu css-->
-        <link href="http://www.casons.lk/application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
+        <link href="application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
 
         <!-- END THEME STYLE -->
         <!--owl carousel-->
@@ -61,8 +61,8 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,700,300' rel='stylesheet' type='text/css'>
         <!-- END GOOGLE FONT OPEN SANS -->
 
-        <!-- START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="http://www.casons.lk/images/favicon.ico">
+        <!--         START FAVICON 
+                <link rel="shortcut icon" type="image/x-icon" href="#">-->
 
 
 
@@ -121,11 +121,6 @@
             });
 
         </script>
-
-
-
-
-
         <div class="menu-wrapper">
 
             <div class="container">
@@ -136,13 +131,10 @@
 
                         <a href="#"> <img alt="MyTourDriverLogo" class="img-responsive c-logo"
                                           src="#"></a>
-
                     </div>
 
                     <div class="col-md-9 col-sm-8">
                         <div class="header-top text-right">
-
-
                         </div>
 
                         <div class="header-top text-right">
@@ -587,42 +579,29 @@
         <div class="slider-warpper">
 
 
-            <div class="search-wrap clearfix">
-                <div role="tabpanel">
+            <div class="search-wrap clearfix" style="width: 483px;height: 430px">
+                <div role="tabpanel" style="width: 483px;">
                     <!--Nav tabs--> 
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active">
-                            <a class="selfDrive" href="#Self" aria-controls="Self Drive" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Self Drive"  class="visible-xs" src="http://www.casons.lk/application_resources/images/self.png">
-                                <span class="hidden-xs">Self<br> Drive </span>
-                            </a>
-                        </li>
-                        <li role="presentation">
+
+                        <li role="presentation" style="width: 161px;">
                             <a class="withDriver" href="#withDriver" aria-controls="with Driver" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="http://www.casons.lk/application_resources/images/driver-icon.png">
-                                <span class="hidden-xs"> With <br>Driver</span>
+                                <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="#">
+                                <span class="hidden-xs"> With Driver</span>
                             </a>
                         </li>
-                        <li role="presentation">
+                        <li role="presentation" style="width: 161px;">
                             <a class="taxi" href="#taxi" aria-controls="Taxi" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="http://www.casons.lk/application_resources/images/taxi-icon.png">
-                                <span class="hidden-xs">Drop & Pickup <br>(Taxi)</span>
+                                <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="#">
+                                <span class="hidden-xs">Drop & Pickup (Taxi)</span>
                             </a>
                         </li>
-                        <li role="presentation">
+                        <li role="presentation" style="width: 161px;">
                             <a class="airport" href="#airport" aria-controls="Airport Transfer" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="http://www.casons.lk/application_resources/images/airport.png">
-                                <span class="hidden-xs">AIRPORT <br> TRANSFER</span>
+                                <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="#">
+                                <span class="hidden-xs">Airport Transfer</span>
                             </a>
                         </li>
-                        <li role="presentation">
-                            <a class="weddings" href="#weddings" aria-controls="Weddings" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Weddings" class="visible-xs" src="http://www.casons.lk/application_resources/images/wedding.png">
-                                <span class="hidden-xs">Weddings</span>
-                            </a>
-                        </li>
-
-
                     </ul>
 
                     <!--Self Driver Tab panes--> 
@@ -4203,88 +4182,84 @@
         <!--<script src="http://www.casons.lk/application_resources/social_media/js/demo.js"></script>-->
 
         <!--   END FLOATING SOCIAL MEDIA ICONS-->
-    </body>
+        <script type="text/javascript">
 
-</html>
+            $("#send_contact_form").validate({
+                rules: {
+                    subject: {required: true},
+                    name: {required: true},
+                    email: {required: true},
+                    tel: {required: true, digits: true, maxlength: 9},
+                    msg: {required: true}
+                },
+                messages: {
+                    //name: "Place Yor Name",
 
+                },
+                submitHandler: function (form) {
 
-<script type="text/javascript">
+                    $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
+                        if (msg == 1) {
+                            //location.reload();
 
-    $("#send_contact_form").validate({
-        rules: {
-            subject: {required: true},
-            name: {required: true},
-            email: {required: true},
-            tel: {required: true, digits: true, maxlength: 9},
-            msg: {required: true}
-        },
-        messages: {
-            //name: "Place Yor Name",
+                            $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
 
-        },
-        submitHandler: function (form) {
-
-            $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
-                if (msg == 1) {
-                    //location.reload();
-
-                    $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
-
-                    //alert('msg sent ');
-                    location.reload();
-                }
-                else {
-                    $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
-//                none
-                    // alert('not sent');
+                            //alert('msg sent ');
+                            location.reload();
+                        }
+                        else {
+                            $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
+                            //                none
+                            // alert('not sent');
+                        }
+                    });
                 }
             });
-        }
-    });
 
-</script>
+        </script>
 
 
-<script>
+        <script>
 
-//$('#license_expire').datetimepicker();
-    $('input[name=license_expire] ').datetimepicker({
-        dayOfWeekStart: 1,
-        lang: 'en',
-        minDate: 0,
-        timepicker: false,
-        //format:'Y/m/d',
-        format: 'd/m/Y',
-        // format:'d-m-Y H:i',
-    });
+            //$('#license_expire').datetimepicker();
+            $('input[name=license_expire] ').datetimepicker({
+                dayOfWeekStart: 1,
+                lang: 'en',
+                minDate: 0,
+                timepicker: false,
+                //format:'Y/m/d',
+                format: 'd/m/Y',
+                // format:'d-m-Y H:i',
+            });
 
-    $('#flightarrivaltime').datetimepicker({
-        dayOfWeekStart: 1,
-        lang: 'en',
-        minDate: 0,
-        datepicker: false,
-        format: 'H:i',
-        defaultTime: '00:00',
-        // format:'d-m-Y H:i',
+            $('#flightarrivaltime').datetimepicker({
+                dayOfWeekStart: 1,
+                lang: 'en',
+                minDate: 0,
+                datepicker: false,
+                format: 'H:i',
+                defaultTime: '00:00',
+                // format:'d-m-Y H:i',
 
-    });
+            });
 
-    $('input[name="stdate"]').bind("mousewheel", function () {
-        return false;
-    });
+            $('input[name="stdate"]').bind("mousewheel", function () {
+                return false;
+            });
 
-    $('input[name="enddate"]').bind("mousewheel", function () {
-        return false;
-    });
-
-
-</script>
+            $('input[name="enddate"]').bind("mousewheel", function () {
+                return false;
+            });
 
 
-<!--start notifi-->
+        </script>
 
-<script src="http://www.casons.lk/application_resources/notify/bootstrap-notify.min.js"></script>
-<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
 
-<!--end notifi-->
+        <!--start notifi-->
 
+        <script src="http://www.casons.lk/application_resources/notify/bootstrap-notify.min.js"></script>
+        <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
+
+        <!--end notifi-->
+    </body>
+</html>
