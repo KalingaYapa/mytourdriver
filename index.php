@@ -59,7 +59,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!--         START FAVICON -->
-        <!--<link rel="shortcut icon" type="image/x-icon" href="application_resources/">-->
+        <link rel="shortcut icon" type="image/x-icon" href="application_resources/images/taxi-icon.png">
         <style type="text/css">
             .error{
                 font-size: 10px;
@@ -76,14 +76,14 @@
 
     </head><!-- END HEAD -->
     <body onload="initialize()">
-        <script src="http://www.casons.lk/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-        <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/build/css/demo.css"/>
-        <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/country/css/countrySelect.css"/>
-        <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/build.css" type="text/css">
-        <script src="http://www.casons.lk/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="application_resources/css/country/css/countrySelect.css"/>
+        <link rel="stylesheet" href="application_resources/css/build.css" type="text/css">
+        <script src="application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
         <script>
 
@@ -450,9 +450,7 @@
                 dayOfWeekStart: 1,
                 lang: 'en',
                 minDate: 0,
-                // datepicker:false,
                 timepicker: false,
-                //        format:'Y/m/d',
                 format: 'd/m/Y'
             });
 
@@ -973,8 +971,8 @@
                                 
                                 <div class="item img">
                                     <img class="img-responsive"
-                                         src="http://www.casons.lk/uploads/model/thumb/nissanmarch.jpg"
-                                         alt="Hire Nissan March with Casons">
+                                         src="application_resources/images/slider/doubleCab.jpg"
+                                         alt="Hire Nissan March">
                                     <div class="car-details clearfix">
                                         <span class="car-name">Nissan March</span>
                                         <span class="car-details-price">
@@ -1485,23 +1483,23 @@
 
 
         <!-- START JQUERY PLUGINS LOAD -->
-        <script src="http://www.casons.lk/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-        <script src="http://www.casons.lk/application_resources/js/bootstrap.js" type="text/javascript"></script>
-        <script src="http://www.casons.lk/application_resources/js/owl.carousel.js"></script>
-        <script src="http://www.casons.lk/application_resources/js/modernizr.js"></script>
-        <script src="http://www.casons.lk/application_resources/js/placeholders.min.js"></script>
+        <script src="application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="application_resources/js/bootstrap.js" type="text/javascript"></script>
+        <script src="application_resources/js/owl.carousel.js"></script>
+        <script src="application_resources/js/modernizr.js"></script>
+        <script src="application_resources/js/placeholders.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
 
 
 
-        <script src="http://www.casons.lk/application_resources/js/jquery-ui.js"></script>
+        <script src="application_resources/js/jquery-ui.js"></script>
         <!-- date time picker -->
-        <script src="http://www.casons.lk/application_resources/js/jquery.datetimepicker.js"></script>
+        <script src="application_resources/js/jquery.datetimepicker.js"></script>
 
         <!-- date time picker -->
 
         <!--menu js-->
-        <script src="http://www.casons.lk/application_resources/js/script.js" type="text/javascript"></script>
+        <script src="application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
             $(function () {
@@ -1678,11 +1676,11 @@
 
             });
         </script>
-        <script src="http://www.casons.lk/application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
+        <script src="application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
         <script src="http://momentjs.com/downloads/moment.js"></script> 
         <!--New-->
-        <script src="http://www.casons.lk/application_resources/js/slider.js" type="text/javascript"></script>
-        <script src="http://www.casons.lk/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="application_resources/js/slider.js" type="text/javascript"></script>
+        <script src="application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
         <!--slider - owl-->
         <script>
             $(document).ready(function () {
@@ -1701,18 +1699,18 @@
             });
         </script>
 
-        <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="application_resources/css/build/css/demo.css"/>
 
-        <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/build/css/custom.css">
+        <link rel="stylesheet" href="application_resources/css/build/css/custom.css">
 
-        <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/country/css/countrySelect.css"/>
+        <link rel="stylesheet" type="text/css" href="application_resources/css/country/css/countrySelect.css"/>
 
-        <script src="http://www.casons.lk/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <script src="application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
 
         <!--start form wizard-->
-        <script src="http://www.casons.lk/application_resources/wizard2/dist/jquery.wizard.js"></script>
-        <link href="http://www.casons.lk/application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
+        <script src="application_resources/wizard2/dist/jquery.wizard.js"></script>
+        <link href="application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
 
         <style type="text/css">
 
@@ -1875,7 +1873,7 @@
 
         <!--start notifi-->
 
-        <script src="http://www.casons.lk/application_resources/notify/bootstrap-notify.min.js"></script>
+        <script src="application_resources/notify/bootstrap-notify.min.js"></script>
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
 
         <!--end notifi-->
