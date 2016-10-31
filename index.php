@@ -2675,11 +2675,11 @@
         <!--contact row-->
         <div class="contact-row-wrapper">
             <div class="container">
-                <div class="row">
+                <div class="row" style="width: 850px;">
                     <div class="col-md-8">
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
                     </div>
-
+                    
                     <div class="col-md-4 social-icons">
                         <ul class="list-inline list-unstyled pull-right">
                             <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
