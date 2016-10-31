@@ -12,7 +12,7 @@
         <title>MyTourDriver Sri Lanka Official Site </title>
         <!-- END TITLE -->
 
-        
+
         <meta name="author" content="" />
 
         <!-- END META, DESCRIPTION, KEYWORDS, AUTHOR -->
@@ -135,7 +135,7 @@
                     <div class="col-md-3 col-sm-4">
 
                         <a href="#"> <img alt="MyTourDriverLogo" class="img-responsive c-logo"
-                                                              src="#"></a>
+                                          src="#"></a>
 
                     </div>
 
@@ -170,7 +170,7 @@
                                             <ul>
 
                                                 <li>
-                                                    
+
                                                     <a href='#'><b>Home</b></a>
 
                                                 </li>
@@ -181,73 +181,73 @@
                                                         href="#"> <b>About</b>  </a>
 
                                                     <ul>
-                                                        
+
                                                     </ul>
                                                 </li>
 
 
 
-<!--                                                <li class="">
-                                                    <a
-                                                        href="#"> <b>Services</b>  </a>
-
-                                                    <ul>
-                                                        <li> <a href='http://www.casons.lk/services/4-4-rentals'>4x4 Rentals</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/wedding-vip'>Weddings & Events</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/fleet-management'>Fleet Management</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/road-side-assistance'>Road Side Assistance </a> </li>
-                                                        <li><a href="http://www.bikerentsrilanka.com/" target="_blank">MoterBike Rental</a></li>
-                                                        <li> <a href='http://www.casons.lk/services/self-drive-rental'>Self Drive Rental</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/chauffeur-driven-tours'>Chauffeur Driven & Tours</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/airport-transfers'>Airport Tansfers</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/limousine-services'>Limousine Services</a> </li>
-                                                        <li> <a href='http://www.casons.lk/services/raca-garage-services'>RACA Garage Services</a> </li>
-                                                    </ul>
-                                                </li>-->
-
-
-
-<!--                                                <li class="">
-                                                    <a
-                                                        href="#"> <b>Fleet</b>  </a>
-
-                                                    <ul>
-                                                        <li> <a href='http://www.casons.lk/vehicles/cars'>Cars</a> </li>
-                                                        <li> <a href='http://www.casons.lk/vehicles/vans'>Vans</a> </li>
-                                                        <li> <a href='http://www.casons.lk/vehicles/suvs'>SUV’s</a> </li>
-                                                        <li> <a href='http://www.casons.lk/vehicles/4-4-cabs'>4x4 Cabs</a> </li>
-                                                        <li> <a href='http://www.casons.lk/vehicles/motorbikes'>Motor Bikes</a> </li>
-                                                        <li> <a href='http://www.casons.lk/vehicles/buses'>Buses</a> </li>
-                                                    </ul>
-                                                </li>-->
+                                                <!--                                                <li class="">
+                                                                                                    <a
+                                                                                                        href="#"> <b>Services</b>  </a>
+                                                
+                                                                                                    <ul>
+                                                                                                        <li> <a href='http://www.casons.lk/services/4-4-rentals'>4x4 Rentals</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/wedding-vip'>Weddings & Events</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/fleet-management'>Fleet Management</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/road-side-assistance'>Road Side Assistance </a> </li>
+                                                                                                        <li><a href="http://www.bikerentsrilanka.com/" target="_blank">MoterBike Rental</a></li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/self-drive-rental'>Self Drive Rental</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/chauffeur-driven-tours'>Chauffeur Driven & Tours</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/airport-transfers'>Airport Tansfers</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/limousine-services'>Limousine Services</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/services/raca-garage-services'>RACA Garage Services</a> </li>
+                                                                                                    </ul>
+                                                                                                </li>-->
 
 
 
-<!--                                                <li class="">
-                                                    <a
-                                                        href="#"> <b>Corporate Rental</b>  </a>
+                                                <!--                                                <li class="">
+                                                                                                    <a
+                                                                                                        href="#"> <b>Fleet</b>  </a>
+                                                
+                                                                                                    <ul>
+                                                                                                        <li> <a href='http://www.casons.lk/vehicles/cars'>Cars</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/vehicles/vans'>Vans</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/vehicles/suvs'>SUV’s</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/vehicles/4-4-cabs'>4x4 Cabs</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/vehicles/motorbikes'>Motor Bikes</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/vehicles/buses'>Buses</a> </li>
+                                                                                                    </ul>
+                                                                                                </li>-->
 
-                                                </li>-->
 
 
-<!--
-                                                <li class="">
-                                                    <a
-                                                        href="#"> <b>Travel</b>  </a>
+                                                <!--                                                <li class="">
+                                                                                                    <a
+                                                                                                        href="#"> <b>Corporate Rental</b>  </a>
+                                                
+                                                                                                </li>-->
 
-                                                    <ul>
-                                                        <li> <a href='http://www.casons.lk/travel/anuradhapura'>Travel to Anuradhapura</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/polonnaruwa'>Travel to Polonnaruwa</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/jaffna'>Travel to Jaffna</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/kandy'>Travel to Kandy</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/trincomalee'>Travel to Trincomalee</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/galle'>Travel to Galle</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/bentota'>Travel to Bentota</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/hikkaduwa'>Travel to Hikkaduwa</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/unawatuna'>Travel to Unawatuna</a> </li>
-                                                        <li> <a href='http://www.casons.lk/travel/nuwaraeliya'>Travel to Nuwara Eliya</a> </li>
-                                                    </ul>
-                                                </li>-->
+
+                                                <!--
+                                                                                                <li class="">
+                                                                                                    <a
+                                                                                                        href="#"> <b>Travel</b>  </a>
+                                                
+                                                                                                    <ul>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/anuradhapura'>Travel to Anuradhapura</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/polonnaruwa'>Travel to Polonnaruwa</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/jaffna'>Travel to Jaffna</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/kandy'>Travel to Kandy</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/trincomalee'>Travel to Trincomalee</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/galle'>Travel to Galle</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/bentota'>Travel to Bentota</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/hikkaduwa'>Travel to Hikkaduwa</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/unawatuna'>Travel to Unawatuna</a> </li>
+                                                                                                        <li> <a href='http://www.casons.lk/travel/nuwaraeliya'>Travel to Nuwara Eliya</a> </li>
+                                                                                                    </ul>
+                                                                                                </li>-->
 
 
 
@@ -391,7 +391,7 @@
                     </div>
 
                     <div class="modal-footer">
-                        
+
 
                     </div> 
                 </div>
@@ -561,7 +561,7 @@
                     </div>
 
                     <div class="modal-footer">
-                     
+
 
                     </div>
                 </div>
@@ -810,7 +810,7 @@
                                 </div>
 
                                 <input type="hidden" class="form-control" name="service" id="service" value="WD">
-<div class="form-group col-sm-12">
+                                <div class="form-group col-sm-12">
                                     <div id="send_enquiry_search"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
@@ -1400,7 +1400,7 @@
                             <!--for map-->
 
                             <div class="map-wrap">
-                                
+
                                 <div id="dvMapair" style="width:100%; height: 300px; display: none">
 
                                 </div>
@@ -3592,26 +3592,26 @@
         <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
-                <div class="contact-row-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
-                            </div>
-        
-                            <div class="col-md-4 social-icons">
-                                <ul class="list-inline list-unstyled pull-right">
-                                    <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
-                                    <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
-                                    <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
-                                    <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
-                                    <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
-                                </ul>
-                            </div>
-        
-                        </div>
+        <div class="contact-row-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
                     </div>
+
+                    <div class="col-md-4 social-icons">
+                        <ul class="list-inline list-unstyled pull-right">
+                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
+                            <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
+                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
+                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
+                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
+                        </ul>
+                    </div>
+
                 </div>
+            </div>
+        </div>
         <!--contact row-->
         <!--footer wrap ///////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <!--        <div class="footer-wrap">
@@ -4200,15 +4200,12 @@
             });
 
         </script>
-
-
-
         <!--   START FLOATING SOCIAL MEDIA ICONS-->
 
-        <link href="http://www.casons.lk/application_resources/social_media/css/contact-buttons.css" rel="stylesheet">
+        <!--<link href="http://www.casons.lk/application_resources/social_media/css/contact-buttons.css" rel="stylesheet">-->
 
-        <script src="http://www.casons.lk/application_resources/social_media/js/jquery.contact-buttons.js"></script>
-        <script src="http://www.casons.lk/application_resources/social_media/js/demo.js"></script>
+        <!--<script src="http://www.casons.lk/application_resources/social_media/js/jquery.contact-buttons.js"></script>-->
+        <!--<script src="http://www.casons.lk/application_resources/social_media/js/demo.js"></script>-->
 
         <!--   END FLOATING SOCIAL MEDIA ICONS-->
     </body>
@@ -4218,37 +4215,37 @@
 
 <script type="text/javascript">
 
-            $("#send_contact_form").validate({
-                rules: {
-                    subject: {required: true},
-                    name: {required: true},
-                    email: {required: true},
-                    tel: {required: true, digits: true, maxlength: 9},
-                    msg: {required: true}
-                },
-                messages: {
-                    //name: "Place Yor Name",
+    $("#send_contact_form").validate({
+        rules: {
+            subject: {required: true},
+            name: {required: true},
+            email: {required: true},
+            tel: {required: true, digits: true, maxlength: 9},
+            msg: {required: true}
+        },
+        messages: {
+            //name: "Place Yor Name",
 
-                },
-                submitHandler: function (form) {
+        },
+        submitHandler: function (form) {
 
-                    $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
-                        if (msg == 1) {
-                            //location.reload();
+            $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
+                if (msg == 1) {
+                    //location.reload();
 
-                            $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
+                    $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
 
-                            //alert('msg sent ');
-                            location.reload();
-                        }
-                        else {
-                            $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
+                    //alert('msg sent ');
+                    location.reload();
+                }
+                else {
+                    $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
 //                none
-                            // alert('not sent');
-                        }
-                    });
+                    // alert('not sent');
                 }
             });
+        }
+    });
 
 </script>
 
