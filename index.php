@@ -59,7 +59,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!--         START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="application_resources/">
+        <!--<link rel="shortcut icon" type="image/x-icon" href="application_resources/">-->
         <style type="text/css">
             .error{
                 font-size: 10px;
@@ -1015,7 +1015,7 @@
 
         <!--/ end offers /////////////////////////////////////////////////////////////////////////////////////////-->
 
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyD8ZxPsZvhkaYCPbncCS52YUwUkTpJ3sxw"></script>
         <script type="text/javascript">
 
                                                 var source, destination;
