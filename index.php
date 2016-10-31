@@ -132,7 +132,9 @@
                                 </li>
                                 <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#contactModal"><i class="fa fa-info-circle"></i> kkyapa@gmail.com</a>
                                 </li>
-                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#loginModal"><i class="fa fa-info-circle"></i> Login</a>
+                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#loginModal"><i class="fa fa-info-circle"></i> Sign-In</a>
+                                </li>
+                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#loginModal"><i class="fa fa-info-circle"></i> Sign-Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -728,7 +730,7 @@
                     </div>
                 </div>
             </div>  
-            ///////////////////////////////////////////////////////////////////////////////
+           
             <div id="home-slider" class="owl-carousel owl-theme">
 
                 <div class="item  ">
