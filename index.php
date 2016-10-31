@@ -494,7 +494,6 @@
                             </div>
 
                             <div class="form-group col-sm-6">
-
                                 <label for="exampleInputName">Service Type</label>
                                 <select class="form-control" name="service" id="service" autocomplete="off">
                                     <option value="OTHER">Select Type of Service</option>
@@ -538,14 +537,10 @@
 
                                 <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
                             </div>
-
                         </form>
-
                     </div>
-
                     <div class="modal-footer">
-
-
+                        
                     </div>
                 </div>
             </div>
@@ -2674,10 +2669,8 @@
                 <div class="row">
                     <div class="col-md-8">
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
-
                     </div>
                 </div>
-
                 <div class="col-md-4 social-icons">
                     <ul class="list-inline list-unstyled pull-right">
                         <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
