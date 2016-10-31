@@ -44,17 +44,14 @@
 
         <!-- END THEME STYLE -->
         <!--owl carousel-->
-        <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/owl.carousel.css">
-        <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/owl.theme.css">
+        <link rel="stylesheet" href="application_resources/css/owl.carousel.css">
+        <link rel="stylesheet" href="application_resources/css/owl.theme.css">
 
         <!--hover effects-->
-        <link rel="stylesheet" href="http://www.casons.lk/application_resources/css/style.css" />
+        <link rel="stylesheet" href="application_resources/css/style.css" />
         <!-- date time picker -->
 
-        <link rel="stylesheet" type="text/css" href="http://www.casons.lk/application_resources/css/jquery.datetimepicker.css"/>
-
-
-
+        <link rel="stylesheet" type="text/css" href="application_resources/css/jquery.datetimepicker.css"/>
         <!-- date time picker -->
         <!-- LOAD GOOGLE FONT OPEN SANS -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
