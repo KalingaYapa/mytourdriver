@@ -1015,7 +1015,7 @@
 
         <!--/ end offers /////////////////////////////////////////////////////////////////////////////////////////-->
 
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyD8ZxPsZvhkaYCPbncCS52YUwUkTpJ3sxw"></script>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD8ZxPsZvhkaYCPbncCS52YUwUkTpJ3sxw"></script>
         <script type="text/javascript">
 
                                                 var source, destination;
