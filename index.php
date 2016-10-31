@@ -458,7 +458,7 @@
 
         </script>
         <div class="slider-warpper">
-            <div class="search-wrap clearfix" style="width: 483px;height: 430px">
+            <div class="search-wrap clearfix" style="width: 483px;height: 430px;opacity: 0.91">
                 <div role="tabpanel" style="width: 483px;">
                     <!--Nav tabs--> 
                     <ul class="nav nav-tabs" role="tablist">
