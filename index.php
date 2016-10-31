@@ -328,7 +328,7 @@
                             </div>
 
                             <div class="form-group col-sm-12">
-                                <div  id="send_enquiry_search"></div> 
+                                <div  id="send_enquiry_search" style=" margin-bottom: 10px;"></div> 
                                 </br>
                                 <div id="sentmsg"> </div>
 
@@ -540,7 +540,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        
+
                     </div>
                 </div>
             </div>
@@ -595,25 +595,26 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="withDriver">
 
-                            <form id="get_search_form2" action="#" method="post">
+                            <form id="get_search_form1" action="http://www.casons.lk/article_controller/search_result" method="post">
 
                                 <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>pickup location</strong> </label>
+                                    <label class="control-label"><strong>PickUp Location</strong> </label>
                                     <select class="form-control" name="pick_location" id="pick_location" autocomplete="off">
                                         <option value="">- PICKUP LOCATION -</option>
-                                        <option value="1" >Bandaranayake International Airport</option>
-                                        <option value="2" >Colombo</option>
-                                        <option value="3" selected>Casons Head office</option>
+                                        <option value="1">Bandaranayake International Airport</option>
+                                        <option value="2">Colombo</option>
+                                        <option value="3"selected>Casons Head office</option>
 
                                     </select>
 
-                                    <input id="location_checkbox_wd" type="checkbox" value="1" name="checkbox_location">
+                                    <input id="location_checkbox_sd" type="checkbox" value="1" name="checkbox_location">
                                     <label for="location_checkbox"> Return at Different Location</label>
                                 </div>
 
-                                <div class="form-group col-sm-12" id="ret_location_row_wd" style="display: none;">
-                                    <label class="control-label"><strong>return location</strong> </label>
+                                <div class="form-group col-sm-12" id="ret_location_row_sd" style="display: none;">
+                                    <label class="control-label"><strong>Return Location</strong> </label>
                                     <select class="form-control" name="ret_location" id="ret_location" autocomplete="off">
+
                                         <option value="">- RETURN LOCATION -</option>
                                         <option value="1">Bandaranayake International Airport</option>
                                         <option value="2">Colombo</option>
@@ -623,34 +624,34 @@
                                 </div>
 
                                 <div class="form-group col-sm-4 search-form-date-padding">
-                                    <label class="control-label"><strong>pickup date</strong> </label>
-                                    <input type="text" class="form-control " name="stdate" id="stdate_wd1" placeholder="Pick-Up Date" value="28/10/2016" >
+                                    <label class="control-label"><strong>Pickup Date</strong> </label>
+                                    <input type="text" class="form-control " name="stdate" id="stdate_sd1" placeholder="Pick-Up Date" value="28/10/2016">
                                 </div>
                                 <div class="form-group col-sm-2">
-                                    <label class="control-label"><strong>time</strong> </label>
+                                    <label class="control-label"><strong>Time</strong> </label>
                                     <input type="text" class="form-control " name="sttime" id="sttime_sd1" placeholder="Time" value="00:00">
                                 </div>
 
                                 <div class="form-group col-sm-4 search-form-date-padding">
-                                    <label class="control-label"><strong>return date</strong> </label>
-                                    <input type="text" class="form-control " name="enddate" id="enddate_wd1" placeholder="Drop-Off Date" value="28/10/2016" >
+                                    <label class="control-label"><strong>Return Date</strong> </label>
+                                    <input type="text" class="form-control " name="enddate" id="enddate_sd1" placeholder="Drop-Off Date" value="28/10/2016">
                                 </div>
                                 <div class="form-group col-sm-2">
-                                    <label class="control-label"><strong>time</strong> </label>
+                                    <label class="control-label"><strong>Time</strong> </label>
                                     <input type="text" class="form-control " name="endtime" id="endtime_sd1" placeholder="Time" value="00:00">
                                 </div>
 
                                 <div class="form-group col-sm-6">
                                     <label class="control-label"><strong>Number of Days</strong> </label>
-                                    <input type="text" class="form-control" name="num_days" id="num_days_wd1" placeholder="Number of Days" value="1" readonly>
+                                    <input type="text" class="form-control" name="num_days" id="num_days_sd1" placeholder="Number of Days" value="1" readonly>
                                 </div>
 
 
                                 <div class="form-group col-sm-6">
-                                    <label class="control-label"><strong>vehicle type</strong> </label>
+                                    <label class="control-label"><strong>Vehicle Type</strong> </label>
                                     <select class="form-control" name="car_type" id="car_type" autocomplete="off">
                                         <!--<option value="">- Vehicle Category -</option>-->
-                                        <option value="0">- All Type-</option>
+                                        <option value="0">- All Type -</option>
                                         <option value="52">Motor Bike</option>
                                         <option value="22">Cars</option>
                                         <option value="24"> SUV's</option>
@@ -661,19 +662,23 @@
                                     </select>
                                 </div>
 
+
+
                                 <div class="form-group col-sm-12">
-                                    <label class="control-label"><strong>currency type</strong> </label>
+                                    <label class="control-label"><strong>Currency Type</strong> </label>
                                     <select class="form-control" name="currency" id="currency" autocomplete="off">
                                         <option value="">- CURRENCY -</option>
                                         <option value="2"
-                                                selected >Sri Lankan Rupee (LKR)</option>
+                                                selected  >Sri Lankan Rupee (LKR)</option>
 
                                     </select>
                                 </div>
 
-                                <input type="hidden" class="form-control" name="service" id="service" value="WD">
+                                <input type="hidden" class="form-control" name="service" id="service" value="SD">
+
+
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -746,7 +751,7 @@
                                 </div>
 
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -817,7 +822,7 @@
                                 </div>
 
                                 <div class="form-group col-sm-12">
-                                    <div id="send_enquiry_search"></div>
+                                    <div id="send_enquiry_search" style="margin-bottom: 10px;"></div>
                                     <input class="btn btn-danger pull-right" type="submit" value="Search"/>
                                 </div>
 
@@ -2670,18 +2675,19 @@
                     <div class="col-md-8">
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="http://www.casons.lk/contact-us">Contact Us</a></h2>
                     </div>
-                </div>
-                <div class="col-md-4 social-icons">
-                    <ul class="list-inline list-unstyled pull-right">
-                        <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
-                        <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
-                        <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
-                        <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
-                        <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
-                    </ul>
-                </div>
 
+                    <div class="col-md-4 social-icons">
+                        <ul class="list-inline list-unstyled pull-right">
+                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
+                            <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
+                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
+                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
+                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+
         </div>
 
         <!--contact row-->
@@ -2959,9 +2965,9 @@
         <script src="http://www.casons.lk/application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            });
+                $(function () {
+                    $('[data-toggle="tooltip"]').tooltip()
+                });
         </script>
 
         <!--owl carousal-->
