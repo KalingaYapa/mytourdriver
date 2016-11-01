@@ -134,7 +134,7 @@
                                 </li>
                                 <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#loginModal"><i class="fa fa-info-circle"></i> Sign-In</a>
                                 </li>
-                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#loginModal"><i class="fa fa-info-circle"></i> Sign-Up</a>
+                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#signUpModal"><i class="fa fa-info-circle"></i> Sign-Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -447,6 +447,53 @@
         </div>
 
         <!--End Login Modal -->
+
+        <!--Start quick Sign-Up Modal -->
+        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Quick Sign-Up</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="form-horizontal" role="form" id="login_form">
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-3" for="pwd">UserName:</label>
+                                <div class="col-sm-9"> 
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="UserName">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-3" for="email">Password:</label>
+                                <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-3" for="email">Confirm Password:</label>
+                                <div class="col-sm-9">
+                                    <input type="conpassword" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="ConfirmPassword">
+                                </div>
+                            </div>
+                            <div class=" col-sm-offset-8 "> 
+                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Sign-Up">
+                            </div> 
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <div id="sending_message"></div>
+                        <div id="success_message"></div>
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!--End quick Sign-Up Modal -->
         <script>
             $('input[name=stdate] ').datetimepicker({
                 dayOfWeekStart: 1,
@@ -730,7 +777,7 @@
                     </div>
                 </div>
             </div>  
-           
+
             <div id="home-slider" class="owl-carousel owl-theme">
 
                 <div class="item  ">
@@ -970,7 +1017,7 @@
                         <div id="effect-6" class="effects clearfix">
                             <div id="offers-slider" class="owl-carousel owl-theme">
                                 <!-- start Item -->
-                                
+
                                 <div class="item img">
                                     <img class="img-responsive"
                                          src="application_resources/images/slider/doubleCab.jpg"
@@ -992,7 +1039,7 @@
                                     </div>
                                 </div>
                                 <!-- end Item -->
-                              
+
                             </div>
 
                             <div class="customNavigation">
@@ -1165,7 +1212,6 @@
             function inquiryModel(modelid) {
                 alert(modelid);
                 $.ajax({
-                    
                     type: 'POST',
                     url: site_url + 'article_controller/getVehicleModel',
                     // data: 'bookingid=' + bookingid,
@@ -1202,7 +1248,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
@@ -1733,9 +1779,8 @@
 
 
             $("#phone_no").intlTelInput(
-                    { autoFormat: false,
+                    {autoFormat: false,
                         autoHideDialCode: false,
-                     
                         defaultCountry: "auto",
                         geoIpLookup: function (callback) {
                             $.get('http://ipinfo.io', function () {
