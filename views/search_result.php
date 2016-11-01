@@ -617,19 +617,33 @@
                         </div>
                     </div>
                     <!--/search sorting-->
+                    
                     <!--search sorting image slider-->
+                    
                     <div class="search-vehiles-sort">
                         <div id="sort-slider" class="owl-carousel owl-theme">
-                            <!--item row-->
-                            <!--        v_category-->
+                           
                             <div class="item">
-                                <a href="#" onclick="searchByCaregory('0')">
+                                <a href="../index.php" onclick="searchByCaregory('0')">
                                     <h4>All</h4>
-                                    <img alt="" class="img-responsive"
-                                         src="#"/>
+                                    <img alt="All" class="img-responsive"
+                                         src="../application_resources/images/slider/doubleCab.jpg"/>
                                     <span id="allid">
-
+                                        
                                     </span>
+                                    
+
+                                </a>
+                            </div>
+                              <div class="item">
+                                <a href="#" onclick="searchByCaregory('1')">
+                                    <h4>Cars</h4>
+                                    <img alt="Cars" class="img-responsive"
+                                         src="../application_resources/images/slider/doubleCab.jpg"/>
+                                    <span id="allid">
+                                        
+                                    </span>
+                                    
 
                                 </a>
                             </div>
@@ -1515,7 +1529,7 @@
         <script>
                     $(document).ready(function() {
 
-                    var owl = $("#so rt-slider");
+                    var owl = $("#sort-slider");
                             owl.owlCarousel({
                             items : 6, //10 items above 1000px browser width
                                     itemsDesktop : [1000, 4], //5 items between1000px a nd 901px
@@ -1524,7 +1538,7 @@
                                     itemsMobile : [480, 1], // itemsMobile disabled -  inherit from itemsTablet option
                                     pagination:false,
                                     navigation: true,
-                                    navigationTe xt: ["<i class='fa fa-angle-left '></i>", "<i class='fa fa-angle-right'> </i>"]
+                                    navigationText: ["<i class='fa fa-angle-left '></i>", "<i class='fa fa-angle-right'> </i>"]
                             });
                     });</script>
 

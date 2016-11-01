@@ -1397,7 +1397,7 @@
             <div class="container">
                 <div class="row" style="width: 850px;">
                     <div class="col-md-8">
-                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="#">Contact Us</a></h2>
+                        <h2><b>You have any questions or need additional information?  </b> <a class="btn btn-border" href="#">Contact Us</a></h2>
                     </div>
 
                     <div class="col-md-4 social-icons">
