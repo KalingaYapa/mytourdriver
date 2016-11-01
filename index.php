@@ -28,7 +28,7 @@
         <link href="application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
         <link href="application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="application_resources/css/template.css" rel="stylesheet" type="text/css">
-        <link href="application_resources/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
         <!--new-->
         <link href="application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
@@ -1396,7 +1396,7 @@
             <div class="container">
                 <div class="row" style="width: 850px;">
                     <div class="col-md-8">
-                        <h2><b>You have any questions or need additional information?  </b> <a class="btn btn-border" href="#">Contact Us</a></h2>
+                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="#">Contact Us</a></h2>
                     </div>
 
                     <div class="col-md-4 social-icons">
