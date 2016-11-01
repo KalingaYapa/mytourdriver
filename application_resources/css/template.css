@@ -92,7 +92,7 @@ label.error{
 
 
 .menu-wrapper{
-    background: whitesmoke;
+    background: #999;
     padding-top: 10px;
 }
 .menu-wrap{
@@ -443,7 +443,7 @@ button.close-btn{
     padding-bottom: 15px;
 }
 .contact-row-wrapper{
-    background: #171c24;
+    background: #999;
     border-bottom: 2px solid #c91c23;
     padding: 15px 0;
 }
