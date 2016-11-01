@@ -1727,7 +1727,7 @@
 
             });
         </script>
-        <script src="application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
+        <script src="application_resources/js/custom_js/js_fe_function.js" type="text/javascript"></script>
         <script src="http://momentjs.com/downloads/moment.js"></script> 
         <!--New-->
         <script src="application_resources/js/slider.js" type="text/javascript"></script>
@@ -1866,17 +1866,11 @@
 
                     $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
                         if (msg == 1) {
-                            //location.reload();
-
                             $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
-
-                            //alert('msg sent ');
                             location.reload();
                         }
                         else {
                             $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
-                            //                none
-                            // alert('not sent');
                         }
                     });
                 }
