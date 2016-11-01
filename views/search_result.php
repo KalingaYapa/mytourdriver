@@ -29,7 +29,8 @@
         <link href="../application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
         <link href="../application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="../application_resources/css/template.css" rel="stylesheet" type="text/css">
-        <link href="../application_resources/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
 
         <!--new-->
         <link href="../application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
@@ -600,9 +601,9 @@
                                     <li class="gray-txt">SORT BY :</li>
                                     <li>Price:
                                         <a class="active"
-                                           title="Sort by price descending" href="#"><i
-                                                class="fa fa-sort-amount-asc" onclick="priceAcending()"></i></a>
-                                        <a class="" title="Sort by price ascending" href="#"><i class="fa fa-sort-amount-desc" onclick="priceDecending()" ></i></a>
+                                           title="Sort by price descending" href="#"><i class="fa fa-sort-amount-asc" onclick="priceAcending()"></i>
+                                        </a>
+                                        <a class="" title="Sort by price ascending" href="#"><i class="fa fa-sort-amount-desc" onclick="priceDecending()"></i></a>
                                     </li>
                                     <li>Type:
                                         <a class="active" title="Sort by type ascending" href="#"><i class="fa fa-sort-alpha-asc" onclick="typeAcending()"></i></a>
@@ -617,33 +618,33 @@
                         </div>
                     </div>
                     <!--/search sorting-->
-                    
+
                     <!--search sorting image slider-->
-                    
+
                     <div class="search-vehiles-sort">
                         <div id="sort-slider" class="owl-carousel owl-theme">
-                           
+
                             <div class="item">
                                 <a href="../index.php" onclick="searchByCaregory('0')">
                                     <h4>All</h4>
                                     <img alt="All" class="img-responsive"
                                          src="../application_resources/images/slider/doubleCab.jpg"/>
                                     <span id="allid">
-                                        
+
                                     </span>
-                                    
+
 
                                 </a>
                             </div>
-                              <div class="item">
+                            <div class="item">
                                 <a href="#" onclick="searchByCaregory('1')">
                                     <h4>Cars</h4>
                                     <img alt="Cars" class="img-responsive"
                                          src="../application_resources/images/slider/doubleCab.jpg"/>
                                     <span id="allid">
-                                        
+
                                     </span>
-                                    
+
 
                                 </a>
                             </div>
@@ -1794,7 +1795,7 @@
                         <h2>You have any questions or need additional information?   <a class="btn btn-border" href="#">Contact Us</a></h2>
                     </div>
 
-                     <div class="col-md-4 social-icons">
+                    <div class="col-md-4 social-icons">
                         <ul class="list-inline list-unstyled pull-right">
                             <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="#"></a></li>
                             <li><a href="http://www.flickr.com/" target="_blank"><img alt="flicker" src="#"></a></li>
@@ -2221,7 +2222,7 @@
                     });
                             $('#country').countrySelect({
                     //  defaultCountry: "lk",
-                    });        </script>
+                    });</script>
 
         <script>
 
@@ -2262,79 +2263,82 @@
                             $('input[name="country"]').countrySelect("selectCountry", countryCode);
                     });</script>
 
+        <script type="text/javascript">
+
+                            $("#send_contact_form").validate({
+
+                    rules: {
+                    subject: { required: true },
+                            name: { required: true },
+                            email: { required: true },
+                            tel : {required:true, digits: true, maxlength:  9},
+                            msg: { required: true }
+                    }, messages: {
+                    //name: "Place Yor Name",
+
+                    },
+                            submitHandler: function (form) {
+
+                            $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
+                            if (msg == 1) {
+                            //location.reload();
+
+                            $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
+                                    //alert('msg sent ');
+                                    location.reload();
+                            }
+                            else {
+                            $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
+//                none
+                                    // alert('not sent');
+                            }
+                            });
+                            }
+                    });</script>
+
+
+        <script>
+
+                            //$('#license_expire').datetimepicker();
+                            $('input[name=license_expire] ').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0,
+                            timepicker:false,
+                            //format:'Y/m/d ',
+                            format:'d/m/Y',
+                            //  format:'d-m-Y H:i',
+                    });
+                            $('#flightarrivaltime').datetimepicker({
+                    dayOfWeekStart : 1,
+                            lang:'en',
+                            minDate: 0,
+                            date picker:false,
+                            format:'H:i',
+                            d efaultTime:'00:00',
+                            // format:'d-m-Y  H:i',
+
+                    });
+                            $('input[name="stdate"]').bind("mousewheel", function() {
+                    return false;
+                    });
+                            $('input[name="enddate"]').bind("mousewheel", function() {
+                    return false;
+                    });</script>
+
+
+
+
+        <!--start notifi-->
+
+        <script src="../application_resources/notify/bootstrap-notify.min.js"></script>
+        <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
+        
+
+        <!--end notifi-->
 
     </body>
 
 </html>
 
 
-<script type="text/javascript">
-
-                    $("#send_contact_form").validate({
-
-            rules: {
-            subject: { required: true },
-                    name: { required: true },
-                    email: { required: true },
-                    tel : {required:true, digits: true, maxlength:  9},
-                    msg: { required: true }
-            }, messages: {
-            //name: "Place Yor Name",
-
-            },
-                    submitHandler: function (form) {
-
-                    $.post(site_url + '/article_controller/sendContactToCasons', $('#send_contact_form').serialize(), function (msg) {
-                    if (msg == 1) {
-                    //location.reload();
-
-                    $('#success_message').html('<div class="alert alert-success"> Your Message has been sent!.</div>');
-                            //alert('msg sent ');
-                            location.reload();
-                    }
-                    else {
-                    $('#success_message').html('<div class="alert alert-danger"> Your Message has not been sent!</div>');
-//                none
-                            // alert('not sent');
-                    }
-                    });
-                    }
-            });</script>
-
-
-<script>
-
-//$('#license_expire').datetimepicker();
-                    $('input[name=license_expire] ').datetimepicker({
-            dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0,
-                    timepicker:false,
-                    //format:'Y/m/d ',
-                    format:'d/m/Y',
-                    //  format:'d-m-Y H:i',
-            });
-                    $('#flightarrivaltime').datetimepicker({
-            dayOfWeekStart : 1,
-                    lang:'en',
-                    minDate: 0,
-                    date picker:false,
-                    format:'H:i',
-                    d efaultTime:'00:00',
-                    // format:'d-m-Y  H:i',
-
-            });
-                    $('input[name="stdate"]').bind("mousewheel", function() {
-            return false;
-            });
-                    $('input[name="enddate"]').bind("mousewheel", function() {
-            return false;
-            });</script>
-
-
-<!--start notifi-->
-
-<script src="../application_resources/notify/bootstrap-notify.min.js"></script>
-<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
-
-<!--end notifi-->
