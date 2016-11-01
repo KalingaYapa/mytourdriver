@@ -119,7 +119,7 @@
 
                     <div class="col-md-3 col-sm-4">
 
-                        <a href="#"> <img alt="MyTourDriverLogo" class="img-responsive c-logo" src="#"></a>
+                        <a href="#"> <img alt="MyTourDriverLogo" class="img-responsive c-logo" src="application_resources/images/taxi-icon.png"></a>
                     </div>
 
                     <div class="col-md-9 col-sm-8">
@@ -534,7 +534,7 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="withDriver">
 
-                            <form id="get_search_form1" action="#" method="post">
+                            <form id="get_search_form1" action="views/search_result.php" method="post">
 
                                 <div class="form-group col-sm-12">
                                     <label class="control-label"><strong>PickUp Location</strong> </label>
@@ -1402,11 +1402,11 @@
 
                     <div class="col-md-4 social-icons">
                         <ul class="list-inline list-unstyled pull-right">
-                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="http://www.casons.lk//application_resources/images/facbook.png"></a></li>
-                            <li><a href="http://www.flickr.com/photos/67135307@N08/" target="_blank"><img alt="flicker" src="http://www.casons.lk//application_resources/images/flicker.png"></a></li>
-                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="http://www.casons.lk//application_resources/images/gplus.png"></a></li>
-                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="http://www.casons.lk//application_resources/images/tweeter.png"></a></li>
-                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="http://www.casons.lk//application_resources/images/you-tube.png"></a></li>
+                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="#"></a></li>
+                            <li><a href="http://www.flickr.com/" target="_blank"><img alt="flicker" src="#"></a></li>
+                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="#"></a></li>
+                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="#"></a></li>
+                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="#"></a></li>
                         </ul>
                     </div>
                 </div>
