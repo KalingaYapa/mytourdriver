@@ -181,20 +181,7 @@ $(document).ready(function () {
         }
     });
 
-//    $(document).on('blur', '#stdate_sd', function()
-//    {
-//        if($.trim($('#stdate_sd').val()) != '' && $.trim($('#enddate_sd').val()) != '')
-//        {
-//            $date1 = $.trim($('#stdate_sd').val()).split(' ');
-//            $date2 = $.trim($('#enddate_sd').val()).split(' ');
-//
-//            $('#num_days_sd').val(daydiff(parseDate($date1[0]), parseDate($date2[0])) + 1);
-//        }
-//        else
-//        {
-//            $('#num_days_sd').val('');
-//        }
-//    });
+
 
 // 2016-02-11
     $(document).on('change', "#stdate_sd1", function () {
@@ -443,86 +430,6 @@ $(document).ready(function () {
 }
 
 
-//    var ini_first_val;
-//    var ini_second_val;
-//
-//
-//    $(document).ready(function () {
-//
-//        // ini_first_val = $("#slider_range").val().split(";", 1);
-//        //  ini_second_val = $("#slider_range").val().split(";", 2);
-//
-//        ini_first_val = $("input[name='slider_range']").val().split(";", 1);
-//        ini_second_val = $("input[name='slider_range']").val().split(";", 2);
-//
-//    });
-
-
-//    //--- Narrow the container down AMAP.
-//    $(".flat-slider").bind("DOMSubtreeModified", HandleDOM_ChangeWithDelay);
-//
-//    var zGbl_DOM_ChangeTimer = null;
-//
-//    function HandleDOM_ChangeWithDelay(zEvent) {
-//
-//        if (typeof zGbl_DOM_ChangeTimer == "number") {
-//
-//            clearTimeout(zGbl_DOM_ChangeTimer);
-//            zGbl_DOM_ChangeTimer = '';
-//        }
-//        zGbl_DOM_ChangeTimer = setTimeout(HandleDOM_Change, 333);
-//    }
-//
-//
-//    function HandleDOM_Change () {
-//        // YOUR CODE HERE.
-//        var min = $('.min_value').text().replace(' $','');
-//        var max = $('.max_value').text().replace(' $','');
-//
-//       // $('#min_val').val(min);
-//       // $('#max_val').val(max);
-//        $( "input[name='min_val']" ).val(min);
-//        $( "input[name='max_val']" ).val(max);
-//
-//       // $('#get_search_form1').submit();
-//
-//     //   var second_val = $("#slider_range").val().split(";", 2);
-//
-//       if (min != 0 || max != 500 ){
-//           //alert('test1');
-//        //   $( "input[name='min_val']").val();
-//         //  $( "input[name='max_val']").val();
-//           $('#get_search_form1').submit();
-//
-//
-//       }else{
-//          // alert('test3');
-//       }
-//
-//    }
-
-
-//quatation
-//$("#quatation_form").validate({
-//
-//    rules: {
-//        title: { required: true },
-//        f_name: { required: true },
-//        l_name: { required: true },
-//        age: { required: true },
-//        license_no: { required: true },
-//        passport_no: { required: true },
-//        email: { required: true },
-//        phone_no: { required: true },
-//        country: { required: true },
-//        city: { required: true },
-//        postal_code: { required: true },
-//        b_address: { required: true },
-//        confirm_chkbox:{required:true},
-//        currency: { required: true }
-//
-//    }
-//});
 
     $('#pick_location_air').on('change', function(){
 
