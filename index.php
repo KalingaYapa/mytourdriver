@@ -1241,6 +1241,7 @@
                         <div class="row">
 
                             <div id="vehicle_model_detail">
+
                             </div>
 
                         </div>
@@ -1249,8 +1250,148 @@
             </div>
         </div>
 
-        <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
-        <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
+        <!--end car details Modal -->
+
+        <!--Start inquery modal-->
+
+        <div class="modal-blue modal fade" id="myInq" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>Phone Reservations </h1>
+                                <h2>SMS : +94 077 000 000 000</h2>
+                                <div class="form-wrap clearfix">
+                                    <div class="col-sm-12 clearfix">
+                                        <h2>Make Enquiry</h2>
+                                        <h5>Please feel free to send us an enquiry message by filling in the form below and clicking on "Send". We will get back to you asap.</h5>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <hr>
+                                    <form   id="get_quate_form">
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputName">Your Name</label>
+                                            <input type="text" class="form-control" name="uname" id="uname" placeholder="Enter Name">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputCountry">Country</label>
+                                            <input type="text" class="form-control"  name="country" id="country" >
+
+
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Your Email</label>
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Contact Number</label>
+                                            <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Contact Number">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Type of service</label>
+                                            <select class="form-control" name="typeser" id="typeser">
+
+                                                <option value="SELF DRIVE">SELF DRIVE</option>
+                                                <option value="WITH DRIVER">WITH DRIVER</option>
+                                                <option value="WEDDINGS">WEDDINGS</option>
+                                                <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
+                                                <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Selected Model</label>
+                                            <div id="modeldiv"></div>
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Starting Date</label>
+                                            <input type="text" class="form-control" name="stdate_enq" id="stdate_enq" placeholder="Start Date">
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Ending Date</label>
+                                            <input type="text" class="form-control" name="enddate_enq" id="enddate_enq" placeholder="End Date">
+                                        </div>
+                                        <div class="form-group col-sm-12">
+                                            <label for="exampleInputNationality">Message</label>
+                                            <textarea class="form-control" rows="3" name="message" id="message"></textarea>
+                                        </div>
+
+                                        <div class="form-group col-sm-12">
+                                            <div  id="send_enquiry_form"></div>   <input class="btn btn-danger pull-right" type="submit" value="Send Enquiry" />
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end inquary modal-->
+
+
+        <!--booking details modal/////////////////////////////////////////////////////////////////////////////////-->
+        <div class="modal-blue modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end booking details modal-->
+        <!--car details Modal -->
+        <div class="modal-blue modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="img-responsive" src="application_resources/images/slider/doubleCab.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <h1>Toyota Allion 240 - Self Driven</h1>
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <ul class="list-unstyled car-featured-list">
+                                            <li><i class="fa fa-male"></i> 10 Passengers</li>
+                                            <li><i class="fa fa-cog"></i> Auto transmission</li>
+                                            <li><i class="fa fa-sun-o"></i> Air conditioning</li>
+                                            <li><i class="fa fa-road"></i> Free mileage: 150KM</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <span class="car-details-price">
+                                            <h1><small>LKR</small>80</h1>
+                                            <span>per a day</span>
+                                        </span>
+                                        <div class="clearfix"></div>
+                                        <div class="text-right small-text">Refundable Deposit</div>
+                                        <a class=" btn btn-lg btn-danger pull-right" data-toggle="modal" data-target="#myModal2" onclick="">Book Now</a><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end car details Modal -->
+        <!--end testimonails -->
         <!--contact row-->
         <div class="contact-row-wrapper">
             <div class="container">
@@ -1388,146 +1529,8 @@
                 </div>-->
 
 
-        <!--/ end footer wrap-->
+        <!-- end footer wrap-->
 
-        <!--booking details modal/////////////////////////////////////////////////////////////////////////////////-->
-        <div class="modal-blue modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/ end booking details modal/////////////////////////////////////////////////////////////////////////////////-->
-        <!--car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
-
-        <div class="modal-blue modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img class="img-responsive" src="application_resources/images/slider/doubleCab.jpg">
-                            </div>
-                            <div class="col-md-7">
-                                <h1>Toyota Allion 240 - Self Driven</h1>
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        <ul class="list-unstyled car-featured-list">
-                                            <li><i class="fa fa-male"></i> 4 Passengers</li>
-                                            <li><i class="fa fa-cog"></i> Auto transmission</li>
-                                            <li><i class="fa fa-sun-o"></i> Air conditioning</li>
-                                            <li><i class="fa fa-road"></i> Free mileage: 150KM</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <span class="car-details-price">
-                                            <h1><small>LKR</small>80</h1>
-                                            <span>per a day</span>
-                                        </span>
-                                        <div class="clearfix"></div>
-                                        <div class="text-right small-text">Refundable Deposit</div>
-                                        <!--<a class="btn btn-lg btn-danger pull-right" href="#">Book Now</a>-->
-                                        <a class=" btn btn-lg btn-danger pull-right" data-toggle="modal" data-target="#myModal2" onclick="">Book Now</a><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end car details Modal /////////////////////////////////////////////////////////////////////////////////////////-->
-        <!--inquery modal-->
-        <div class="modal-blue modal fade" id="myInq" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1>Phone Reservations </h1>
-                                <h2>SMS : +94 077 000 000 000</h2>
-                                <div class="form-wrap clearfix">
-                                    <div class="col-sm-12 clearfix">
-                                        <h2>Make Enquiry</h2>
-                                        <h5>Please feel free to send us an enquiry message by filling in the form below and clicking on "Send". We will get back to you asap.</h5>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <hr>
-                                    <form   id="get_quate_form">
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputName">Your Name</label>
-                                            <input type="text" class="form-control" name="uname" id="uname" placeholder="Enter Name">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputCountry">Country</label>
-                                            <input type="text" class="form-control"  name="country" id="country" >
-
-
-                                        </div>
-
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Your Email</label>
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Contact Number</label>
-                                            <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Contact Number">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Type of service</label>
-                                            <select class="form-control" name="typeser" id="typeser">
-
-                                                <option value="SELF DRIVE">SELF DRIVE</option>
-                                                <option value="WITH DRIVER">WITH DRIVER</option>
-                                                <option value="WEDDINGS">WEDDINGS</option>
-                                                <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-                                                <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Selected Model</label>
-                                            <div id="modeldiv"></div>
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Starting Date</label>
-                                            <input type="text" class="form-control" name="stdate_enq" id="stdate_enq" placeholder="Start Date">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Ending Date</label>
-                                            <input type="text" class="form-control" name="enddate_enq" id="enddate_enq" placeholder="End Date">
-                                        </div>
-                                        <div class="form-group col-sm-12">
-                                            <label for="exampleInputNationality">Message</label>
-                                            <textarea class="form-control" rows="3" name="message" id="message"></textarea>
-                                        </div>
-
-                                        <div class="form-group col-sm-12">
-                                            <div  id="send_enquiry_form"></div>   <input class="btn btn-danger pull-right" type="submit" value="Send Enquiry" />
-                                        </div>
-
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end inquary modal-->
 
 
         <!-- START JQUERY PLUGINS LOAD -->
