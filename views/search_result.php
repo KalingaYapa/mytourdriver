@@ -673,63 +673,63 @@
 
                     <table class="search-table" id="searchtable">
                         <tr>
-                            <td style="display: none">4500</td>
-                            <td>
-                                <div class="searh-row clearfix">
-                                    <div class="col-sm-3">
+<!--                            <td style="display: none">4500</td>-->
+                            <td style="">
+                                <div class="searh-row clearfix" style="">
+                                    <div class="col-sm-3" style="">
+                                        <!--<input type="checkbox" id="emailchkboxmodel125" name="chkboxmodel" onclick="selectVehicleModel('125', 'Perodua Axia - Green', '4500')" >-->
 
-
-                                        <input type="checkbox" id="emailchkboxmodel125" name="chkboxmodel" onclick="selectVehicleModel('125', 'Perodua Axia - Green', '4500')" >
-
-                                        <img class="img-responsive result-image" src="#">
-
+                                        <img style="width: 150px;height: 150px" class="img-responsive result-image" src="../application_resources/images/slider/doubleCab.jpg">
+                                        <ul class="list-unstyled car-featured-list">
+                                            <h5>Perodua Axia - Green</h5>
+                                            
+                                        </ul>
                                     </div>
-                                    <div class="col-sm-9">
-                                        <div class="row">
-                                            <div class="col-sm-7">
-                                                <h1>Perodua Axia - Green</h1>
-                                                <ul class="list-unstyled car-featured-list">
+                                    <!--Start driver info -->
+                                    <div class="col-sm-3" style=""> 
+                                        <img style="width: 150px;height: 150px" class="img-responsive result-image" src="../application_resources/images/driverImages/kky.jpg">
+                                        <ul class="list-unstyled car-featured-list">
+                                            <li><i class="fa fa-male"></i> Kalinga Yapa</li>
+                                            <li><i class="fa fa-mobile"></i> 0719335699</li>
+                                        </ul>
+                                    </div>
 
-                                                    <li><i class="fa icon-steering-wheel"></i>                                     
-                                                        SELF DRIVE                                                                        
-                                                    </li>                                    
-                                                    <li><i class="fa fa-male"></i> 4 Passengers</li>
+                                    <!-- End Driver Info -->
 
-                                                    <li><i class="fa fa-cog"></i> Auto transmission</li>
+                                    <!-- price Info start -->
+                                    <div class="col-sm-4" style="margin-top: 10px;">
+                                        <ul class="list-unstyled car-featured-list">
+                                            <li><i class="fa fa-male"></i> 4 Passengers</li>
+                                            <li><i class="fa fa-cog"></i> Auto transmission</li>
+                                            <li><i class="fa icon-snow"></i> Air conditioning</li>                                    
+                                            <li><i class="fa fa-suitcase"></i>2 Luggage</li>
+                                            <li><i class="fa fa-money"></i> 45 LKR Per Extra Km</li>  
+                                            <li><i class="fa fa-road"></i> Free mileage: 100 KM </li>
+                                            <li style="color:#ff3300"><i style="color:#ff3300" class="fa fa-ambulance"></i>24/7 Road Side Assistance</li>
+                                            <li style="color:#00b33c"><i style="color:#00b33c" class="fa fa-eye-slash"></i><strong><small>No Hidden Charges</small></strong></li>
 
-                                                    <li><i class="fa icon-snow"></i> Air conditioning</li>                                    
-                                                    <li><i class="fa fa-suitcase"></i>2 Luggage</li>
+                                        </ul>
+                                    </div>
 
-                                                    <li><i class="fa fa-money"></i> 45 LKR Per Extra Km</li>  
+                                    <!-- price Info end-->
 
-
-                                                    <li><i class="fa fa-road"></i> Free mileage: 100 KM </li>
-
-                                                    <li style="color:#ff3300"><i style="color:#ff3300" class="fa fa-ambulance"></i>24/7 Road Side Assistance</li>
-                                                    <li style="color:#00b33c"><i style="color:#00b33c" class="fa fa-eye-slash"></i><strong><small>No Hidden Charges</small></strong></li>
-
-                                                </ul>
-                                            </div>
-                                            <div class="col-sm-5">
+                                    <!--Book info start -->
+                                    <div class="col-sm-2">
+                                        <div >
                                                 <span class="car-details-price">
-                                                    <h2 class=""> <small>&nbsp; </small> </h2>
-
-
-                                                    <h1><small>LKR</small> 4,500 <br/><br/></h1>
-
-
-                                                    <span>LKR   4,500 X 1</span>
+                                                    <h2><b><small>LKR</small> 4,500 <br/></b></h2>
+                                                    <span>LKR 4,500 X 1</span>
                                                 </span>
                                                 <div class="clearfix"></div>
-                                                <div class="text-right small-text">Refundable Deposit 40,000</div>
-
-                                                <a class="btn btn-lg btn-danger pull-right" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Select</a>
-
-
-
+                                                <div class="text-right small-text">Refundable Deposit 40,000</div><br>
+                                                <a class="btn btn-lg btn-success pull-right" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
                                             </div>
-                                        </div>
                                     </div>
+
+
+                                    <!--Book info end -->
+
+
                                 </div>
 
                             </td>
@@ -2333,7 +2333,7 @@
 
         <script src="../application_resources/notify/bootstrap-notify.min.js"></script>
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
-        
+
 
         <!--end notifi-->
 

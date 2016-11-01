@@ -351,7 +351,7 @@ font-weight: 500;
 .car-details-price{
     float: right;
     border: 1px solid #FFF;
-    padding: 5px;
+    //padding: 5px;
     display: none;
 }
 .car-details-price h1{
