@@ -283,11 +283,10 @@
                                 <label for="exampleInputName">Service Type</label>
                                 <select class="form-control" name="typeser" id="typeser" autocomplete="off">
                                     <option value="OTHER">Select Type of Service</option>
-                                    <option value="SELF DRIVE">SELF DRIVE</option>
                                     <option value="WITH DRIVER">WITH DRIVER</option>
-                                    <option value="WEDDINGS">WEDDINGS</option>
-                                    <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
                                     <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
+                                    <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
+                                    
                                 </select>
                             </div>
                             <div class="form-group col-sm-6">
