@@ -117,7 +117,7 @@
 
         <?php include("./views/header.html"); ?>
 
-        <!--start inquiry model--> 
+<!--        start inquiry model 
 
         <div class="modal fade" id="inquirymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
@@ -164,7 +164,7 @@
                             </div>
 
                             <div class="form-group col-sm-6">
-                                <!--    <label for="exampleInputNationality">Type of service</label>-->
+                                    <label for="exampleInputNationality">Type of service</label>
                                 <label for="exampleInputName">Service Type</label>
                                 <select class="form-control" name="typeser" id="typeser" autocomplete="off">
                                     <option value="OTHER">Select Type of Service</option>
@@ -194,17 +194,17 @@
                                 </select>
                             </div>
                             <div class="form-group col-sm-6">
-                                <!--    <label for="exampleInputNationality">Starting Date</label>-->
+                                    <label for="exampleInputNationality">Starting Date</label>
                                 <label for="exampleInputName">Start Date</label>
                                 <input type="text" class="form-control" name="stdate" id="stdate" placeholder="Starting Date">
                             </div>
                             <div class="form-group col-sm-6">
-                                <!--    <label for="exampleInputNationality">Ending Date</label>-->
+                                    <label for="exampleInputNationality">Ending Date</label>
                                 <label for="exampleInputName">End Date</label>
                                 <input type="text" class="form-control" name="enddate" id="enddate" placeholder="Ending Date">
                             </div>
                             <div class="form-group col-sm-12">
-                                <!--                              <label for="exampleInputNationality">Message</label>-->
+                                                              <label for="exampleInputNationality">Message</label>
                                 <label for="exampleInputName">Message</label>
                                 <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
                             </div>
@@ -226,9 +226,10 @@
                     </div> 
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <!--end inquiry model-->
+        
         <!-- start contact Modal -->
         <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
