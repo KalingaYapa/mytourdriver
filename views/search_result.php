@@ -119,175 +119,12 @@
 
 
 
+        <!--header start-->
 
+        <?php include("header.html"); ?>
 
-        <div class="menu-wrapper">
+        <!--header end-->
 
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-3 col-sm-4">
-
-                        <a href="../index.php"> <img alt="MyTourDriverLogo" class="img-responsive c-logo"
-                                                     src="../application_resources/images/taxi-icon.png"></a>
-
-                    </div>
-
-                    <div class="col-md-9 col-sm-8">
-                        <div class="header-top text-right">
-
-
-                        </div>
-
-                        <div class="header-top text-right">
-                            <ul class="list-inline list-unstyled">
-                                <li><a class="tagline " style="border-radius:20px; cursor: pointer; background: #FFF; padding: 3px 12px; color: #c91c23; font-weight: 500;"  data-toggle="modal" data-target="#inquirymodal"><i class="fa fa-cab"></i> Direct Inquiry</a>
-                                </li>
-                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#contactModal"><i class="fa fa-info-circle"></i> kkyapa@gmail.com</a>
-                                </li>
-                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#loginModal"><i class="fa fa-info-circle"></i> Sign-In</a>
-                                </li>
-                                <li><a class="tagline" style="border-radius:20px; cursor: pointer; border:1px solid #FFF; padding: 2px 5px; color: #FFF; font-weight: 500;"  data-toggle="modal" data-target="#signUpModal"><i class="fa fa-info-circle"></i> Sign-Up</a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <!--Start Login Modal -->
-                        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel">Login</h4>
-                                    </div>
-                                    <div class="modal-body">
-
-                                        <form class="form-horizontal" role="form" id="login_form">
-
-                                            <div class="form-group">
-                                                <label class="control-label col-sm-3" for="pwd">UserName:</label>
-                                                <div class="col-sm-9"> 
-                                                    <input type="text" class="form-control" id="name" name="name" placeholder="">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="control-label col-sm-3" for="email">Password:</label>
-                                                <div class="col-sm-9">
-                                                    <input type="password" class="form-control" id="email" name="email" placeholder="">
-                                                </div>
-                                            </div>
-                                            <div class=" col-sm-offset-8 "> 
-                                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Login">
-                                            </div> 
-                                        </form>
-                                    </div>
-
-                                    <div class="modal-footer">
-
-                                        <div id="sending_message"></div>
-                                        <div id="success_message"></div>
-
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--End Login Modal -->
-
-                        <!--Start quick Sign-Up Modal -->
-                        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                        <h4 class="modal-title" id="myModalLabel"><b>Quick Sign-Up For Drivers</b></h4>
-                                    </div>
-                                    <div class="modal-body">
-
-                                        <form class="form-horizontal" role="form" id="login_form">
-
-                                            <div class="form-group">
-                                                <label class="control-label col-sm-3" for="pwd">UserName:</label>
-                                                <div class="col-sm-9"> 
-                                                    <input type="text" class="form-control" id="name" name="name" placeholder="UserName">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="control-label col-sm-3" for="email">Password:</label>
-                                                <div class="col-sm-9">
-                                                    <input type="password" class="form-control" id="password" name="password" placeholder="password">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="control-label col-sm-3" for="email">Confirm Password:</label>
-                                                <div class="col-sm-9">
-                                                    <input type="conpassword" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="ConfirmPassword">
-                                                </div>
-                                            </div>
-                                            <div class=" col-sm-offset-8 "> 
-                                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Sign-Up">
-                                            </div> 
-                                        </form>
-                                    </div>
-
-                                    <div class="modal-footer">
-
-                                        <div id="sending_message"></div>
-                                        <div id="success_message"></div>
-
-                                    </div> 
-                                </div>
-                            </div>
-                        </div>
-                        <!--End quick Sign-Up Modal -->
-
-                        <div class="menu-wrap">
-
-                            <div class="menu-wrap-inner">
-
-                                <div class="row">
-
-                                    <div class="col-md-8">
-
-                                        <div id='cssmenu'>
-
-                                            <ul>
-                                                <li>
-                                                    <a href='../index.php'><b>Home</b></a>
-                                                </li>
-                                                <li class="">
-                                                    <a
-                                                        href="#"> <b>About</b>  </a>
-                                                    <ul>
-
-                                                    </ul>
-                                                </li>
-                                                <li><a href='#'><b>Contact</b></a></li>
-                                            </ul>
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <div class="hotline-wrap"><span>Hotline</span> <a class="rtel" href="#">+94 0000000000</a></div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
         <!--start inquiry model--> 
 
         <div class="modal fade" id="inquirymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -682,7 +519,7 @@
                                         <img style="width: 150px;height: 150px" class="img-responsive result-image" src="../application_resources/images/slider/doubleCab.jpg">
                                         <ul class="list-unstyled car-featured-list">
                                             <h5>Perodua Axia - Green</h5>
-                                            
+
                                         </ul>
                                     </div>
                                     <!--Start driver info -->
@@ -716,14 +553,14 @@
                                     <!--Book info start -->
                                     <div class="col-sm-2">
                                         <div >
-                                                <span class="car-details-price">
-                                                    <h2><b><small>LKR</small> 4,500 <br/></b></h2>
-                                                    <span>LKR 4,500 X 1</span>
-                                                </span>
-                                                <div class="clearfix"></div>
-                                                <div class="text-right small-text">Refundable Deposit 40,000</div><br>
-                                                <a class="btn btn-lg btn-success pull-right" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
-                                            </div>
+                                            <span class="car-details-price">
+                                                <h2><b><small>LKR</small> 4,500 <br/></b></h2>
+                                                <span>LKR 4,500 X 1</span>
+                                            </span>
+                                            <div class="clearfix"></div>
+                                            <div class="text-right small-text">Refundable Deposit 40,000</div><br>
+                                            <a class="btn btn-lg btn-success pull-right" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
+                                        </div>
                                     </div>
 
 
@@ -1788,26 +1625,7 @@
 
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
-        <div class="contact-row-wrapper">
-            <div class="container">
-                <div class="row" style="width: 850px;">
-                    <div class="col-md-8">
-                        <h2>You have any questions or need additional information?   <a class="btn btn-border" href="#">Contact Us</a></h2>
-                    </div>
-
-                    <div class="col-md-4 social-icons">
-                        <ul class="list-inline list-unstyled pull-right">
-                            <li><a href="http://www.facebook.com/" target="_blank"><img alt="facebooklink" src="#"></a></li>
-                            <li><a href="http://www.flickr.com/" target="_blank"><img alt="flicker" src="#"></a></li>
-                            <li><a href="https://plus.google.com/" target="_blank"><img alt="googleplus" src="#"></a></li>
-                            <li><a href="http://twitter.com/" target="_blank"><img alt="twitterlink" src="#"></a></li>
-                            <li><a href="http://www.youtube.com/" target="_blank"><img alt="youtube" src="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <?php include("footer.html"); ?>
         <!--contact row-->
 
 
