@@ -121,7 +121,7 @@
 
         <!--header start-->
 
-        <?php include("header.html"); ?>
+        <?php include("header.php"); ?>
 
         <!--header end-->
 
@@ -527,7 +527,7 @@
 
                     </form>
 
-                    </table>
+                    
 
                 </div>
 
@@ -1525,7 +1525,7 @@
 
         <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
         <!--contact row-->
-        <?php include("footer.html"); ?>
+        <?php include("footer.php"); ?>
         <!--contact row-->
 
 
