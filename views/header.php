@@ -18,7 +18,7 @@ and open the template in the editor.
 
                     <div class = "col-md-3 col-sm-4">
 
-                        <a href = "#"> <img alt = "MyTourDriverLogo" class = "img-responsive c-logo" src = "application_resources/images/taxi-icon.png"></a>
+                        <a href = "#"> <img alt = "MyTourDriverLogo" class = "img-responsive c-logo" src = "http://localhost/mytourdriver/application_resources/images/taxi-icon.png"></a>
                     </div>
 
                     <div class = "col-md-9 col-sm-8">

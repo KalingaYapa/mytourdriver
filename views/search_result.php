@@ -26,34 +26,34 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- START THEME STYLE -->
-        <link href="../application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-        <link href="../application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="../application_resources/css/template.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/template.css" rel="stylesheet" type="text/css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
 
         <!--new-->
-        <link href="../application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
-        <link href="../application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
 
-        <link rel="stylesheet" href="../application_resources/css/build.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
 
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
         <!--menu css-->
-        <link href="../application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
 
         <!-- END THEME STYLE -->
         <!--owl carousel-->
-        <link rel="stylesheet" href="../application_resources/css/owl.carousel.css">
-        <link rel="stylesheet" href="../application_resources/css/owl.theme.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/owl.carousel.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/owl.theme.css">
 
         <!--hover effects-->
-        <link rel="stylesheet" href="../application_resources/css/style.css" />
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/style.css" />
         <!-- date time picker -->
 
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/jquery.datetimepicker.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/jquery.datetimepicker.css"/>
 
 
 
@@ -64,7 +64,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!-- START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="../application_resources/images/taxi-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/mytourdriver/application_resources/images/taxi-icon.png">
         <!-- EDN FAVICON -->
 
 
@@ -85,14 +85,14 @@
 
     </head><!-- END HEAD -->
     <body onload="initialize()">
-        <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/build/css/demo.css"/>
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/country/css/countrySelect.css"/>
-        <link rel="stylesheet" href="../application_resources/css/build.css" type="text/css">
-        <script src="../application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
+        <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
         <script>
 
@@ -365,7 +365,7 @@
                                 <a href="../index.php" onclick="searchByCaregory('0')">
                                     <h4>All</h4>
                                     <img alt="All" class="img-responsive"
-                                         src="../application_resources/images/slider/doubleCab.jpg"/>
+                                         src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg"/>
                                     <span id="allid">
 
                                     </span>
@@ -377,7 +377,7 @@
                                 <a href="#" onclick="searchByCaregory('1')">
                                     <h4>Cars</h4>
                                     <img alt="Cars" class="img-responsive"
-                                         src="../application_resources/images/slider/doubleCab.jpg"/>
+                                         src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg"/>
                                     <span id="allid">
 
                                     </span>
@@ -416,7 +416,7 @@
                                     <div class="col-sm-3" style="">
                                         <!--<input type="checkbox" id="emailchkboxmodel125" name="chkboxmodel" onclick="selectVehicleModel('125', 'Perodua Axia - Green', '4500')" >-->
 
-                                        <img style="width: 150px;height: 150px" class="img-responsive result-image" src="../application_resources/images/slider/doubleCab.jpg">
+                                        <img style="width: 150px;height: 150px" class="img-responsive result-image" src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg">
                                         <ul class="list-unstyled car-featured-list">
                                             <h5>Perodua Axia - Green</h5>
 
@@ -424,7 +424,7 @@
                                     </div>
                                     <!--Start driver info -->
                                     <div class="col-sm-3" style=""> 
-                                        <img style="width: 150px;height: 150px" class="img-responsive result-image" src="../application_resources/images/driverImages/kky.jpg">
+                                        <img style="width: 150px;height: 150px" class="img-responsive result-image" src="http://localhost/mytourdriver/application_resources/images/driverImages/kky.jpg">
                                         <ul class="list-unstyled car-featured-list">
                                             <li><i class="fa fa-male"></i> Kalinga Yapa</li>
                                             <li><i class="fa fa-mobile"></i> 0719335699</li>
@@ -459,7 +459,7 @@
                                             </span>
                                             <div class="clearfix"></div>
                                             <div class="text-right small-text">Refundable Deposit 40,000</div><br>
-                                            <a class="btn btn-lg btn-success pull-right" href="../Controllers/extras.php" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
+                                            <a class="btn btn-lg btn-success pull-right" href="http://localhost/mytourdriver/Controllers/extras.php" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
                                         </div>
                                     </div>
 
@@ -542,21 +542,21 @@
                                 <li role="presentation" >
                                     <a class="withDriver" href="#withDriver" aria-controls="with Driver" role="tab" data-toggle="tab">
                                         <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class=""
-                                             src="../application_resources/images/driver-icon.png">
+                                             src="http://localhost/mytourdriver/application_resources/images/driver-icon.png">
 
                                     </a>
                                 </li>
                                 <li role="presentation" >
                                     <a class="taxi" href="#taxi" aria-controls="Taxi" role="tab" data-toggle="tab">
                                         <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class=""
-                                             src="../application_resources/images/taxi-icon.png">
+                                             src="http://localhost/mytourdriver/application_resources/images/taxi-icon.png">
 
                                     </a>
                                 </li>
                                 <li role="presentation" >
                                     <a class="airport" href="#airport" aria-controls="Airport Transfer" role="tab" data-toggle="tab">
                                         <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class=""
-                                             src="../application_resources/images/airport.png">
+                                             src="http://localhost/mytourdriver/application_resources/images/airport.png">
 
                                     </a>
                                 </li>
@@ -1187,7 +1187,7 @@
         </script>
 
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
-        <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script> 
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script> 
 
 
         <script>
@@ -1555,7 +1555,7 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-5">
-                                <img class="img-responsive" src="../application_resources/images/slider/doubleCab.jpg">
+                                <img class="img-responsive" src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg">
                             </div>
                             <div class="col-md-7">
                                 <h1>Toyota Allion 240 - Self Driven</h1>
@@ -1673,23 +1673,23 @@
 
 
         <!-- START JQUERY PLUGINS LOAD -->
-        <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-        <script src="../application_resources/js/bootstrap.js" type="text/javascript"></script>
-        <script src="../application_resources/js/owl.carousel.js"></script>
-        <script src="../application_resources/js/modernizr.js"></script>
-        <script src="../application_resources/js/placeholders.min.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/bootstrap.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/owl.carousel.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/modernizr.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/placeholders.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
 
 <!--  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
 
-        <script src="../application_resources/js/jquery-ui.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.js"></script>
         <!-- date time picker -->
-        <script src="../application_resources/js/jquery.datetimepicker.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery.datetimepicker.js"></script>
 
         <!-- date time picker -->
 
         <!--menu js-->
-        <script src="../application_resources/js/script.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
                             $(function () {
@@ -1869,13 +1869,13 @@
                     });</script>
 
 
-        <script src="../application_resources/js/custom_js/js_fe_function.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/custom_js/js_fe_function.js" type="text/javascript"></script>
 
         <script src="http://momentjs.com/downloads/moment.js"></script> 
 
         <!--New-->
-        <script src="../application_resources/js/slider.js" type="text/javascript"></script>
-        <script src="../application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/slider.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
 
         <script>
                             $(document).ready(function() {
@@ -1893,15 +1893,15 @@
                             });
                     });</script>
 
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/build/css/demo.css"/>
 
-        <link rel="stylesheet" href="../application_resources/css/build/css/custom.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build/css/custom.css">
 
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/country/css/countrySelect.css"/>
-        <script src="../application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
+        <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
         <!--start form wizard-->
-        <script src="../application_resources/wizard2/dist/jquery.wizard.js"></script>
-        <link href="../application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
+        <script src="http://localhost/mytourdriver/application_resources/wizard2/dist/jquery.wizard.js"></script>
+        <link href="http://localhost/mytourdriver/application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
 
         <style type="text/css">
 
@@ -2049,7 +2049,7 @@
 
         <!--start notifi-->
 
-        <script src="../application_resources/notify/bootstrap-notify.min.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/notify/bootstrap-notify.min.js"></script>
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
 
 

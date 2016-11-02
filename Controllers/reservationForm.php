@@ -25,34 +25,34 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- START THEME STYLE -->
-        <link href="../application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-        <link href="../application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="../application_resources/css/template.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href=http://localhost/mytourdriver/application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/template.css" rel="stylesheet" type="text/css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
 
         <!--new-->
-        <link href="../application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
-        <link href="../application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
 
-        <link rel="stylesheet" href="../application_resources/css/build.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
 
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
         <!--menu css-->
-        <link href="../application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
 
         <!-- END THEME STYLE -->
         <!--owl carousel-->
-        <link rel="stylesheet" href="../application_resources/css/owl.carousel.css">
-        <link rel="stylesheet" href="../application_resources/css/owl.theme.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/owl.carousel.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/owl.theme.css">
 
         <!--hover effects-->
-        <link rel="stylesheet" href="../application_resources/css/style.css" />
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/style.css" />
         <!-- date time picker -->
 
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/jquery.datetimepicker.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/jquery.datetimepicker.css"/>
 
 
 
@@ -63,7 +63,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!-- START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="../application_resources/images/taxi-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/mytourdriver/application_resources/images/taxi-icon.png">
         <!-- EDN FAVICON -->
 
 
@@ -84,14 +84,14 @@
 
     </head><!-- END HEAD -->
     <body onload="initialize()">
-        <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/build/css/demo.css"/>
-        <link rel="stylesheet" type="text/css" href="../application_resources/css/country/css/countrySelect.css"/>
-        <link rel="stylesheet" href="../application_resources/css/build.css" type="text/css">
-        <script src="../application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
+        <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
         <script>
 
@@ -168,7 +168,7 @@
                             <div class="inner-box-con">
 
                                 <div class="car-model">
-                                    <img class="img-responsive" src="../application_resources/images/slider/doubleCab.jpg" style="width: 150px;">
+                                    <img class="img-responsive" src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg" style="width: 150px;">
 
                                 </div>
 
@@ -238,7 +238,7 @@
                             <div class="inner-box-con">
 
                                 <div class="car-model">
-                                    <img class="img-responsive" src="../application_resources/images/driverImages/kky.jpg" style="width: 150px;">
+                                    <img class="img-responsive" src="http://localhost/mytourdriver/application_resources/images/driverImages/kky.jpg" style="width: 150px;">
 
                                 </div>
 
@@ -788,7 +788,7 @@
                                                             </div>
                                                             </div>
                                                             <!-- / endcontent area /////////////////////////////////////////////////////-->
-                                                            <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
                                                             <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
 
 
@@ -1024,7 +1024,7 @@
                                                                         <div class="modal-body">
                                                                             <div class="row">
                                                                                 <div class="col-md-5">
-                                                                                    <img class="img-responsive" src="../application_resources/images/slider/doubleCab.jpg">
+                                                                                    <img class="img-responsive" src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg">
                                                                                 </div>
                                                                                 <div class="col-md-7">
                                                                                     <h1>Toyota Allion 240 - Self Driven</h1>
@@ -1137,22 +1137,22 @@
                                                             </div>
                                                             <!--end inquary modal-->
                                                             <!-- START JQUERY PLUGINS LOAD -->
-                                                            <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-                                                            <script src="../application_resources/js/bootstrap.js" type="text/javascript"></script>
-                                                            <script src="../application_resources/js/owl.carousel.js"></script>
-                                                            <script src="../application_resources/js/modernizr.js"></script>
-                                                            <script src="../application_resources/js/placeholders.min.js"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/bootstrap.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/owl.carousel.js"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/modernizr.js"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/placeholders.min.js"></script>
                                                             <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
 
 
-                                                            <script src="../application_resources/js/jquery-ui.js"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.js"></script>
                                                             <!-- date time picker -->
-                                                            <script src="../application_resources/js/jquery.datetimepicker.js"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/jquery.datetimepicker.js"></script>
 
                                                             <!-- date time picker -->
 
                                                             <!--menu js-->
-                                                            <script src="../application_resources/js/script.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/script.js" type="text/javascript"></script>
                                                             <!--tooltip-->
                                                             <script>
                                                                 $(function () {
@@ -1331,13 +1331,13 @@
                                                             </script>
 
 
-                                                            <script src="../application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/custom_js/js_fe_function.js" type="text/javascript"></script>
 
                                                             <script src="http://momentjs.com/downloads/moment.js"></script> 
 
                                                             <!--New-->
-                                                            <script src="../application_resources/js/slider.js" type="text/javascript"></script>
-                                                            <script src="../application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/slider.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
 
 
                                                             <!--slider - owl-->
@@ -1363,13 +1363,13 @@
                                                             <!--   <link rel="stylesheet" type="text/css" href="--><!--application_resources/css/build/css/intlTelInput.css"/>-->
                                                             <link rel="stylesheet" type="text/css" href="../application_resources/css/build/css/demo.css"/>
                                                             <!---->
-                                                            <link rel="stylesheet" href="../application_resources/css/build/css/custom.css">
-                                                            <link rel="stylesheet" type="text/css" href="../application_resources/css/country/css/countrySelect.css"/>
+                                                            <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build/css/custom.css">
+                                                            <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
 
-                                                            <script src="../application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
                                                             <!--start form wizard-->
-                                                            <script src="../application_resources/wizard2/dist/jquery.wizard.js"></script>
-                                                            <link href="../application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
+                                                            <script src="http://localhost/mytourdriver/application_resources/wizard2/dist/jquery.wizard.js"></script>
+                                                            <link href="http://localhost/mytourdriver/application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
 
                                                             <style type="text/css">
 
@@ -1536,7 +1536,7 @@
 
                                                             <!--start notifi-->
 
-                                                            <script src="../application_resources/notify/bootstrap-notify.min.js"></script>
+                                                            <script src="http://localhost/mytourdriver/application_resources/notify/bootstrap-notify.min.js"></script>
                                                             <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
 
                                                             <!--end notifi-->

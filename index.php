@@ -25,33 +25,33 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- START THEME STYLE -->
-        <link href="application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-        <link href="application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="application_resources/css/template.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost/mytourdriver/application_resources/css/template.css" rel="stylesheet" type="text/css">
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
         <!--new-->
-        <link href="application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
-        <link href="application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/nx.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/slider-style.css" rel="stylesheet" type="text/css"/>
 
-        <link rel="stylesheet" href="application_resources/css/build.css" type="text/css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
 
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
         <!--menu css-->
-        <link href="application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
+        <link href="http://localhost/mytourdriver/application_resources/css/styles-m.css" rel="stylesheet" type="text/css"/>
 
         <!-- END THEME STYLE -->
         <!--owl carousel-->
-        <link rel="stylesheet" href="application_resources/css/owl.carousel.css">
-        <link rel="stylesheet" href="application_resources/css/owl.theme.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/owl.carousel.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/owl.theme.css">
 
         <!--hover effects-->
-        <link rel="stylesheet" href="application_resources/css/style.css" />
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/style.css" />
         <!-- date time picker -->
 
-        <link rel="stylesheet" type="text/css" href="application_resources/css/jquery.datetimepicker.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/jquery.datetimepicker.css"/>
         <!-- date time picker -->
         <!-- LOAD GOOGLE FONT OPEN SANS -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,500,500italic,700,900' rel='stylesheet' type='text/css'>
@@ -59,7 +59,7 @@
         <!-- END GOOGLE FONT OPEN SANS -->
 
         <!--         START FAVICON -->
-        <link rel="shortcut icon" type="image/x-icon" href="application_resources/images/taxi-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost/mytourdriver/application_resources/images/taxi-icon.png">
         <style type="text/css">
             .error{
                 font-size: 10px;
@@ -79,14 +79,14 @@
     <!-- END HEAD -->
 
     <body onload="initialize()">
-        <script src="application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
-        <link rel="stylesheet" type="text/css" href="application_resources/css/build/css/demo.css"/>
-        <link rel="stylesheet" type="text/css" href="application_resources/css/country/css/countrySelect.css"/>
-        <link rel="stylesheet" href="application_resources/css/build.css" type="text/css">
-        <script src="application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
+        <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
         <script>
 
@@ -117,124 +117,124 @@
 
         <?php include("./views/header.php"); ?>
 
-<!--        start inquiry model 
-
-        <div class="modal fade" id="inquirymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-car"></i>  <strong>Book / Enquire </strong></h4>
+        <!--        start inquiry model 
+        
+                <div class="modal fade" id="inquirymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-car"></i>  <strong>Book / Enquire </strong></h4>
+                            </div>
+                            <div class="modal-body clearfix">
+        
+                                <form id="get_search_form">
+                                    <div class="form-group col-sm-6">
+                                        <label for="exampleInputName">Name</label>
+                                        <input type="text" class="form-control" name="uname" id="uname" placeholder="Your Name" autocomplete="off">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="exampleInputName">Country</label>
+                                        <input type="text" id="country" name="country" class="form-control">
+        
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                        <label for="exampleInputName">Address</label>
+                                        <textarea class="form-control" rows="2" name="address" id="address" placeholder="Address"></textarea>
+        
+                                    </div>
+        
+        
+        
+                                    <div class="form-group col-sm-6">
+                                        <label for="exampleInputName">Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" autocomplete="off">
+                                    </div>
+                                    <div class="form-group col-sm-3 col-np">
+        
+                                        <label for="exampleInputName">Country Code</label>
+                                        <input type="text" class="form-control" style="width: 70px" name="telephone" id="telephone" >
+        
+                                        <input type="hidden" class="form-control" name="nationality" id="nationality" placeholder="Nationality" autocomplete="off">
+                                    </div>
+                                    <div class="form-group col-sm-3">
+                                        <label for="exampleInputName">Mobile No.</label>
+                                        <input type="text" class="form-control"  name="tel_no" id="tel_no" placeholder="Contact Number" autocomplete="off">
+        
+                                    </div>
+        
+                                    <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Type of service</label>
+                                        <label for="exampleInputName">Service Type</label>
+                                        <select class="form-control" name="typeser" id="typeser" autocomplete="off">
+                                            <option value="OTHER">Select Type of Service</option>
+                                            <option value="WITH DRIVER">WITH DRIVER</option>
+                                            <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
+                                            <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
+        
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+        
+                                        <label for="exampleInputName">Vehicle Type</label>
+                                        <select class="form-control" name="vehiclet" id="vehiclet">
+                                            <option value="">Select Type of vehicle</option>
+                                            <option value="Budget cars">Budget cars</option>
+                                            <option value="Standard cars">Standard cars</option>
+                                            <option value="Semi luxury cars">Semi luxury cars</option>
+                                            <option value="Luxury cars">Luxury cars</option>
+                                            <option value="Super luxury cars">Super luxury cars</option>
+                                            <option value="limousine">limousine</option>
+                                            <option value="Vans">Vans</option>
+                                            <option value="Luxury vans">Luxury vans</option>
+                                            <option value="Suv">Suv</option>
+                                            <option value="Buses">Buses</option>
+                                            <option value="Double cabs">Double cabs</option>
+                                            <option value="Motor bikes">Motor bikes</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Starting Date</label>
+                                        <label for="exampleInputName">Start Date</label>
+                                        <input type="text" class="form-control" name="stdate" id="stdate" placeholder="Starting Date">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                            <label for="exampleInputNationality">Ending Date</label>
+                                        <label for="exampleInputName">End Date</label>
+                                        <input type="text" class="form-control" name="enddate" id="enddate" placeholder="Ending Date">
+                                    </div>
+                                    <div class="form-group col-sm-12">
+                                                                      <label for="exampleInputNationality">Message</label>
+                                        <label for="exampleInputName">Message</label>
+                                        <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
+                                    </div>
+        
+                                    <div class="form-group col-sm-12">
+                                        <div  id="send_enquiry_search" style=" margin-bottom: 10px;"></div> 
+                                        </br>
+                                        <div id="sentmsg"> </div>
+        
+                                        <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
+                                    </div>
+        
+                                </form>
+                            </div>
+        
+                            <div class="modal-footer">
+        
+        
+                            </div> 
+                        </div>
                     </div>
-                    <div class="modal-body clearfix">
-
-                        <form id="get_search_form">
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Name</label>
-                                <input type="text" class="form-control" name="uname" id="uname" placeholder="Your Name" autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Country</label>
-                                <input type="text" id="country" name="country" class="form-control">
-
-                            </div>
-                            <div class="form-group col-sm-12">
-                                <label for="exampleInputName">Address</label>
-                                <textarea class="form-control" rows="2" name="address" id="address" placeholder="Address"></textarea>
-
-                            </div>
-
-
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Email</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-3 col-np">
-
-                                <label for="exampleInputName">Country Code</label>
-                                <input type="text" class="form-control" style="width: 70px" name="telephone" id="telephone" >
-
-                                <input type="hidden" class="form-control" name="nationality" id="nationality" placeholder="Nationality" autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-3">
-                                <label for="exampleInputName">Mobile No.</label>
-                                <input type="text" class="form-control"  name="tel_no" id="tel_no" placeholder="Contact Number" autocomplete="off">
-
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                    <label for="exampleInputNationality">Type of service</label>
-                                <label for="exampleInputName">Service Type</label>
-                                <select class="form-control" name="typeser" id="typeser" autocomplete="off">
-                                    <option value="OTHER">Select Type of Service</option>
-                                    <option value="WITH DRIVER">WITH DRIVER</option>
-                                    <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
-                                    <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-
-                                <label for="exampleInputName">Vehicle Type</label>
-                                <select class="form-control" name="vehiclet" id="vehiclet">
-                                    <option value="">Select Type of vehicle</option>
-                                    <option value="Budget cars">Budget cars</option>
-                                    <option value="Standard cars">Standard cars</option>
-                                    <option value="Semi luxury cars">Semi luxury cars</option>
-                                    <option value="Luxury cars">Luxury cars</option>
-                                    <option value="Super luxury cars">Super luxury cars</option>
-                                    <option value="limousine">limousine</option>
-                                    <option value="Vans">Vans</option>
-                                    <option value="Luxury vans">Luxury vans</option>
-                                    <option value="Suv">Suv</option>
-                                    <option value="Buses">Buses</option>
-                                    <option value="Double cabs">Double cabs</option>
-                                    <option value="Motor bikes">Motor bikes</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-                                    <label for="exampleInputNationality">Starting Date</label>
-                                <label for="exampleInputName">Start Date</label>
-                                <input type="text" class="form-control" name="stdate" id="stdate" placeholder="Starting Date">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                    <label for="exampleInputNationality">Ending Date</label>
-                                <label for="exampleInputName">End Date</label>
-                                <input type="text" class="form-control" name="enddate" id="enddate" placeholder="Ending Date">
-                            </div>
-                            <div class="form-group col-sm-12">
-                                                              <label for="exampleInputNationality">Message</label>
-                                <label for="exampleInputName">Message</label>
-                                <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
-                            </div>
-
-                            <div class="form-group col-sm-12">
-                                <div  id="send_enquiry_search" style=" margin-bottom: 10px;"></div> 
-                                </br>
-                                <div id="sentmsg"> </div>
-
-                                <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
-                            </div>
-
-                        </form>
-                    </div>
-
-                    <div class="modal-footer">
-
-
-                    </div> 
-                </div>
-            </div>
-        </div>-->
+                </div>-->
 
         <!--end inquiry model-->
-        
-        
 
-       
 
-        
+
+
+
+
         <script>
             $('input[name=stdate] ').datetimepicker({
                 dayOfWeekStart: 1,
@@ -253,19 +253,19 @@
 
                         <li role="presentation" style="width: 161px;">
                             <a class="withDriver" href="#withDriver" aria-controls="with Driver" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="application_resources/images/driver-icon.png">
+                                <img data-toggle="tooltip" data-placement="bottom" title="With Driver" class="visible-xs" src="http://localhost/mytourdriver/application_resources/images/driver-icon.png">
                                 <span class="hidden-xs"> With Driver</span>
                             </a>
                         </li>
                         <li role="presentation" style="width: 161px;">
                             <a class="taxi" href="#taxi" aria-controls="Taxi" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="application_resources/images/taxi-icon.png">
+                                <img data-toggle="tooltip" data-placement="bottom" title="Drop & Pickup" class="visible-xs" src="http://localhost/mytourdriver/application_resources/images/taxi-icon.png">
                                 <span class="hidden-xs">Drop & Pickup (Taxi)</span>
                             </a>
                         </li>
                         <li role="presentation" style="width: 161px;">
                             <a class="airport" href="#airport" aria-controls="Airport Transfer" role="tab" data-toggle="tab">
-                                <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="application_resources/images/airport.png">
+                                <img data-toggle="tooltip" data-placement="bottom" title="Airport Transfer" class="visible-xs" src="http://localhost/mytourdriver/application_resources/images/airport.png">
                                 <span class="hidden-xs">Airport Transfer</span>
                             </a>
                         </li>
@@ -283,7 +283,7 @@
                                         <option value="">- PICKUP LOCATION -</option>
                                         <option value="1">Bandaranayake International Airport</option>
                                         <option value="2">Colombo</option>
-                                        
+
 
                                     </select>
 
@@ -298,7 +298,7 @@
                                         <option value="">- RETURN LOCATION -</option>
                                         <option value="1">Bandaranayake International Airport</option>
                                         <option value="2">Colombo</option>
-                                        
+
 
                                     </select>
                                 </div>
@@ -646,7 +646,7 @@
 
                 <div class="item  ">
 
-                    <img src="application_resources/images/slider/doubleCab.jpg"
+                    <img src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg"
                          alt="mytour" style="height: 470px">
 
                     <div class="slider-discription">
@@ -761,7 +761,7 @@
 
                                 <div class="item img">
                                     <img class="img-responsive"
-                                         src="application_resources/images/slider/doubleCab.jpg"
+                                         src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg"
                                          alt="Hire Nissan March">
                                     <div class="car-details clearfix">
                                         <span class="car-name">Nissan March</span>
@@ -1102,7 +1102,7 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-5">
-                                <img class="img-responsive" src="application_resources/images/slider/doubleCab.jpg">
+                                <img class="img-responsive" src="http://localhost/mytourdriver/application_resources/images/slider/doubleCab.jpg">
                             </div>
                             <div class="col-md-7">
                                 <h1>Toyota Allion 240 - Self Driven</h1>
@@ -1143,23 +1143,23 @@
 
 
         <!-- START JQUERY PLUGINS LOAD -->
-        <script src="application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
-        <script src="application_resources/js/bootstrap.js" type="text/javascript"></script>
-        <script src="application_resources/js/owl.carousel.js"></script>
-        <script src="application_resources/js/modernizr.js"></script>
-        <script src="application_resources/js/placeholders.min.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/bootstrap.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/owl.carousel.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/modernizr.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/placeholders.min.js"></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
 
 
 
-        <script src="application_resources/js/jquery-ui.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.js"></script>
         <!-- date time picker -->
-        <script src="application_resources/js/jquery.datetimepicker.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery.datetimepicker.js"></script>
 
         <!-- date time picker -->
 
         <!--menu js-->
-        <script src="application_resources/js/script.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/script.js" type="text/javascript"></script>
         <!--tooltip-->
         <script>
             $(function () {
@@ -1336,11 +1336,11 @@
 
             });
         </script>
-        <script src="application_resources/js/custom_js/js_fe_function.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/custom_js/js_fe_function.js" type="text/javascript"></script>
         <script src="http://momentjs.com/downloads/moment.js"></script> 
         <!--New-->
-        <script src="application_resources/js/slider.js" type="text/javascript"></script>
-        <script src="application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/slider.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
         <!--slider - owl-->
         <script>
             $(document).ready(function () {
@@ -1359,18 +1359,18 @@
             });
         </script>
 
-        <link rel="stylesheet" type="text/css" href="application_resources/css/build/css/demo.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/build/css/demo.css"/>
 
-        <link rel="stylesheet" href="application_resources/css/build/css/custom.css">
+        <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build/css/custom.css">
 
-        <link rel="stylesheet" type="text/css" href="application_resources/css/country/css/countrySelect.css"/>
+        <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
 
-        <script src="application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+        <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
 
         <!--start form wizard-->
-        <script src="application_resources/wizard2/dist/jquery.wizard.js"></script>
-        <link href="application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
+        <script src="http://localhost/mytourdriver/application_resources/wizard2/dist/jquery.wizard.js"></script>
+        <link href="http://localhost/mytourdriver/application_resources/wizard2/dist/jquery.wizard.css" rel="stylesheet">
 
         <style type="text/css">
 
@@ -1526,7 +1526,7 @@
 
         <!--start notifi-->
 
-        <script src="application_resources/notify/bootstrap-notify.min.js"></script>
+        <script src="http://localhost/mytourdriver/application_resources/notify/bootstrap-notify.min.js"></script>
         <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" rel="stylesheet">
 
         <!--end notifi-->
