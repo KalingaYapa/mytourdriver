@@ -131,7 +131,7 @@
 
         <!--header start-->
 
-        <?php include("../views/header.php"); ?>
+        <?php include("header.php"); ?>
 
         <!--header end-->
 
@@ -1424,7 +1424,7 @@
 
                                                             <!--contact row-->
 
-                                                            <?php include("http://localhost/mytourdriver/views/footer.php"); ?>
+                                                            <?php include("footer.php"); ?>
 
                                                             <!--contact row-->
 
