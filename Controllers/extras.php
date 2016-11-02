@@ -131,7 +131,7 @@
 
         <!--header start-->
 
-        <?php include("../views/header.html"); ?>
+        <?php include("../views/header.php"); ?>
 
         <!--header end-->
 
@@ -1599,7 +1599,7 @@
 
                                                             <!--contact row-->
 
-                                                            <?php include("../views/footer.html"); ?>
+                                                            <?php include("../views/footer.php"); ?>
 
                                                             <!--contact row-->
 

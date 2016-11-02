@@ -115,7 +115,7 @@
 
         </script>
 
-        <?php include("./views/header.html"); ?>
+        <?php include("./views/header.php"); ?>
 
 <!--        start inquiry model 
 
@@ -230,155 +230,11 @@
 
         <!--end inquiry model-->
         
-        <!-- start contact Modal -->
-        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Inform Us</h4>
-                    </div>
-                    <div class="modal-body">
+        
 
-                        <form class="form-horizontal" role="form" id="send_contact_form">
+       
 
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">Name:</label>
-                                <div class="col-sm-9"> 
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Email:</label>
-                                <div class="col-sm-9">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Telephone No:</label>
-                                <div class="col-sm-9">
-                                    <input type="text" class="form-control" id="tel" name="tel" placeholder="">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Message:</label>
-                                <div class="col-sm-9">                      
-                                    <textarea class="form-control" id="msg" name="msg" placeholder="" aria-describedby="basic-addon1"></textarea>
-                                </div>
-                            </div>
-
-                            <div class=" col-sm-offset-8 "> 
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <!--<button type="submit" class="btn btn-primary" id="send_contact_submit">Send</button>-->
-                                <input type="submit" class="btn btn-danger" id="send_contact_submit" value="Send">
-
-                            </div> 
-
-                        </form>
-
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <div id="sending_message"></div>
-                        <div id="success_message"></div>
-
-                    </div> 
-                </div>
-            </div>
-        </div>
-
-        <!--end contact model-->
-
-        <!--Start Login Modal -->
-        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Login</h4>
-                    </div>
-                    <div class="modal-body">
-
-                        <form class="form-horizontal" role="form" id="login_form">
-
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">UserName:</label>
-                                <div class="col-sm-9"> 
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Password:</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" id="email" name="email" placeholder="">
-                                </div>
-                            </div>
-                            <div class=" col-sm-offset-8 "> 
-                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Login">
-                            </div> 
-                        </form>
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <div id="sending_message"></div>
-                        <div id="success_message"></div>
-
-                    </div> 
-                </div>
-            </div>
-        </div>
-
-        <!--End Login Modal -->
-
-        <!--Start quick Sign-Up Modal -->
-        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel"><b>Quick Sign-Up For Drivers</b></h4>
-                    </div>
-                    <div class="modal-body">
-
-                        <form class="form-horizontal" role="form" id="login_form">
-
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="pwd">UserName:</label>
-                                <div class="col-sm-9"> 
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="UserName">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Password:</label>
-                                <div class="col-sm-9">
-                                    <input type="password" class="form-control" id="password" name="password" placeholder="password">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-3" for="email">Confirm Password:</label>
-                                <div class="col-sm-9">
-                                    <input type="conpassword" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="ConfirmPassword">
-                                </div>
-                            </div>
-                            <div class=" col-sm-offset-8 "> 
-                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Sign-Up">
-                            </div> 
-                        </form>
-                    </div>
-
-                    <div class="modal-footer">
-
-                        <div id="sending_message"></div>
-                        <div id="success_message"></div>
-
-                    </div> 
-                </div>
-            </div>
-        </div>
-        <!--End quick Sign-Up Modal -->
+        
         <script>
             $('input[name=stdate] ').datetimepicker({
                 dayOfWeekStart: 1,
@@ -1280,7 +1136,7 @@
 
         <!--start footer wrap-->
 
-        <?php include("./views/footer.html"); ?>
+        <?php include("./views/footer.php"); ?>
 
         <!-- end footer wrap-->
 
