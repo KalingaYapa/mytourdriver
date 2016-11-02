@@ -282,12 +282,12 @@
 
                                     <li> <p>PickUp Location</p>
                                         <h5 class="" >
-                                            Casons Head office                    </h5>
+                                                          </h5>
                                     </li>
 
                                     <li><p>Drop-off Location</p>
                                         <h5 class="" >
-                                            Casons Head office                    </h5>
+                                                              </h5>
                                     </li>
 
                                     <li><p>PickUp Date & Time</p>
@@ -358,7 +358,7 @@
                                                         40000  LKR                    <span>
 
                                                             </h5>   
-                                                            <form id="quotationfrom" action="http://casons.lk/article_controller/quotation" method="post">
+                                                            <form id="quotationfrom" action="#" method="post">
 
                                                                 <input type="hidden" name="tab" value="">
                                                                 <input type="hidden" name="model_id" value="" >

@@ -283,7 +283,7 @@
                                         <option value="">- PICKUP LOCATION -</option>
                                         <option value="1">Bandaranayake International Airport</option>
                                         <option value="2">Colombo</option>
-                                        <option value="3"selected>Casons Head office</option>
+                                        
 
                                     </select>
 
@@ -298,7 +298,7 @@
                                         <option value="">- RETURN LOCATION -</option>
                                         <option value="1">Bandaranayake International Airport</option>
                                         <option value="2">Colombo</option>
-                                        <option value="3">Casons Head office</option>
+                                        
 
                                     </select>
                                 </div>
@@ -590,7 +590,7 @@
 
                         <div class="sliderreadmore">
 
-                            <a class="btn btn-border" href="about-us/about-casons">View More</a>
+                            <a class="btn btn-border" href="#">View More</a>
 
                         </div>
 
@@ -616,7 +616,7 @@
 
                         <div class="sliderreadmore">
 
-                            <a class="btn btn-border" href="about-us/about-casons">View More</a>
+                            <a class="btn btn-border" href="#">View More</a>
 
                         </div>
 
@@ -647,7 +647,7 @@
                 <div class="item  ">
 
                     <img src="application_resources/images/slider/doubleCab.jpg"
-                         alt="Casons " style="height: 470px">
+                         alt="mytour" style="height: 470px">
 
                     <div class="slider-discription">
 
