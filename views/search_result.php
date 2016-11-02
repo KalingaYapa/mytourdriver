@@ -300,107 +300,7 @@
         </div>
 
         <!--end contact model-->
-        <!--start Cooperate rental model-->
 
-        <div class="modal fade" id="cooperatemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-car"></i>  <strong>Cooperate Rental </strong></h4>
-                    </div>
-                    <div class="modal-body clearfix">
-
-                        <form   id="cooperate_inquiry_form">
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Name</label>
-                                <input type="text" class="form-control" name="u_name" id="u_name" placeholder="Contact person Name" autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Company Name</label>
-                                <input type="text" class="form-control" name="c_name" id="c_name" placeholder="Your Company Name" autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-3">
-                                <label for="exampleInputName">Mobile No</label>
-                                <input type="text" class="form-control" name="u_mobile" id="u_mobile" placeholder="Mobile No." autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-3">
-                                <label for="exampleInputName">Telephone No</label>
-                                <input type="text" class="form-control" name="c_telno" id="c_telno" placeholder="Telephone No." autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Email</label>
-                                <input type="text" class="form-control" name="email" id="email" placeholder="Email" autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Start Date</label>
-                                <input type="date" class="form-control" name="stdate" id="stdate"  autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">End Date</label>
-                                <input type="date" class="form-control" name="enddate" id="enddate"  autocomplete="off">
-                            </div>
-
-                            <div class="form-group col-sm-6">
-
-                                <label for="exampleInputName">Service Type</label>
-                                <select class="form-control" name="service" id="service" autocomplete="off">
-                                    <option value="OTHER">Select Type of Service</option>
-                                    <option value="SELF DRIVE">SELF DRIVE</option>
-                                    <option value="WITH DRIVER">WITH DRIVER</option>
-                                    <option value="WEDDINGS">WEDDINGS</option>
-                                    <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-                                    <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-
-                                <label for="exampleInputName">Vehicle Type</label>
-                                <select class="form-control" name="vehicletype" id="vehicletype">
-                                    <option value="">Select Type of vehicle</option>
-                                    <option value="Budget cars">Budget cars</option>
-                                    <option value="Standard cars">Standard cars</option>
-                                    <option value="Semi luxury cars">Semi luxury cars</option>
-                                    <option value="Luxury cars">Luxury cars</option>
-                                    <option value="Super luxury cars">Super luxury cars</option>
-                                    <option value="limousine">limousine</option>
-                                    <option value="Vans">Vans</option>
-                                    <option value="Luxury vans">Luxury vans</option>
-                                    <option value="Suv">Suv</option>
-                                    <option value="Buses">Buses</option>
-                                    <option value="Double cabs">Double cabs</option>
-                                    <option value="Motor bikes">Motor bikes</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group col-sm-12">
-                                <!--                              <label for="exampleInputNationality">Message</label>-->
-                                <label for="exampleInputName">Message</label>
-                                <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
-                            </div>
-
-                            <div class="form-group col-sm-12">
-                                <div  id="send_enquiry_search"></div>
-                                </br>
-                                <div id="sentmsg"> </div>
-
-                                <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
-                            </div>
-
-                        </form>
-
-                    </div>
-
-                    <div class="modal-footer">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--end Cooperate rental model-->
 
         <script>
                             $('input[name=stdate] ').datetimepicker({
@@ -413,7 +313,7 @@
                             format: 'd/m/Y'
 
 
-                    });</script>
+                    });        </script>
 
         <div class="container content-wrapper">
             <div class="row">
