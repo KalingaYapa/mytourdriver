@@ -2,7 +2,6 @@
 
 <html>
     <head><!-- START HEAD -->
-
         <meta name="google-site-verification" content="VUd0e-LBApFLPXSopenbLiKzr8HJIYGW-BDwt45IYcI" />
 
         <meta name="msvalidate.01" content="9BD0FE48923191F095F33FDD4A40A81F" />
@@ -124,16 +123,14 @@
             });
 
         </script>
-
-
-
-
-
         <!--header start-->
 
         <?php include("../views/header.php"); ?>
 
         <!--header end-->
+
+
+
 
         <script>
             $('input[name=stdate] ').datetimepicker({
@@ -150,9 +147,15 @@
 
         </script>
 
+        <style type="text/css">
+            .req {
+                color: #ff0000;
+                font-weight: bold;
+            }
+        </style>
+        <!--content area-->
         <div class="container content-wrapper">
             <div class="row">
-                <!-- Start Side Bar -->
                 <div class="col-md-4">
 
 
@@ -279,12 +282,12 @@
 
                                     <li> <p>PickUp Location</p>
                                         <h5 class="" >
-                                                             </h5>
+                                                          </h5>
                                     </li>
 
                                     <li><p>Drop-off Location</p>
                                         <h5 class="" >
-                                                               </h5>
+                                                              </h5>
                                     </li>
 
                                     <li><p>PickUp Date & Time</p>
@@ -474,954 +477,521 @@
 
                                                             <!-- End Side Bar -->
 
-                                                            <!-- Start Body Content -->
+
                                                             <div class="col-md-8">
+                                                                <br/>
+                                                                <div class="content-header inner-box-header">
+                                                                    <h2>Reservation Form<a class="pull-right link" href="#"></a></h2>
+                                                                </div>
+
                                                                 <!--search sorting-->
                                                                 <div class="search-header">
                                                                     <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <h1>Terms & Conditions</h1>
-                                                                        </div>
+
                                                                     </div>
                                                                 </div>
                                                                 <!--/search sorting-->
                                                                 <!--search sorting image slider-->
 
                                                                 <!--/search sorting image slider-->
-                                                                <table class="search-table">
 
-                                                                    <!--new search results row-->
-                                                                    <tbody>
+                                                                <form class="form-horizontal clearfix" id="quatation_form" name="quatation_form" method="post" enctype="multipart/form-data"
+                                                                      action="#">
+
+                                                                    <div class="search-header">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <h3><strong>Personal Information</strong></h3>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
 
-<!--                                                                        <tr style="">
-                                                                            <td>
-                                                                                <div class="searh-row clearfix">
-                                                                                    <div class="col-md-2">
-                                                                                        <img class="img-responsive" src="../application_resources/images/slider/doubleCab.jpg">
-                                                                                    </div>
-                                                                                    <div class="col-md-10">
-                                                                                        <div class="row" >
-                                                                                            <div class="col-sm-7">
+                                                                    <div id="dt">
 
-                                                                                                <h1 >GPS Navigator </h1>
-                                                                                                <p> Satellite Navigation System </p>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-2">
+                                                                                <label for="exampleInputEmail1">Designation</label>
+                                                                                <select id="title" name="title" class="form-control">
+                                                                                    <option value="Mr."> Mr.</option>
 
-                                                                                                <p>  Required Items:
-                                                                                                    <select  name="gpsitem" id="gpsitem" >
-                                                                                                        <option value="1"> 1 </option>
-                                                                                                    </select>
-                                                                                                </p>
-                                                                                            </div>
+                                                                                </select>
+                                                                            </div>
 
-                                                                                            <div class="col-sm-5">
-                                                                                                <span class="car-details-price">
-                                                                                                    <h1>
-                                                                                                        <small> LKR LKR  </small>
-                                                                                                        500 
-                                                                                                        <br>
-                                                                                                    </h1>
+                                                                            <div class="col-sm-5">
+                                                                                <label for="exampleInputEmail1">First Name<span class="req">*</span></label>
+                                                                                <input type="text" class="form-control" id="f_name" name="f_name">
+                                                                                <input type="hidden" id="customer_id" name="customer_id">
+                                                                            </div>
 
-                                                                                                    <span>Item price/Day</span>
-                                                                                                </span>
-                                                                                                <div class="clearfix"></div>
+                                                                            <div class="col-sm-5">
+                                                                                <label for="exampleInputEmail1">Last Name<span class="req">*</span></label>
+                                                                                <input type="text" class="form-control" id="l_name" name="l_name">
+                                                                            </div>
+                                                                        </div>
 
-                                                                                                <div id="addbtn1" class="addbtn">
-                                                                                                    <a class="quot btn btn-sm btn-success pull-right " onclick="addGPS('GPS Navigator', '500', 'LKR')" >Add</a>
-                                                                                                </div>
-                                                                                                <div id="removebtn1" class="removebtn" style="display: none" >
-                                                                                                    <a class="quot btn btn-sm btn-danger pull-right " onclick="removeGPS('500')"  >Remove</a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-2">
+                                                                                <label for="exampleInputEmail1">Age</label>
+                                                                                <select id="age" name="age" class="form-control">
+                                                                                    <option value="18"> 18</br>  </option>
+
+                                                                                </select>
+                                                                            </div>
+
+                                                                            <div class="col-sm-10">
+                                                                                <label for="exampleInputEmail1">E-mail Address</label>
+                                                                                <input type="text" class="form-control" id="email" name="email">
+                                                                            </div>
+
+
+                                                                        </div>
+
+                                                                        <div class="row">
+
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">License No.</label>
+                                                                                <input type="text" class="form-control" id="license" name="license">
+                                                                            </div>
+
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">License Expiry Date.</label>
+                                                                                <input type="text" class="form-control" id="license_expire" name="license_expire">
+                                                                            </div>
+
+
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">NIC/ Passport No.</label>
+                                                                                <input type="text" class="form-control" id="nic_passport" name="nic_passport">
+                                                                            </div>
+
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">Mobile No.<span class="req">*</span></label>
+                                                                                <input type="text" class="form-control" id="mobile" name="mobile" >
+                                                                            </div>
+                                                                        </div>
+                                                                        <hr>
+                                                                        <div class="search-header">
+                                                                            <div class="row">
+                                                                                <div class="col-md-12">
+                                                                                    <h3><strong>Billing Information</strong></h3>
+
                                                                                 </div>
+                                                                            </div>
+                                                                        </div>
 
-                                                                            </td>
-                                                                        </tr>-->
+                                                                        <div class="row">
 
-                                                                        <!--/ search results row-->
-                                                                        <tr>
-                                                                            <td>
-                                                                                <div class="searh-row clearfix">
-                                                                                    <!--                    <div class="col-md-3">-->
-                                                                                    <!--                        <img class="img-responsive" src="images/50.jpg">-->
-                                                                                    <!--                    </div>-->
-                                                                                    <div class="col-md-12">
-                                                                                        <div class="row">
-                                                                                            <div class="col-sm-12">
-                                                                                                <h1>Terms & Conditions</h1>
-                                                                                                <hr>
-                                                                                                <p>
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">Billing Address</label>
+                                                                    <!--            <input type="text" class="form-control" id="b_address" name="b_address">-->
+                                                                                <textarea rows="2" class="form-control" id="address" name="address"></textarea>
+                                                                            </div>
 
-                                                                                                <ol>
-                                                                                                    <li class="terms-li">&nbsp;&nbsp;In case of major break-down substitute vehicle will be provided but not in the case of an accident</li>
-                                                                                                    <li class="terms-li">&nbsp;&nbsp;Hirer is prohibited from using the vehicle in breach of Laws-excessive speed, under influence or Liquor/campaign/any other illegal purpose and in areas of civil disturbance/Mortgage, sales, alteration/Transportation of pets,illegal items and any transaction related to the vehicle</li>
-                                                                                                    <li class="terms-li">&nbsp;&nbsp;Vehicle cannot be re-rented or driven by any other 3rd party other than person who had signed the agreement. In case of 2nd driver additional payment will be charged</li>
-                                                                                                    <li class="terms-li">&nbsp;&nbsp;No refund of Rental in part/whole if vehicle is Damage or returned before the expiry date</li>
-                                                                                                </ol>
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">Billing Address (Optional)</label>
+                                                                    <!--            <input type="text" class="form-control" id="b_address2" name="b_address2">-->
+                                                                                <textarea rows="2" class="form-control"id="b_address2" name="b_address2"></textarea>
+                                                                            </div>
+                                                                        </div>
 
-                                                                                                <p>&nbsp;</p>
-                                                                                                </br> </br>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-2">
+                                                                                <label for="exampleInputEmail1">Postal Code</label>
+                                                                                <input type="text" class="form-control" id="postal_code" name="postal_code">
 
+                                                                            </div>
 
-                                                                                                </p>
+                                                                            <div class="col-sm-4">
+                                                                                <label for="exampleInputEmail1">City</label>
+                                                                                <input type="text" class="form-control" id="city" name="city">
+                                                                            </div>
 
-                                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">Country</label>
+                                                                                <input type="text" id="country" name="country" class="form-control">
 
-                                                                                        </div>
-                                                                                    </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <hr>
+                                                                        <div class="search-header">
+                                                                            <div class="row">
+                                                                                <div class="col-md-12">
+                                                                                    <h3><strong>Pickup Information</strong>(Optional)</h3>
+
                                                                                 </div>
+                                                                            </div>
+                                                                        </div>
 
-                                                                            </td>
-                                                                        </tr>
-                                                                        <!--row-->
-                                                                    </tbody>
-                                                                </table>
-                                                                <a class="btn btn-lg btn-danger pull-right" href="reservationForm.php" onclick="submitForm()"> Continue to Checkout </a>
-                                                                <!--new form start-->
+                                                                        <div class="row">
+                                                                            <div class="col-sm-3">
+                                                                                <label for="exampleInputEmail1">Flight No.</label>
+                                                                                <input type="text" class="form-control" id="flightno" name="flightno">
+
+                                                                            </div>
+
+                                                                            <div class="col-sm-3">
+                                                                                <label for="exampleInputEmail1">Flight Arrival Time</label>
+                                                                                <input type="text" class="form-control" id="flightarrivaltime" name="flightarrivaltime">
+                                                                            </div>
+
+                                                                            <div class="col-sm-6">
+                                                                                <label for="exampleInputEmail1">Pickup Place</label>
+                                                                                <input type="text" id="pickupplace" name="pickupplace" class="form-control" >
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <br/>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-12">
+                                                                                <label for="exampleInputEmail1">Special Message </label>
+                                                                                <!--<input type="text" class="form-control" id="flightno" name="flightno">-->
+                                                                                <textarea id="specialmsg" name="specialmsg" class="form-control" ></textarea>
+
+                                                                            </div>
+
+
+                                                                        </div>
+
+
+
+
+                                                                    </div>
+                                                                    </br>
+
+                                                                    <div class="row">
+
+                                                                        <div class="col-sm-12">
+                                                                            <h3><strong>Terms & Conditions</strong></h3>
+
+
+                                                                            <hr>
+                                                                            <p>
+                                                                            <ol>
+                                                                                <li class="terms-li">&nbsp;&nbsp;In case of major break-down substitute vehicle will be provided but not in the case of an accident</li>
+
+                                                                            </ol>
+
+                                                                            <p>&nbsp;</p>
+
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <!--                                                                    <div class="row">
+                                                                    
+                                                                    
+                                                                                                                                            <div class="checkbox checkbox-warning col-sm-12">
+                                                                                                                                                <input type="radio" name="booking" id="radio7" value="0" checked>
+                                                                                                                                                <label for="radio7">
+                                                                                                                                                    Quotation
+                                                                                                                                                </label>
+                                                                                                                                            </div>
+                                                                                                                                         
+                                                                                                                                            <div class="checkbox checkbox-danger col-sm-12">
+                                                                                                                                                <input type="radio" name="booking" id="radio9" value="2">
+                                                                                                                                                <label for="radio9">
+                                                                                                                                                    Book (Payment on Arrival)
+                                                                                                                                                </label>
+                                                                                                                                            </div>
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                                                                                        </div>-->
+
+                                                                    <div class="row">
+
+
+                                                                        <input type="hidden" id="pick_location" name="pick_location" value="3">
+                                                                        <input type="hidden" id="ret_location" name="ret_location" value="3">
+                                                                        <input type="hidden" id="numdays" name="numdays" value="1" >
+                                                                        <input type="hidden" id="ways" name="ways" value="">               
+                                                                        <input type="hidden" id="service" name="service" value="SD">
+
+                                                                        <input type="hidden" id="currency" name="currency" value="2">
+                                                                        <input type="hidden" id="stdate" name="stdate" value="02/11/2016">
+
+                                                                        <input type="hidden" id="enddate" name="enddate" value="02/11/2016">
+                                                                        <!--<input type="hidden" id="car_type" name="car_type" value="">-->
+
+                                                                        <input type="hidden" id="sttime" name="sttime" value="00:00">
+
+                                                                        <input type="hidden" id="endtime" name="endtime" value="00:00">
+
+                                                                        <input type="hidden" id="freemile" name="freemile" value="100">
+                                                                        <input type="hidden" id="modelid" name="modelid" value="125">
+
+                                                                        <input type="hidden" id="unlimited" name="unlimited" value="0">
+
+                                                                        <input type="hidden" id="discountedamount" name="discountedamount" value="5000">   
+                                                                        <input type="hidden" id="amount" name="amount" value="5000">
+
+                                                                        <input type="hidden" id="airportpagecharge" name="airportpagecharge" value="0">
+
+
+                                                                        <input type="hidden" id="discountedcost" name="discountedcost" value="5000">
+
+
+
+                                                                        <input type="hidden" id="gps" name="gps" value="" > 
+                                                                        <input type="hidden" id="driverendoses" name="driverendoses" value=""> 
+                                                                        <input type="hidden" id="insurancedrivers" name="insurancedrivers" value=""> 
+                                                                        <input type="hidden" id="driverdates" name="driverdates" value="" > 
+                                                                        <input type="hidden" id="buymiles" name="buymiles" value="" > 
+                                                                        <input type="hidden" id="babyseats" name="babyseats" value="">
+                                                                        <input type="hidden" id="boutiques" name="boutiques" value="">
+
+                                                                        <input type="hidden" id="extraamount" name="extraamount" value="0"> 
+
+
+
+
+
+
+
+
+                                                                        <input type="hidden" id="extraitemname" name="extraitemname[]" class="extraitemname" value="">
+
+                                                                        <input type="hidden" id="extraitemcost" name="extraitemcost[]" class="extraitemcost" value="">
+
+                                                                        <input type="hidden" id="extraitem" name="extraitem[]" value="">
+
+
+
+
+
+                                                                        <input type="hidden" id="driverdate" name="driverdate[]" value="">
+
+
+
+                                                                    </div>
+
+                                                                    <hr />
+                                                                    <div class="styled styled-primary">
+
+                                                                        <input type="checkbox" id="chkSelect"  style="transform: scale(1.5); margin-top: 20px;"/>
+                                                                        <label for="checkbox2" style="margin-left: 10px;">
+                                                                            <strong>I hereby agree to the above terms and conditions</strong>
+                                                                        </label>
+                                                                    </div>
+
+                                                                    <input type="submit" class="btn btn-lg btn-danger pull-right"  name="formbtn" id="formbtn" value="Continue to Checkout">
+
+                                                                </form>
+
                                                             </div>
                                                             </div>
                                                             </div>
                                                             <!-- / endcontent area /////////////////////////////////////////////////////-->
+                                                            <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+                                                            <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
+
+
                                                             <script type="text/javascript">
 
-                                                                function addNotify(msg) {
-                                                                    $.notify({
-                                                                        // options
-                                                                        icon: 'glyphicon glyphicon-plus',
-                                                                        //title: 'GPS',
-                                                                        message: msg,
-                                                                        //url: 'https://github.com/mouse0270/bootstrap-notify',
-                                                                        target: '_blank'
-                                                                    }, {
-                                                                        // settings
-                                                                        element: 'body',
-                                                                        position: null,
-                                                                        type: "success",
-                                                                        allow_dismiss: true,
-                                                                        newest_on_top: false,
-                                                                        showProgressbar: false,
-                                                                        placement: {
-                                                                            from: "bottom",
-                                                                            align: "left"
-                                                                        },
-                                                                        offset: 10,
-                                                                        spacing: 10,
-                                                                        z_index: 1031,
-                                                                        delay: 1000,
-                                                                        timer: 1000,
-                                                                        url_target: '_blank',
-                                                                        mouse_over: null,
-                                                                        animate: {
-                                                                            enter: 'animated zoomInDown',
-                                                                            exit: 'animated zoomOutUp'
-                                                                        },
-                                                                        onShow: null,
-                                                                        onShown: null,
-                                                                        onClose: null,
-                                                                        onClosed: null,
-                                                                        icon_type: 'class',
-                                                                        template: '<div data-notify="container" class="col-xs-11 col-sm-2 alert alert-{0} " role="alert">' +
-                                                                                '<button type="button" aria-hidden="true" class="close" data-notify="dismiss">×</button>' +
-                                                                                '<span data-notify="icon"></span> ' +
-                                                                                '<span data-notify="title">{1}</span> ' +
-                                                                                '<span data-notify="message">{2}</span>' +
-                                                                                '<div class="progress" data-notify="progressbar">' +
-                                                                                '<div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
-                                                                                '</div>' +
-                                                                                '<a href="{3}" target="{4}" data-notify="url"></a>' +
-                                                                                '</div>'
-                                                                    });
-                                                                }
-
-                                                                function removeNotify(msg) {
-                                                                    $.notify({
-                                                                        // options
-                                                                        icon: 'glyphicon glyphicon-minus',
-                                                                        //title: 'GPS',
-                                                                        message: msg,
-                                                                        //url: 'https://github.com/mouse0270/bootstrap-notify',
-                                                                        target: '_blank'
-                                                                    }, {
-                                                                        // settings
-                                                                        element: 'body',
-                                                                        position: null,
-                                                                        type: "danger",
-                                                                        allow_dismiss: true,
-                                                                        newest_on_top: false,
-                                                                        showProgressbar: false,
-                                                                        placement: {
-                                                                            from: "bottom",
-                                                                            align: "left"
-                                                                        },
-                                                                        offset: 10,
-                                                                        spacing: 10,
-                                                                        z_index: 1031,
-                                                                        delay: 1000,
-                                                                        timer: 1000,
-                                                                        url_target: '_blank',
-                                                                        mouse_over: null,
-                                                                        animate: {
-                                                                            enter: 'animated zoomInDown',
-                                                                            exit: 'animated zoomOutUp'
-                                                                        },
-                                                                        onShow: null,
-                                                                        onShown: null,
-                                                                        onClose: null,
-                                                                        onClosed: null,
-                                                                        icon_type: 'class',
-                                                                        template: '<div data-notify="container" class="col-xs-11 col-sm-2 alert alert-{0} " role="alert">' +
-                                                                                '<button type="button" aria-hidden="true" class="close" data-notify="dismiss">×</button>' +
-                                                                                '<span data-notify="icon"></span> ' +
-                                                                                '<span data-notify="title">{1}</span> ' +
-                                                                                '<span data-notify="message">{2}</span>' +
-                                                                                '<div class="progress" data-notify="progressbar">' +
-                                                                                '<div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
-                                                                                '</div>' +
-                                                                                '<a href="{3}" target="{4}" data-notify="url"></a>' +
-                                                                                '</div>'
-                                                                    });
-                                                                }
-
-
-
-                                                                function  addGPS(service, price, code) {
-
-
-                                                                    var days = 1
-                                                                    var gpsvalue = $('#gpsitem').val();
-
-                                                                    var gpsamount = days * price;
-
-                                                                    $('#gps').val(gpsvalue);
-
-                                                                    $('#addbtn1').hide();
-                                                                    $('#removebtn1').show();
-
-                                                                    $("#listextra").append("<li id='ligps'>" + service + "<span class='pull-right'>" + code + " " + gpsamount + "<span></li>");
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    //var payable = total+price;   
-                                                                    var payable = parseInt(total) + parseInt(gpsamount);
-
-                                                                    /*  $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-                                                                    $('#discountedamount').val(payable);
-
-                                                                    // var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    addNotify('GPS Added');
-
-                                                                }
-
-                                                                function  removeGPS(price) {
-
-
-                                                                    var days = 1
-                                                                    var gpsamount = days * price;
-
-                                                                    $('#gps').val('');
-
-                                                                    $('#addbtn1').show();
-                                                                    $('#removebtn1').hide();
-
-                                                                    $("#ligps").remove();
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    var payable = total - gpsamount;
-
-                                                                    /*  $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-                                                                    // var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    removeNotify('GPS Removed');
-                                                                }
-
-                                                                function addDriverEndose(service, price, code) {
-
-
-                                                                    var driverendosevalue = $('#driverendose').val();
-                                                                    $('#driverendoses').val(driverendosevalue);
-
-                                                                    $('#addbtn2').hide();
-                                                                    $('#removebtn2').show();
-
-                                                                    price = parseInt(driverendosevalue) * parseInt(price);
-
-                                                                    $("#listextra").append("<li id='lidriverendose'>" + service + "<span class='pull-right'>" + code + " " + price + "<span></li>");
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    //var payable = total+price;   
-                                                                    var payable = parseInt(total) + parseInt(price);
-
-                                                                    /*  $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-                                                                    //var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    addNotify('Driver Endosement Added');
-
-                                                                }
-
-                                                                function  removeDriverEndose(price) {
-
-                                                                    $('#driverendoses').val('');
-                                                                    $('#addbtn2').show();
-                                                                    $('#removebtn2').hide();
-
-                                                                    $("#lidriverendose").remove();
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    var payable = total - price;
-
-                                                                    /*  $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-                                                                    //var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    removeNotify('Driver Endosement Removed');
-
-                                                                }
-                                                                function  addInsuranceDriver(service, price, code) {
-
-                                                                    var insurancedrivervalue = $('#insurancedriver').val();
-                                                                    $('#insurancedrivers').val(insurancedrivervalue);
-
-                                                                    $('#addbtn3').hide();
-                                                                    $('#removebtn3').show();
-
-                                                                    $("#listextra").append("<li id='lidriverinsurance'>" + service + "<span class='pull-right'>" + code + " " + price + "<span></li>");
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    //var payable = total+price;   
-                                                                    var payable = parseInt(total) + parseInt(price);
-
-                                                                    /*  $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-                                                                    //var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    addNotify('Insurance Cover Added');
-
-                                                                }
-                                                                function  removeInsuranceDriver(price) {
-
-                                                                    $('#insurancedrivers').val('');
-
-                                                                    $('#addbtn3').show();
-                                                                    $('#removebtn3').hide();
-
-                                                                    $("#lidriverinsurance").remove();
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    var payable = total - price;
-
-                                                                    /*   $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-                                                                    //var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    removeNotify('Insurance Cover Removed');
-
-                                                                }
-                                                                function  addRequestDriver(service, price, code) {
-
-                                                                    var driverdatevalue = $('input:checkbox:checked.driverdate').map(function () {
-                                                                        return this.value;
-                                                                    }).get();
-
-                                                                    var driverdates = driverdatevalue.valueOf();
-
-                                                                    if (driverdates != '') {
-
-                                                                        price = (driverdates.length) * price;
-                                                                        $("#listextra").append("<li id='lidriverrequest'>" + service + "<span class='pull-right'>" + code + " " + price + "<span></li>");
-
-                                                                        var total = $('#discountedamount').val();
-                                                                        //var payable = total+price;
-                                                                        var payable = parseInt(total) + parseInt(price);
-
-                                                                        /*   $('#fulltotal').text(payable);
-                                                                         $('#discountedamount').val(payable);  */
-
-                                                                        $('#discountedamount').val(payable);
-                                                                        //       var apcharge = $('#airportpagecharge').val();
-
-                                                                        var apcharge = $('#airportpagecharge').val();
-
-                                                                        if (apcharge > 0) {
-                                                                            apcharge = $('#airportpagecharge').val();
-                                                                        } else {
-                                                                            apcharge = 0;
-                                                                        }
-
-                                                                        $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                        $('#driverdates').val(driverdatevalue);
-
-                                                                        $('#addbtn4').hide();
-                                                                        $('#removebtn4').show();
-
-                                                                        addNotify('Driver Dates Added');
-
-                                                                    } else {
-
-                                                                        alert('Please select required dates');
-                                                                    }
-
-
-
-
-                                                                }
-
-                                                                function  addBuyMileage(service, price, code) {
-
-                                                                    var buymilevalue = $('#buymile').val();
-
-                                                                    if (buymilevalue >= 1) {
-
-                                                                        $('#buymiles').val(buymilevalue);
-
-                                                                        $('#addbtn5').hide();
-                                                                        $('#removebtn5').show();
-
-                                                                        price = parseInt(buymilevalue) * parseInt(price);
-
-                                                                        $("#listextra").append("<li id='libuymile'>" + service + "<span class='pull-right'>" + code + " " + price + "<span></li>");
-
-                                                                        var total = $('#discountedamount').val();
-                                                                        //var payable = total+price;   
-                                                                        var payable = parseInt(total) + parseInt(price);
-
-                                                                        /*    $('#fulltotal').text(payable);
-                                                                         $('#discountedamount').val(payable);  */
-
-                                                                        $('#discountedamount').val(payable);
-
-                                                                        //       var apcharge = $('#airportpagecharge').val();
-
-                                                                        var apcharge = $('#airportpagecharge').val();
-
-                                                                        if (apcharge > 0) {
-                                                                            apcharge = $('#airportpagecharge').val();
-                                                                        } else {
-                                                                            apcharge = 0;
-                                                                        }
-
-
-                                                                        $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                        addNotify('Extra Mileage Added');
-
-                                                                    } else {
-                                                                        alert('Please Enter correct Value');
-                                                                    }
-
-
-
-
-
-                                                                }
-                                                                function  removeBuyMileage(price) {
-
-                                                                    var buymilevalue = $('#buymile').val();
-
-                                                                    price = parseInt(buymilevalue) * parseInt(price);
-
-                                                                    var total = $('#discountedamount').val();
-                                                                    var payable = total - price;
-
-                                                                    /*   $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-
-                                                                    //    var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge));
-
-                                                                    $('#buymile').val('');
-                                                                    $('#buymiles').val('');
-
-                                                                    $('#addbtn5').show();
-                                                                    $('#removebtn5').hide();
-
-                                                                    $("#libuymile").remove();
-
-                                                                    removeNotify('Extra Mileage Removed');
-
-
-                                                                }
-                                                                function  addBabySeat(service, price, code) {
-
-                                                                    //  var days = 
-                                                                    var days = 1
-                                                                    var babyseatvalue = $('#babyseat').val();
-
-                                                                    if (babyseatvalue >= 1) {
-
-                                                                        $('#babyseats').val(babyseatvalue);
-
-                                                                        $('#addbtn6').hide();
-                                                                        $('#removebtn6').show();
-
-                                                                        price = parseInt(babyseatvalue) * parseInt(price) * days;
-
-                                                                        $("#listextra").append("<li id='libabyseat'>" + service + "<span class='pull-right'>" + code + " " + price + "<span></li>");
-
-                                                                        var total = $('#discountedamount').val();
-                                                                        //var payable = total+price;   
-                                                                        var payable = parseInt(total) + parseInt(price);
-
-                                                                        /*   $('#fulltotal').text(payable);
-                                                                         $('#discountedamount').val(payable);  */
-
-                                                                        $('#discountedamount').val(payable);
-
-                                                                        //var apcharge = $('#airportpagecharge').val();
-
-                                                                        var apcharge = $('#airportpagecharge').val();
-
-                                                                        if (apcharge > 0) {
-                                                                            apcharge = $('#airportpagecharge').val();
-                                                                        } else {
-                                                                            apcharge = 0;
-                                                                        }
-
-                                                                        var airportpagingboard = 0
-                                                                        if (airportpagingboard > 0) {
-                                                                            airportpagingboard = 0
-                                                                        } else {
-                                                                            airportpagingboard = 0;
-                                                                        }
-
-
-                                                                        $('#fulltotal').text(payable + parseInt(apcharge) + parseInt(airportpagingboard));
-
-                                                                        addNotify('Baby Seat Added');
-
-                                                                    } else {
-                                                                        alert('Please Enter correct Value');
-                                                                    }
-
-
-                                                                }
-                                                                function  removeBabySeat(price, code) {
-
-
-                                                                    var days = 1
-                                                                    var total = $('#discountedamount').val();
-
-                                                                    var babyseatvalue = $('#babyseat').val();
-                                                                    price = parseInt(babyseatvalue) * parseInt(price) * days;
-
-
-                                                                    var payable = total - price;
-
-                                                                    /*  $('#fulltotal').text(payable);
-                                                                     $('#discountedamount').val(payable);  */
-
-                                                                    $('#discountedamount').val(payable);
-                                                                    //var apcharge = $('#airportpagecharge').val();
-
-                                                                    var apcharge = $('#airportpagecharge').val();
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    var airportpagingboard = 0
-                                                                    if (airportpagingboard > 0) {
-                                                                        airportpagingboard = 0
-                                                                    } else {
-                                                                        airportpagingboard = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text(payable + parseInt(apcharge) + parseInt(airportpagingboard));
-
-                                                                    $('#babyseat').val('');
-                                                                    $('#babyseats').val('');
-
-                                                                    $('#addbtn6').show();
-                                                                    $('#removebtn6').hide();
-
-                                                                    $("#libabyseat").remove();
-
-                                                                    removeNotify('Baby Seat Removed');
-
-
-                                                                }
-
-                                                                // flower boutique
-                                                                function  addBoutique(service, price, code) {
-
-                                                                    var days = 11
-                                                                    var boutiquevalue = $('#boutique').val();
-
-                                                                    if (boutiquevalue >= 1) {
-
-                                                                        $('#boutiques').val(boutiquevalue);
-
-                                                                        $('#addbtn7').hide();
-                                                                        $('#removebtn7').show();
-
-                                                                        price = parseInt(boutiquevalue) * parseInt(price) * days;
-
-                                                                        $("#listextra").append("<li id='liboutique'>" + service + "<span class='pull-right'>" + code + " " + price + "<span></li>");
-
-                                                                        var total = $('#discountedamount').val();
-                                                                        //var payable = total+price;
-                                                                        var payable = parseInt(total) + parseInt(price);
-
-                                                                        $('#discountedamount').val(payable);
-
-                                                                        //var apcharge = $('#airportpagecharge').val();
-                                                                        var apcharge = 0;
-
-                                                                        if (apcharge > 0) {
-                                                                            apcharge = $('#airportpagecharge').val();
-                                                                        } else {
-                                                                            apcharge = 0;
-                                                                        }
-
-                                                                        // alert(typeof(parseInt(apcharge)));
-
-                                                                        $('#fulltotal').text((payable + parseInt(apcharge)));
-
-                                                                        addNotify('Boutiques Added');
-
-                                                                    } else {
-                                                                        alert('Please Enter correct Value');
-                                                                    }
-
-
-                                                                }
-
-                                                                function  removeBoutique(price, code) {
-
-
-                                                                    var days = 1
-                                                                    var total = $('#discountedamount').val();
-
-                                                                    var boutiquevalue = $('#boutique').val();
-
-                                                                    var price = parseInt(boutiquevalue) * parseInt(price) * parseInt(days);
-
-
-                                                                    var payable = parseInt(total) - parseInt(price);
-
-                                                                    $('#discountedamount').val(payable);
-
-                                                                    var apcharge = 0;
-
-                                                                    if (apcharge > 0) {
-                                                                        apcharge = $('#airportpagecharge').val();
-                                                                    } else {
-                                                                        apcharge = 0;
-                                                                    }
-
-                                                                    $('#fulltotal').text((parseInt(payable) + parseInt(apcharge)));
-
-
-                                                                    $('#boutique').val('');
-                                                                    $('#boutiques').val('');
-
-                                                                    $('#addbtn7').show();
-                                                                    $('#removebtn7').hide();
-
-                                                                    $("#liboutique").remove();
-
-                                                                    removeNotify('Boutiques Removed');
-                                                                }
-
-
-                                                                function submitForm() {
-                                                                    $('#bookingfrom').submit();
+            $('#searchbtn').on('click', function () {
+
+                var searchtype = $('#searchtype').val();
+                var searchinput = $('#searchinput').val();
+
+                $.post(site_url + '/article_controller/getClientDetail', {'searchtype': searchtype, 'searchinput': searchinput}, function (msg) {
+
+                    if (msg != null) {
+                        $('#dt').html(msg);
+                    } else {
+
+                    }
+                });
+            });
+
+
+
+
+
+
+            $("#quatation_form").validate({
+                rules: {
+                    f_name: {required: true},
+                    l_name: {required: true},
+                    email: {required: true, email: true},
+                    mobile: {required: true, minlength: 10, maxlength: 20},
+                    country: {required: true}
+
+
+                },
+                submitHandler: function (form) {
+
+                    var isChecked = $('#chkSelect').is(':checked');
+
+                    if (isChecked) {
+                        $('#quatation_form').submit();
+
+                        $('#myModal').modal('show');
+                        //setTimeout for the modal to hide
+                        window.setTimeout(hide_modal, 4400);
+
+                    } else {
+                        alert('Please Be Checked!');
+                    }
+                }
+            });
+
+            function printReport() {
+
+                $("#quatation_form").validate({
+                    rules: {
+                        title: {required: true},
+                        f_name: {required: true},
+                        l_name: {required: true},
+                        age: {required: true},
+                        license_no: {required: true},
+                        passport_no: {required: true},
+                        email: {required: true},
+                        phone_no: {required: true},
+                        country: {required: true},
+                        city: {required: true},
+                        postal_code: {required: true},
+                        b_address: {required: true}
+                        //                confirm_chkbox:{required:true},
+                        //                currency: { required: true }
+                    }
+                });
+
+
+                //  #quatation_form
+                var drive_type = $('#drive_type').val();
+                var vehicle_model = $('#vehicle_model').val();
+                var picup_loc = $('#picup_loc').val();
+                var dropoff_loc = $('#dropoff_loc').val();
+                var num_days = $('#num_days').val();
+                var currency = $('#currency').val();
+                var excess_per_km = $('#excess_per_km').val();
+                var freemilaege = $('#freemilaege').val();
+                var total = $('#total').val();
+
+                var title, f_name, l_name, age, license_no, passport_no, email, phone_no, country, city, postal_code, b_address, b_address2;
+
+                title = $('#title').val();
+                f_name = $('#f_name').val();
+                l_name = $('#l_name').val();
+                age = $('#age').val();
+                license_no = $('#license_no').val();
+                passport_no = $('#passport_no').val();
+                email = $('#email').val();
+                phone_no = $('#phone_no').val();
+                country = $('#country').val();
+                city = $('#city').val();
+                postal_code = $('#postal_code').val();
+                b_address = $('#b_address').val();
+                b_address2 = $('#b_address2').val();
+
+                // var extraitemname = $('.extraitemname').val();
+                var extraitems = [];
+                var extraitemcost = [];
+
+                $('.extraitemname').each(function () {
+                    // alert($(this).val());
+                    extraitems.push($(this).val());
+                });
+
+                $('.extraitemcost').each(function () {
+                    // alert($(this).val());
+                    extraitemcost.push($(this).val());
+                });
+
+
+                var win = window.open(
+                        site_url + '/article_controller/printReport?drive_type=' + drive_type
+                        + '&vehicle_model=' + vehicle_model
+                        + '&extraitems=' + extraitems
+                        + '&extraitemcost=' + extraitemcost
+                        + '&picup_loc=' + picup_loc
+                        + '&dropoff_loc=' + dropoff_loc
+                        + '&num_days=' + num_days
+                        + '&currency=' + currency
+                        + '&excess_per_km=' + excess_per_km
+                        + '&total=' + total
+                        + '&freemilaege=' + freemilaege
+
+                        + '&title=' + title
+                        + '&f_name=' + f_name
+                        + '&l_name=' + l_name
+                        + '&age=' + age
+                        + '&license_no=' + license_no
+                        + '&passport_no=' + passport_no
+                        + '&email=' + email
+                        + '&phone_no=' + phone_no
+                        + '&country=' + country
+                        + '&city=' + city
+                        + '&postal_code=' + postal_code
+                        + '&b_address=' + b_address
+                        + '&b_address2=' + b_address2
+
+                        );
+                win.focus();
+
+            }
+
+
+                                                            </script>
+
+                                                            <script>
+
+                                                                function hide_modal() {
+                                                                    $('#myModal').modal('hide');
                                                                 }
 
                                                             </script>
 
 
+                                                            <div class="row">
+                                                                <!-- Large modal -->
+                                                                <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                                                    <div class="modal-dialog modal-lg">
+                                                                        <div class="modal-content">
+
+                                                                            <div class="modal-body">
 
 
-                                                            <script type="text/javascript">
+                                                                                <center><h4>Dear Customer <br/><br/> Thank You.</h4></center>
 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
 
-                                                                function addBtnRemove($amount, $id, $price, $currency) {
-
-                                                                    var itemid = '#item' + $id;
-                                                                    var itemno = $(itemid).val();
-                                                                    var price = ($price * itemno / $currency).toFixed(2);
-
-                                                                    var extraaddid = '#addbtn' + $id;
-                                                                    var extraremoveid = '#removebtn' + $id;
-                                                                    var extraitemid = '#extraited' + $id;
-                                                                    var extraitem = '#extraitem' + $id;
-                                                                    var extracostid = '#extracost' + $id;
-                                                                    var h1id = '#h1' + $id;
-                                                                    var extraliid = '#li' + $id;
-                                                                    $(extraaddid).hide();
-                                                                    $(extraremoveid).show();
-                                                                    $(extraitem).val($id);
-                                                                    $(extraliid).append($(h1id).text() + " " + " <span class='pull-right' > " + price + " " + 'LKR </span>');
-
-                                                                    //  $(extraliid).append($('#h1id').val()+"     "+"Cost:= "+price);
-                                                                    //   $(extraliid).val($('#h1id').val()+"     "+"Cost:= "+price);
-                                                                    //  var extradiv = document.getElementById("extraitems");
-                                                                    //  extradiv.innerHTML += "<input type='text' id='extraitemid' name='extraitem' value=''>";
-                                                                    $(extracostid).val(price);
-                                                                    var cost = 0;
-                                                                    var values = $('input[name="extracost[]"]').map(function () {
-                                                                        return this.value
-                                                                    }).get();
-
-                                                                    for (i = 0; i < values.length; i++) {
-                                                                        if (!values[i]) {
-                                                                            //alert('null');
-                                                                        } else {
-                                                                            // alert(values[i]);
-                                                                            cost += parseInt(values[i]);
-                                                                        }
-                                                                    }
-                                                                    //alert('Sum is: '+cost);
-                                                                    var totalamount = parseFloat(cost) + parseFloat($amount);
-                                                                    $('#totalamounth5').text('');
-                                                                    $('#totalamounth5').append('<strong>Total ' + " <span class='pull-right' > " + totalamount.toFixed(2) + "</span></strong>");
-                                                                    $('#total').val(totalamount);
-
+                                                            <style type="text/css">
+                                                                .modal  {
+                                                                    /*   display: block;*/
+                                                                    padding-right: 0px;
+                                                                    background-color: rgba(4, 4, 4, 0.8); 
                                                                 }
 
-                                                                function removeBtnRemove($amount, $id, price) {
-
-                                                                    var extraaddid = '#addbtn' + $id;
-                                                                    var extraremoveid = '#removebtn' + $id;
-
-                                                                    var extraitemid = '#extraited' + $id;
-                                                                    var extraitem = '#extraitem' + $id;
-
-                                                                    var extracostid = '#extracost' + $id;
-
-                                                                    var h1id = '#h1' + $id;
-                                                                    var extraliid = '#li' + $id;
-
-                                                                    $(extraaddid).show();
-                                                                    $(extraremoveid).hide();
-
-                                                                    $(extraitem).val('');
-                                                                    $(extraliid).text('');
-
-                                                                    $(extracostid).val('');
-                                                                    var cost = 0;
-                                                                    var values = $('input[name="extracost[]"]').map(function () {
-                                                                        return this.value
-                                                                    }).get();
-
-                                                                    for (i = 0; i < values.length; i++) {
-                                                                        if (!values[i]) {
-                                                                            //alert('null');
-                                                                        } else {
-                                                                            // alert(values[i]);
-                                                                            cost += parseInt(values[i]);
-                                                                        }
-                                                                    }
-                                                                    //alert('Sum is: '+cost);
-                                                                    var totalamount = parseFloat(cost) + parseFloat($amount);
-                                                                    $('#totalamounth5').text('');
-                                                                    $('#totalamounth5').append('Total ' + totalamount.toFixed(2));
-                                                                    $('#total').val(totalamount.toFixed(2));
-
-                                                                    //  uncheck checked items
-                                                                    $(".driverdate").prop("checked", false);
-                                                                    $('.buymiles').val(0);
-                                                                    $('#extramileneed').val('');
-                                                                    $('.driverreq').val('');
-
+                                                                .modal-dialog {
+                                                                    top: 20%;
+                                                                    width: 100%;
+                                                                    position: absolute;
+                                                                }
+                                                                .modal-content {
+                                                                    border-radius: 0px;
+                                                                    border: none;
+                                                                    top: 40%;
+                                                                }
+                                                                .modal-body {
+                                                                    background-color: #E22E2E;
+                                                                    color: white;
                                                                 }
 
-
-                                                                function quotationLoad() {
-                                                                    //  document.getElementById("quatationform").submit();
-                                                                    $('#quotationfrom').submit();
-                                                                }
+                                                            </style>
 
 
-                                                                function addDriver($amount, $id, $price, $currency) {
-
-                                                                    var dd = $('input:checkbox:checked.driverdate').map(function () {
-                                                                        return this.value;
-                                                                    }).get();
-
-
-                                                                    $('.driverreq').val(dd);
-
-                                                                    // var itemid = '#item'+$id;
-                                                                    // var itemno = $(itemid).val();
-                                                                    var price = ($price * dd.length / $currency).toFixed(2);
-
-                                                                    var extraaddid = '#addbtn' + $id;
-                                                                    var extraremoveid = '#removebtn' + $id;
-                                                                    var extraitemid = '#extraited' + $id;
-                                                                    var extraitem = '#extraitem' + $id;
-                                                                    var extracostid = '#extracost' + $id;
-                                                                    var h1id = '#h1' + $id;
-                                                                    var extraliid = '#li' + $id;
-                                                                    $(extraaddid).hide();
-                                                                    $(extraremoveid).show();
-                                                                    $(extraitem).val($id);
-                                                                    $(extraliid).append($(h1id).text() + " " + " <span class='pull-right' > " + price + " " + 'LKR </span>');
-
-                                                                    //  $(extraliid).append($('#h1id').val()+"     "+"Cost:= "+price);
-                                                                    //    $(extraliid).val($('#h1id').val()+"     "+"Cost:= "+price);
-                                                                    //  var extradiv = document.getElementById("extraitems");
-                                                                    //  extradiv.innerHTML += "<input type='text' id='extraitemid' name='extraitem' value=''>";
-                                                                    $(extracostid).val(price);
-                                                                    var cost = 0;
-                                                                    var values = $('input[name="extracost[]"]').map(function () {
-                                                                        return this.value
-                                                                    }).get();
-
-                                                                    for (i = 0; i < values.length; i++) {
-                                                                        if (!values[i]) {
-                                                                            //alert('null');
-                                                                        } else {
-                                                                            // alert(values[i]);
-                                                                            cost += parseInt(values[i]);
-                                                                        }
-                                                                    }
-                                                                    //alert('Sum is: '+cost);
-                                                                    var totalamount = parseFloat(cost) + parseFloat($amount);
-                                                                    $('#totalamounth5').text('');
-                                                                    $('#totalamounth5').append('<strong>Total ' + " <span class='pull-right' > " + totalamount.toFixed(2) + "</span></strong>");
-                                                                    $('#total').val(totalamount);
-
-                                                                }
-
-
-                                                                function buyMileage($amount, $id, $price, $currency) {
-
-                                                                    var miles = $('#extramileneed').val();
-
-                                                                    $('.buymiles').val(miles);
-
-                                                                    var price = ($price * miles / $currency).toFixed(2);
-
-                                                                    var extraaddid = '#addbtn' + $id;
-                                                                    var extraremoveid = '#removebtn' + $id;
-                                                                    var extraitemid = '#extraited' + $id;
-                                                                    var extraitem = '#extraitem' + $id;
-                                                                    var extracostid = '#extracost' + $id;
-                                                                    var h1id = '#h1' + $id;
-                                                                    var extraliid = '#li' + $id;
-                                                                    $(extraaddid).hide();
-                                                                    $(extraremoveid).show();
-                                                                    $(extraitem).val($id);
-                                                                    $(extraliid).append($(h1id).text() + " " + " <span class='pull-right' > " + price + " " + 'LKR </span>');
-
-                                                                    //  $(extraliid).append($('#h1id').val()+"     "+"Cost:= "+price);
-                                                                    //    $(extraliid).val($('#h1id').val()+"     "+"Cost:= "+price);
-                                                                    //  var extradiv = document.getElementById("extraitems");
-                                                                    //  extradiv.innerHTML += "<input type='text' id='extraitemid' name='extraitem' value=''>";
-                                                                    $(extracostid).val(price);
-                                                                    var cost = 0;
-                                                                    var values = $('input[name="extracost[]"]').map(function () {
-                                                                        return this.value
-                                                                    }).get();
-
-                                                                    for (i = 0; i < values.length; i++) {
-                                                                        if (!values[i]) {
-                                                                            //alert('null');
-                                                                        } else {
-                                                                            // alert(values[i]);
-                                                                            cost += parseInt(values[i]);
-                                                                        }
-                                                                    }
-                                                                    //alert('Sum is: '+cost);
-                                                                    var totalamount = parseFloat(cost) + parseFloat($amount);
-                                                                    $('#totalamounth5').text('');
-                                                                    $('#totalamounth5').append('<strong>Total ' + " <span class='pull-right' > " + totalamount.toFixed(2) + "</span></strong>");
-                                                                    $('#total').val(totalamount);
-                                                                }
-
-
-                                                            </script>          <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
-
+                                                            <!-- /end testimonails ////////////////////////////////////////////////////////////////-->
                                                             <!--contact row-->
 
                                                             <?php include("../views/footer.php"); ?>
@@ -1565,11 +1135,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-
-
-
                                                             <!--end inquary modal-->
-
                                                             <!-- START JQUERY PLUGINS LOAD -->
                                                             <script src="../application_resources/js/jquery-1.11.2.min.js" type="text/javascript"></script>
                                                             <script src="../application_resources/js/bootstrap.js" type="text/javascript"></script>
