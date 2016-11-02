@@ -115,126 +115,9 @@
 
         </script>
 
-        <?php include("./views/header.php"); ?>
-
-<!--        start inquiry model 
-
-        <div class="modal fade" id="inquirymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-car"></i>  <strong>Book / Enquire </strong></h4>
-                    </div>
-                    <div class="modal-body clearfix">
-
-                        <form id="get_search_form">
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Name</label>
-                                <input type="text" class="form-control" name="uname" id="uname" placeholder="Your Name" autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Country</label>
-                                <input type="text" id="country" name="country" class="form-control">
-
-                            </div>
-                            <div class="form-group col-sm-12">
-                                <label for="exampleInputName">Address</label>
-                                <textarea class="form-control" rows="2" name="address" id="address" placeholder="Address"></textarea>
-
-                            </div>
-
-
-
-                            <div class="form-group col-sm-6">
-                                <label for="exampleInputName">Email</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-3 col-np">
-
-                                <label for="exampleInputName">Country Code</label>
-                                <input type="text" class="form-control" style="width: 70px" name="telephone" id="telephone" >
-
-                                <input type="hidden" class="form-control" name="nationality" id="nationality" placeholder="Nationality" autocomplete="off">
-                            </div>
-                            <div class="form-group col-sm-3">
-                                <label for="exampleInputName">Mobile No.</label>
-                                <input type="text" class="form-control"  name="tel_no" id="tel_no" placeholder="Contact Number" autocomplete="off">
-
-                            </div>
-
-                            <div class="form-group col-sm-6">
-                                    <label for="exampleInputNationality">Type of service</label>
-                                <label for="exampleInputName">Service Type</label>
-                                <select class="form-control" name="typeser" id="typeser" autocomplete="off">
-                                    <option value="OTHER">Select Type of Service</option>
-                                    <option value="WITH DRIVER">WITH DRIVER</option>
-                                    <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
-                                    <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-
-                                <label for="exampleInputName">Vehicle Type</label>
-                                <select class="form-control" name="vehiclet" id="vehiclet">
-                                    <option value="">Select Type of vehicle</option>
-                                    <option value="Budget cars">Budget cars</option>
-                                    <option value="Standard cars">Standard cars</option>
-                                    <option value="Semi luxury cars">Semi luxury cars</option>
-                                    <option value="Luxury cars">Luxury cars</option>
-                                    <option value="Super luxury cars">Super luxury cars</option>
-                                    <option value="limousine">limousine</option>
-                                    <option value="Vans">Vans</option>
-                                    <option value="Luxury vans">Luxury vans</option>
-                                    <option value="Suv">Suv</option>
-                                    <option value="Buses">Buses</option>
-                                    <option value="Double cabs">Double cabs</option>
-                                    <option value="Motor bikes">Motor bikes</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-                                    <label for="exampleInputNationality">Starting Date</label>
-                                <label for="exampleInputName">Start Date</label>
-                                <input type="text" class="form-control" name="stdate" id="stdate" placeholder="Starting Date">
-                            </div>
-                            <div class="form-group col-sm-6">
-                                    <label for="exampleInputNationality">Ending Date</label>
-                                <label for="exampleInputName">End Date</label>
-                                <input type="text" class="form-control" name="enddate" id="enddate" placeholder="Ending Date">
-                            </div>
-                            <div class="form-group col-sm-12">
-                                                              <label for="exampleInputNationality">Message</label>
-                                <label for="exampleInputName">Message</label>
-                                <textarea placeholder="Message / Extra Requirement" class="form-control" rows="3" name="message" id="message"></textarea>
-                            </div>
-
-                            <div class="form-group col-sm-12">
-                                <div  id="send_enquiry_search" style=" margin-bottom: 10px;"></div> 
-                                </br>
-                                <div id="sentmsg"> </div>
-
-                                <input class="btn btn-danger pull-right" type="submit" id="btninquiry" value="Send Enquiry" />
-                            </div>
-
-                        </form>
-                    </div>
-
-                    <div class="modal-footer">
-
-
-                    </div> 
-                </div>
-            </div>
-        </div>-->
-
-        <!--end inquiry model-->
+        <?php include("application/views/header.php"); ?>
         
-        
-
        
-
-        
         <script>
             $('input[name=stdate] ').datetimepicker({
                 dayOfWeekStart: 1,
@@ -275,7 +158,7 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="withDriver">
 
-                            <form id="get_search_form1" action="views/search_result.php" method="post">
+                            <form id="get_search_form1" action="application/views/search_result.php" method="post">
 
                                 <div class="form-group col-sm-12">
                                     <label class="control-label"><strong>PickUp Location</strong> </label>
@@ -667,89 +550,6 @@
         </div>
 
 
-        <!--/ end slider warp /////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-        <!--/ snippet warp /////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-        <!--        <div class="home-snippt-wrap">
-                    <div class="container">
-        
-                        <div class="row">
-        
-                            <div class="col-md-8 col-md-offset-2 text-center snippet-head">
-        
-                                <h1>Enjoy the efficient and specialized services of Casons Rent a Car;
-        
-                                    Sri Lanka's leading rent-a-car company </h1>
-        
-                            </div>
-        
-                        </div>
-        
-                        <div class="row">
-        
-                            <div class="col-sm-3 snippt-box">
-        
-                                <i class="fa fa-car fa-3x"></i>
-        
-                                <h2>Over 500 Vehicles</h2>
-        
-                                <p>Over 60 4WD Jeeps, 50 Vans, 200 Cars, Double Cabs, Luxury Coaches, Lorries etc</p>
-        
-                            </div>
-        
-                            <div class="col-sm-3 snippt-box">
-        
-                                <i class="fa fa-user fa-3x"></i>
-        
-                                <h2>Our Strength</h2>
-        
-                                <p>30 In-house Operational Staff, 18 Automobile Technicians and 90 permanent Drivers from every part of
-                                    the Island</p>
-        
-                            </div>
-        
-                            <div class="col-sm-3 snippt-box">
-        
-                                <i class="fa fa-star fa-3x"></i>
-        
-                                <h2>Insurance</h2>
-        
-                                <p>Comprehensive Insurance available for all our vehicles including Passengers</p>
-        
-                            </div>
-        
-                            <div class="col-sm-3 snippt-box">
-        
-                                <i class="fa fa-user fa-3x"></i>
-        
-                                <h2>24/7 Breakdown Service </h2>
-        
-                                <p>24 hrs Island wide backup services with affiliated Garages and Mobile units</p>
-        
-                            </div>
-        
-                        </div>
-        
-                        <div class="row">
-        
-                            <div class="col-md-12 divider">
-        
-                                <a class="btn btn-border" href="../casonsnew/index.php/article_controller/pages/61">Findout more about
-                                    us</a>
-        
-                            </div>
-        
-                        </div>
-        
-                    </div>        
-                </div>-->
-
-        <!--/ end snippet warp /////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-
-        <!--offers////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
         <div class="offers-wrap">
             <div class="container">
                 <div class="row">
@@ -993,91 +793,7 @@
 
         <!--end car details Modal -->
 
-        <!--Start inquery modal-->
-
-        <div class="modal-blue modal fade" id="myInq" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1>Phone Reservations </h1>
-                                <h2>SMS : +94 077 000 000 000</h2>
-                                <div class="form-wrap clearfix">
-                                    <div class="col-sm-12 clearfix">
-                                        <h2>Make Enquiry</h2>
-                                        <h5>Please feel free to send us an enquiry message by filling in the form below and clicking on "Send". We will get back to you asap.</h5>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                    <hr>
-                                    <form   id="get_quate_form">
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputName">Your Name</label>
-                                            <input type="text" class="form-control" name="uname" id="uname" placeholder="Enter Name">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputCountry">Country</label>
-                                            <input type="text" class="form-control"  name="country" id="country" >
-
-
-                                        </div>
-
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Your Email</label>
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Contact Number</label>
-                                            <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Contact Number">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Type of service</label>
-                                            <select class="form-control" name="typeser" id="typeser">
-
-                                                <option value="SELF DRIVE">SELF DRIVE</option>
-                                                <option value="WITH DRIVER">WITH DRIVER</option>
-                                                <option value="WEDDINGS">WEDDINGS</option>
-                                                <option value="AIRPORT TRANSFER">AIRPORT TRANSFER</option>
-                                                <option value="DROP & PICKUP (TAXI)">DROP & PICKUP (TAXI)</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Selected Model</label>
-                                            <div id="modeldiv"></div>
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Starting Date</label>
-                                            <input type="text" class="form-control" name="stdate_enq" id="stdate_enq" placeholder="Start Date">
-                                        </div>
-                                        <div class="form-group col-sm-6">
-                                            <label for="exampleInputNationality">Ending Date</label>
-                                            <input type="text" class="form-control" name="enddate_enq" id="enddate_enq" placeholder="End Date">
-                                        </div>
-                                        <div class="form-group col-sm-12">
-                                            <label for="exampleInputNationality">Message</label>
-                                            <textarea class="form-control" rows="3" name="message" id="message"></textarea>
-                                        </div>
-
-                                        <div class="form-group col-sm-12">
-                                            <div  id="send_enquiry_form"></div>   <input class="btn btn-danger pull-right" type="submit" value="Send Enquiry" />
-                                        </div>
-
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--end inquary modal-->
-
-
+       
         <!--booking details modal/////////////////////////////////////////////////////////////////////////////////-->
         <div class="modal-blue modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-lg">
@@ -1136,7 +852,7 @@
 
         <!--start footer wrap-->
 
-        <?php include("./views/footer.php"); ?>
+       <?php include("application/views/footer.php"); ?>
 
         <!-- end footer wrap-->
 
