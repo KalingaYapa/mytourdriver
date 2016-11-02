@@ -459,7 +459,7 @@
                                             </span>
                                             <div class="clearfix"></div>
                                             <div class="text-right small-text">Refundable Deposit 40,000</div><br>
-                                            <a class="btn btn-lg btn-success pull-right" href="http://localhost/mytourdriver/Controllers/extras.php" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
+                                            <a class="btn btn-lg btn-success pull-right" href="../Controllers/extras.php" style="border-radius: 4px" onclick="submitBookingForm('SD', '4500', '4500', 'Perodua Axia - Green', '45', '100', '125')">Book Now</a>
                                         </div>
                                     </div>
 
