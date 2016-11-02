@@ -1424,7 +1424,7 @@
 
                                                             <!--contact row-->
 
-                                                            <?php include("http://localhost/mytourdriver/views/footer.php"); ?>
+                                                            <?php include("../views/footer.php"); ?>
 
                                                             <!--contact row-->
 
