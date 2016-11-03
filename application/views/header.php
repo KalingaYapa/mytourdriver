@@ -8,6 +8,12 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .req {
+                color: #ff0000;
+                font-weight: bold;
+            }
+        </style>
     </head>
     <body>
         <div class = "menu-wrapper">
@@ -172,7 +178,7 @@ and open the template in the editor.
                             <div class=" col-sm-offset-8 "> 
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <!--<button type="submit" class="btn btn-primary" id="send_contact_submit">Send</button>-->
-                                <input type="submit" class="btn btn-danger" id="send_contact_submit" value="Send">
+                                <input type="button" class="btn btn-success" style="border-radius: 4px" id="send_contact_submit" value="Send">
 
                             </div> 
 
@@ -217,7 +223,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                             <div class=" col-sm-offset-8 "> 
-                                <input type="" class="btn btn-danger" id="send_login_submit"  data-toggle = "modal" data-target = "#driverProfileModal" value="Login">
+                                <input type="button" style="border-radius: 4px" class="btn btn-success" id="send_login_submit"  data-toggle = "modal" data-target ="#driverProfileModal" value="Login">
                             </div> 
                         </form>
                     </div>
@@ -265,7 +271,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                             <div class=" col-sm-offset-8 "> 
-                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Sign-Up">
+                                <input type="button" class="btn btn-success" id="send_login_submit" style="border-radius: 4px" value="Sign-Up">
                             </div> 
                         </form>
                     </div>
@@ -307,7 +313,7 @@ and open the template in the editor.
 
                     <div class="search-header">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-sm-12">
                                 <h3><strong>Personal Information</strong></h3>
 
                             </div>
@@ -339,15 +345,25 @@ and open the template in the editor.
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-2">
-                                <label for="exampleInputEmail1">Age</label>
-                                <select id="age" name="age" class="form-control">
-                                    <option value="18"> 18</br>  </option>
+                            <div class="col-sm-3">
+                                <div class="form-group col-md-9 search-form-date-padding">
+                                    <label class="control-label"><strong>DOB</strong> </label>
+                                    <input type="text" class="form-control " name="stdate" id="stdate_sd1" placeholder="Pick-Up Date" value="28/10/2016">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="exampleInputEmail1">Speaking Language</label>
+                                <select class="form-control" name="language" id="language" autocomplete="off">
+
+                                    <option value="">- Select Language -</option>
+                                    <option value="1">Sinhala</option>
+                                    <option value="2">Tamil</option>
+
 
                                 </select>
                             </div>
 
-                            <div class="col-sm-10">
+                            <div class="col-sm-5">
                                 <label for="exampleInputEmail1">E-mail Address</label>
                                 <input type="text" class="form-control" id="email" name="email">
                             </div>
@@ -380,6 +396,22 @@ and open the template in the editor.
                                 <label for="exampleInputEmail1">Mobile No.<span class="req">*</span></label>
                                 <input type="text" class="form-control" id="mobile" name="mobile" >
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">Driving License Category.<span class="req">*</span></label>
+                                <select class="form-control" name="language" id="language" autocomplete="off">
+                                    <option value="">- Select category -</option>
+                                    <option value="1">cat1</option>
+                                    <option value="2">cat2</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="city">City</label>
+                                <input type="text" class="form-control" id="city" name="city">
+                            </div>
+
+
                         </div>
                         <hr>
                         <div class="search-header">

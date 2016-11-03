@@ -86,7 +86,7 @@
         <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/build/css/demo.css"/>
         <link rel="stylesheet" type="text/css" href="http://localhost/mytourdriver/application_resources/css/country/css/countrySelect.css"/>
         <link rel="stylesheet" href="http://localhost/mytourdriver/application_resources/css/build.css" type="text/css">
-        <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
+       <script src="http://localhost/mytourdriver/application_resources/css/country/js/countrySelect.min.js" type="text/javascript"></script>
 
         <script>
 
@@ -1063,6 +1063,7 @@
         <!--New-->
         <script src="http://localhost/mytourdriver/application_resources/js/slider.js" type="text/javascript"></script>
         <script src="http://localhost/mytourdriver/application_resources/js/jquery-ui.min.js" type="text/javascript"></script>
+        
         <!--slider - owl-->
         <script>
             $(document).ready(function () {
