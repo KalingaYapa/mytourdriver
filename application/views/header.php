@@ -217,7 +217,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                             <div class=" col-sm-offset-8 "> 
-                                <input type="submit" class="btn btn-danger" id="send_login_submit" value="Login">
+                                <input type="" class="btn btn-danger" id="send_login_submit"  data-toggle = "modal" data-target = "#driverProfileModal" value="Login">
                             </div> 
                         </form>
                     </div>
@@ -280,5 +280,199 @@ and open the template in the editor.
             </div>
         </div>
         <!--End quick Sign-Up Modal -->
+
+
+        <!--driver profile modal start-->
+
+        <div class="modal fade" id="driverProfileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="col-md-offset-3 col-md-8">
+                <br/>
+                <div class="content-header inner-box-header">
+                    <h2>Driver Profile <a class="pull-right link" href="#"></a></h2>
+                </div>
+
+                <!--search sorting-->
+                <div class="search-header">
+                    <div class="row">
+
+                    </div>
+                </div>
+                <!--/search sorting-->
+                <!--search sorting image slider-->
+
+                <!--/search sorting image slider-->
+
+                <form class="form-horizontal clearfix" id="quatation_form" name="quatation_form" method="post" enctype="multipart/form-data"
+                      action="#">
+
+                    <div class="search-header">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3><strong>Personal Information</strong></h3>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="dt">
+
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <label for="exampleInputEmail1">Designation</label>
+                                <select id="title" name="title" class="form-control">
+                                    <option value="Mr."> Mr.</option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-sm-5">
+                                <label for="exampleInputEmail1">First Name<span class="req">*</span></label>
+                                <input type="text" class="form-control" id="f_name" name="f_name">
+                                <input type="hidden" id="customer_id" name="customer_id">
+                            </div>
+
+                            <div class="col-sm-5">
+                                <label for="exampleInputEmail1">Last Name<span class="req">*</span></label>
+                                <input type="text" class="form-control" id="l_name" name="l_name">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <label for="exampleInputEmail1">Age</label>
+                                <select id="age" name="age" class="form-control">
+                                    <option value="18"> 18</br>  </option>
+
+                                </select>
+                            </div>
+
+                            <div class="col-sm-10">
+                                <label for="exampleInputEmail1">E-mail Address</label>
+                                <input type="text" class="form-control" id="email" name="email">
+                            </div>
+
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">License No.</label>
+                                <input type="text" class="form-control" id="license" name="license">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">License Expiry Date.</label>
+                                <input type="text" class="form-control" id="license_expire" name="license_expire">
+                            </div>
+
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">NIC/ Passport No.</label>
+                                <input type="text" class="form-control" id="nic_passport" name="nic_passport">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">Mobile No.<span class="req">*</span></label>
+                                <input type="text" class="form-control" id="mobile" name="mobile" >
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="search-header">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3><strong>Billing Information</strong></h3>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">Billing Address</label>
+                    <!--            <input type="text" class="form-control" id="b_address" name="b_address">-->
+                                <textarea rows="2" class="form-control" id="address" name="address"></textarea>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">Billing Address (Optional)</label>
+                    <!--            <input type="text" class="form-control" id="b_address2" name="b_address2">-->
+                                <textarea rows="2" class="form-control"id="b_address2" name="b_address2"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <label for="exampleInputEmail1">Postal Code</label>
+                                <input type="text" class="form-control" id="postal_code" name="postal_code">
+
+                            </div>
+
+                            <div class="col-sm-4">
+                                <label for="exampleInputEmail1">City</label>
+                                <input type="text" class="form-control" id="city" name="city">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">Country</label>
+                                <input type="text" id="country" name="country" class="form-control">
+
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="search-header">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3><strong>Pickup Information</strong>(Optional)</h3>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <label for="exampleInputEmail1">Flight No.</label>
+                                <input type="text" class="form-control" id="flightno" name="flightno">
+
+                            </div>
+
+                            <div class="col-sm-3">
+                                <label for="exampleInputEmail1">Flight Arrival Time</label>
+                                <input type="text" class="form-control" id="flightarrivaltime" name="flightarrivaltime">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1">Pickup Place</label>
+                                <input type="text" id="pickupplace" name="pickupplace" class="form-control" >
+
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="exampleInputEmail1">Special Message </label>
+                                <!--<input type="text" class="form-control" id="flightno" name="flightno">-->
+                                <textarea id="specialmsg" name="specialmsg" class="form-control" ></textarea>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+
+
+                    <input type="submit" class="btn btn-lg btn-danger pull-right"  name="formbtn" id="formbtn" value="Continue to Checkout">
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <!--end driver profile modal-->
     </body>
 </html>
